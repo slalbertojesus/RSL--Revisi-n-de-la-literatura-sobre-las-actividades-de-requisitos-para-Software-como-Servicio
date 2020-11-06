@@ -1,6 +1,7 @@
 \documentclass{article}
 
 \usepackage{enumerate}
+\usepackage{makecell}
 
 \begin{document}
   \title{%
@@ -85,8 +86,40 @@ Con el
 
 
 \section{Estrategia de búsqueda}
+
+
 \subsection{Términos de búsqueda}
+Los siguientes términos de búsqueda fueron seleccionados con el propósito de identificar los estudios que 
+permiten proveer evidencia que es relevante a las preguntas de investigación
+
+\begin{table}[ht]
+        \caption{Términos de búsqueda} 
+        \centering % used for centering table
+        \begin{tabular}{c c}
+                \hline
+                Concepto & Término de búsqueda\\ [0.5ex] % inserts table
+                %heading
+                \hline % inserts single horizontal line
+                Requisitos             & \makecell{Requirements Engineering \\
+                Requirements Elicitation \\
+                Requirements Validation \\
+                Requirements Analysis \\
+                Requirements Management \\
+                Requirements Risk Management} \\ 
+                \hline % inserts single horizontal line
+                Software como servicio & \makecell{Software as a Service \\
+                SaaS \\
+                Cloud Computing \\
+                Cloud Services\\
+                Service-oriented Requirements Engineering \\
+                SORE } \\[1ex] 
+                \hline 
+        \end{tabular}
+        \label{table:tablaterminos} % is used to refer this table in the text
+\end{table}
+
 \subsection{Cadenas de búsqueda}
+
 \subsection{Selección de fuentes}
 \section{Selección de estudios primarios}
 \subsection{Criterios de selección de estudios primarios}
