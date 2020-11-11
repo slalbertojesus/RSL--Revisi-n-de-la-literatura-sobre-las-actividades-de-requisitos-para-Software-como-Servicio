@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.5)  10 NOV 2020 18:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.5)  10 NOV 2020 22:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -120,12 +120,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [2])
 \tf@toc=\write3
  [3] [1] [2] [3] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+Underfull \hbox (badness 10000) in paragraph at lines 129--133
 
  []
 
 [5] [6] [7]
-Overfull \hbox (146.45924pt too wide) in paragraph at lines 238--253
+Overfull \hbox (146.45924pt too wide) in paragraph at lines 242--257
  [][] 
  []
 
@@ -151,7 +151,7 @@ ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/sh
 are/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on SaaS_Requerimientos.pdf (12 pages, 114356 bytes).
+Output written on SaaS_Requerimientos.pdf (12 pages, 116224 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
