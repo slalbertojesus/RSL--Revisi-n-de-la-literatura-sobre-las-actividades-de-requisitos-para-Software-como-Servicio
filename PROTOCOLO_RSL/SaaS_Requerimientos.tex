@@ -1,8 +1,10 @@
 \documentclass{article}
 
 \usepackage{enumerate}
-\usepackage{makecell}
+\usepackage{makecell} 
 \usepackage{graphicx}
+\usepackage{pgfgantt}
+\usepackage[section]{placeins}
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 
@@ -161,6 +163,19 @@ artículos de interés para el estudio.
 \newpage
 
 \section{Selección de estudios primarios}
+Se seleccionó búsqueda automatizada con \emph{backwards snowballing} sugerida por REFERENCIA para obtener el mayor número de 
+artículos posibles, con un alto nivel de precisión.
+
+Para validar el proceso de selección, se llevaron a cabo un conjunto de búsquedas 
+informales en librerías indexadoras, fuentes digitales y conferencias influyentes en el área de 
+servicios cloud según la comunidad científica, también búsquedas manuales para validar que los 
+estudios de interés sean encontrados en el proceso de selección.
+
+La completetitud de análisis de los estudios primarios se ha definido como importante ya que 
+existe un conjunto limitado de estudios, ya que es un campo relativamente nuevo. 
+El conocimiento adquirido en los estudios es de alta importancia, ya que las actividades 
+internas del proceso de requisitos en  un software como servicio puede variar a través de los estudios
+seleccionados.
 
 
 
@@ -260,6 +275,8 @@ se recomienda que los supervisores realicen búsquedas prototipo en un conjunto 
 en la extracción de datos.
 
 \subsection{Formato para extracción de los datos}
+La siguiente tabla ha sido desarrollada con el propósito específico de extraer datos de interés para la investigación, 
+los datos deben estar relacionados a las preguntas de investigación, para poder ser analizados posteriormente 
 
 \begin{center}
 \begin{tabular}{ |l|l| }
@@ -304,9 +321,8 @@ en la extracción de datos.
 \end{tabular}
 \end{center}
 
-
 \section{Estrategia para la síntesis de datos}
-Según la guía realizada por REFERENCIA se ha decidido utilizar síntesis cualitativa, para integrar y estructurar los resultados compuestos por 
+Según la guía realizada por REFERENCIA se ha decidido utilizar síntesis cualitativa, para identificar y estructurar los resultados compuestos por 
 lenguaje natural, resultantes del proceso de búsqueda, empleando el \emph{approach} traducción recíproca sugerido por REFERENCIA con el fin de señalar 
 y sintetizar el conjunto de actividades identificadas.
 \newpage
@@ -337,12 +353,47 @@ de revisiones sistemáticas podrían formar una base de fundamentos, la cual no 
 \subsection{Resultados}
 \subsection{Discusión}
 \subsection{Conclusión}
+\newpage
+
 \section{Gestión de la revisión}
+
 \subsection{Cronograma}
+El cronograma muestra las actividades a llevar a cabo en los meses de noviembre a diciembre.
+
+\begin{figure}[!htb]
+    \includegraphics[width=\linewidth]{gant.png}
+    \caption{Cronograma de actividades.}
+    \label{fig:grant}
+\end{figure}
+
 \subsection{Herramientas utilizadas}
+Se utilizó LaTex para llevar a cabo el documento del protocolo, para almacenar referencias 
+se crearon diferentes archivos, los cuales contienen referencias, todos han sido 
+almacenados con extensión .bib, se empleó BibTex para llevar a cabo las referencias a las 
+investigaciones o documentos de interés, guardó la hoja de cálculo en la que se llevó 
+a cabo búsquedas prueba y se se gestionó el proceso de control del documento con .git,
+los archivos de referencias han sido alojados en GitHub,
+\newpage
+
 \subsubsection{Paquete de replicación}
-\subsubsection{Lista de estudios primarios}
-\subsection{Aplicación de criterio}
+Como un aporte a la comunidad de investigación en el área de ingeniería de \emph{software}, 
+se añade un paquete de replicación de la investigación, con el objetivo de aportar  
+al conjunto de estudiantes e investigadores interesados y de esta forma avanzar y distribuir 
+conocimiento.
+El paquete de replicación también será una herramienta importante utilizada con el fin de replicar 
+el proceso de investigación llevado a cabo, 
+
+Lista de items incluídos en el paquete: 
+  \begin{enumerate}[(a)]
+  \item Anteproyecto con descripción de objetivo y contexto de la investigación. 
+  \item Lista de referencias utilizadas como fundamento de conocimiento. (.bib)
+  \item Lista de referencias utilizadas en el protocolo.  (.bib)
+  \item Protocolo.
+  \item Tabla de \emph{Google sheets} con detalle de búsquedas piloto realizadas. 
+  \item Lista de referencias utilizadas en el protocolo de investigación.
+  \end{enumerate}
+\newpage
+
 \section{Referencias}
 
 \end{document}
