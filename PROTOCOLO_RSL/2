@@ -37,23 +37,23 @@ esto se traduce en una forma efectiva de mitigar costos operacionales dentro de 
 
 Por lo tanto, la creación de un \emph{software} como servicio significa un conjunto de retos, debido a que las 
 metodologías y estrategias existentes no cubren las necesidades de un \emph{Saas}. por esto es necesario adecuar el conocimiento 
-existente \textcite{wanderley2017requirements}. El éxito de un \emph{Saas} depende de entender y definir el conjunto de requisitos dictados por cliente o mercado \textcite{4960886}, 
+existente \textcite{wanderley2017requirements}. El éxito de un \emph{Saas} depende de entender y definir el conjunto de requisitos dictados por cliente o mercado, 
 la fase de requisitos, es crucial para delimitar el alcance del proyecto, analizar, documentar y verificar los servicios y restricciones del sistema. 
 Una definición de requisitos que ha sido desarrollada siguiendo un conjunto de estrategias formales,  
 es de suma importancia para el éxito del proyecto \textcite{6530271} ya que esto asegura que la especificación de requisitos ha sido 
 realizada siguiendo un proceso y por ende los fundamentos necesarios para el correcto diseño de la solución son confiables
 lo que asegura que existe un conocimiento definido de las necesidades del sistema..
 Sin embargo no existen metodologías fundamentales relacionadas al desarrollo y gestión de requisitos para un \emph{Saas}, no existe evidencia 
-formal que ataque el proceso de elicitación y gestión de cambios de requisitos en el dominio de \emph{Software} como servicio \textcite{7037656}. 
+formal que ataque el proceso de elicitación y gestión de cambios de requisitos en el dominio de \emph{Software} como servicio. 
 
 Para analizar el estado de las investigaciones actuales sobre el tema se llevaron a cabo búsquedas de estudios secundarios 
 relacionados al proceso de requisitos en un \emph{software} como servicio o computación en la nube, se encontraron
 dos estudos secundarios de interés.
-El estudio secundario \textcite{zalazar2017analyzing} identifica las metodologías utilizadas para el proceso de requisitos en sistemas de la nube,
+El estudio secundario REFERENCIA Analyzing Requirements identifica las metodologías utilizadas para el proceso de requisitos en sistemas de la nube,
 clasifica a los stakeholders considerados en el proceso de requisitos y clasifica las dificultades encontradas en publicaciones 
 relacionadas a requisitos para cómputo en la nube, la investigación realiza una identificación y clasificación, de metodologías soportadas, de forma general
 el acercamiento hacia los roles es puramente organizacional y no se detallan las actividades típicas realizadas por los roles señalados en el estudio. 
-En el segundo estudio secundario \textcite{wanderley2017requirements} se realizó un análisis de metodologías, modelos o herramientas para abordar requisitos en sistemas en la nube, el estudio 
+En el segundo estudio secundario se realizó un análisis de metodologías, modelos o herramientas para abordar requisitos en sistemas en la nube, el estudio 
 señala el enfoque principal de investigaciones, el tipo de distribución utilizada en las publicaciones seleccionadas y las fuentes de distribución de 
 estudios primarios relacionados al \emph{software} como servicio. 
 
@@ -63,6 +63,7 @@ sistemática de la literatura, con el objetivo de analizar e identificar las act
 Esto permitirá a investigadores y estudiantes obtener una recopilación reciente del conjunto de estrategias utilizadas para definir los fundamentos de un producto, 
 así como ofrecer un conjunto de áreas de investigación abierta.
 
+\printbibliography
 
 \newpage
 
@@ -80,7 +81,7 @@ El objetivo de la Revisión Sistemática de la Literatura es encontrar el estado
   \item\emph{¿Qué técnicas de análisis se han utilizado para la definición de requisitos de Software como Servicio?}\\
   Motivación: Identificar las actividades realizadas para llevar a cabo el proceso de análisis, clasificación y definición de un conjunto de requisitos para un software como servicio.
 
-  \item\emph{¿Qué actividades se han utilizado para llevar a cabo la validación de los requisitos de un Software como Servicio?}\\
+  \item\emph{¿Qué actividades se han utilizado para llevar a cabo la validación de los requisitos de un Software como servicio?}\\
   Motivación: Identificar las técnicas que utilizadas para definir un proceso de validación de requisitos para un software como servicio.
 
   \item\emph{¿Qué actividades se han utilizado para gestionar los cambios de requisitos de un Software como Servicio?}
@@ -96,7 +97,7 @@ El objetivo de la Revisión Sistemática de la Literatura es encontrar el estado
   \end{enumerate}
   Motivación: Identificar las actividades utilizadas para señalar y controlar los riesgos relacionados a cambios de requisitos en un software como servicio. 
   
-  \item\emph{¿Qué temas abiertos se identifican en la literatura reciente en el desarrollo de Software como Servicio?}
+  \item\emph{¿Qué temas abiertos se identifican en la literatura reciente en el desarrollo de software como servicio?}
   \begin{enumerate}[(a)]
   \item \emph{¿Qué temas abiertos existen relacionados a las actividades llevadas a cabo en la gestión de requisitos de un software como servicio?}
   \end{enumerate}
@@ -185,8 +186,9 @@ artículos de interés para el estudio.
 \newpage
 
 \section{Selección de estudios primarios}
-Se seleccionó búsqueda automatizada con \emph{backwards snowballing} sugerida por \textcite{kitchenham2007guidelines} para obtener el mayor número de 
-artículos posibles, con un alto nivel de precisión.
+Se seleccionó búsqueda automatizada con \emph{backwards snowballing} sugerida por REFERENCIA para obtener el mayor número de 
+artículos posibles, con un alto nivel de precisión, .
+
 Para validar el proceso de selección, se llevarán a cabo un conjunto de búsquedas 
 informales en librerías indexadoras, fuentes digitales y conferencias influyentes en el área de 
 servicios cloud, también búsquedas manuales para validar que los estudios base sean encontrados utilizando
@@ -292,8 +294,8 @@ preguntas extraídas de REFERENCIA con el fin de evaluar de forma correcta en el
 \newpage
 
 \section{Extracción de los datos}
-El proceso de extracción de los datos se llevará a cabo por el estudiante autor de la RSL, según la guía realizada por
-\textcite{kitchenham2007guidelines} se recomienda que los supervisores realicen búsquedas prototipo en un conjunto de estudios al azar para evaluar la consistencia
+El proceso de extracción de los datos se llevará a cabo por el estudiante autor de la RSL, según la guía realizada por REFERENCIA 
+se recomienda que los supervisores realicen búsquedas prototipo en un conjunto de estudios al azar para evaluar la consistencia
 en la extracción de datos.
 
 \subsection{Formato para extracción de los datos}
@@ -344,7 +346,7 @@ los datos deben estar relacionados a las preguntas de investigación, para poder
 \end{center}
 
 \section{Estrategia para la síntesis de datos}
-Según la guía realizada por \textcite{kitchenham2007guidelines} se ha decidido utilizar síntesis cualitativa, para identificar y estructurar los resultados compuestos por 
+Según la guía realizada por REFERENCIA se ha decidido utilizar síntesis cualitativa, para identificar y estructurar los resultados compuestos por 
 lenguaje natural, resultantes del proceso de búsqueda, empleando el \emph{approach} traducción recíproca sugerido por REFERENCIA con el fin de señalar 
 y sintetizar el conjunto de actividades identificadas.
 \newpage
@@ -353,7 +355,7 @@ y sintetizar el conjunto de actividades identificadas.
 \subsection{Amenazas a la validez: Internas}
 El factor principal a ser considerado como restricción es que el estudio presente está siendo 
 desarrollado por un estudiante de licenciatura, para minimizar esta amenaza, que puede afectar a la objetividad 
-al realizar la RSL se tomó como referencia la guía realizada por \textcite{kitchenham2007guidelines}
+al realizar la RSL se tomó como referencia el estudio realizado por REFERENCIA 
 como guía para llevar a cabo la RSL, también se definieron evaluaciones de la calidad del trabajo, en conjunto 
 con los directores de la revisión para mitigar cualquier amenaza a la objetividad de la investigación. 
 
@@ -415,6 +417,5 @@ Lista de items incluídos en el paquete:
 \newpage
 
 \section{Referencias}
-\printbibliography
 
 \end{document}
