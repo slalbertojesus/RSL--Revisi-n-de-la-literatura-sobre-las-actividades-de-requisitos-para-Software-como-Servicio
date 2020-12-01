@@ -35,8 +35,8 @@ mencionar que no existen procesos logísticos externos, ya que la gestión del p
 Lo anterior permite olvidarse de problemas relacionados a la gestión interna de las funcionalidades del software, 
 esto se traduce en una forma efectiva de mitigar costos operacionales dentro de la empresa. 
 
-Por lo tanto, la creación de un \emph{software} como servicio significa un conjunto de retos, debido a que las 
-metodologías y estrategias tradicionales no cubren las necesidades de un \emph{Saas}. por esto es necesario adecuar el conocimiento 
+Por lo tanto, la creación de un \emph{software} como servicio representa un conjunto de retos, debido a que las 
+metodologías y estrategias tradicionales no cubren las necesidades para desarrollar un \emph{Saas}. lo que hace necesario adecuar el conocimiento 
 existente \cite{wanderley2017requirements}. El éxito de un \emph{Saas} depende de entender y definir el conjunto de requisitos dictados por cliente o mercado \cite{4960886}, 
 la fase de requisitos, es crucial para delimitar el alcance del proyecto, analizar, documentar y verificar los servicios y restricciones del sistema. 
 Una definición de requisitos que ha sido desarrollada siguiendo un conjunto de estrategias formales,  
@@ -83,8 +83,15 @@ En resumen, un \emph{software} como servicio puede ser representado como un conj
 las cuales se traducen en un conjunto de requisitos que deben ser identificados, clarificados, 
 gestionados y documentados, por medio de un proceso formal. 
 
-Una de las tendencias actuales, establecida por el virus SARS-CoV-2 (COVID-19)
-el modelo de distribución \emph{Software as a Service}, 
+La gestión de los requisitos se divide en un conjunto de actividades; elicitación, análisis, especificación y validación \cite{abran2004software}
+ëstas disciplinas, abarcan las tareas involucradas con explorar, evaluar, documentar y validar los requisitos de un producto. \cite[p.15]{2543993}.
+
+
+
+
+
+
+
 
 \newpage
 
@@ -131,9 +138,9 @@ El objetivo de la Revisión Sistemática de la Literatura es encontrar el estado
 
 \subsection{Términos de búsqueda}
 Los siguientes términos de búsqueda fueron seleccionados con el propósito de identificar los estudios que 
-permiten proveer evidencia relevante a las preguntas de investigación definidas posteriormente. 
-Para lograr lo antes mencionado, se llevaron a cabo un conjunto de búsquedas prototipo con el fin de encontrar, 
-un conjunto de términos de búsqueda que permitan encontrar investigaciones primarias relevantes para llevar a cabo
+permiten proveer evidencia relevante a las preguntas de investigación definidas. 
+Para lograr lo antes mencionado, se llevaron a cabo un conjunto de búsquedas piloto con el fin de encontrar
+un conjunto de términos de búsqueda adecuados para hallar investigaciones primarias relevantes a 
 la revisión sistemática de la literatura, a continuación se muestran los términos seleccionados.
 
 \begin{table}[ht]
@@ -145,18 +152,11 @@ la revisión sistemática de la literatura, a continuación se muestran los tér
                 %heading
                 \hline
                 Requisitos             & \makecell{Requirements Engineering \\
-                                                   Requirements Elicitation \\
-                                                   Requirements Validation \\
-                                                   Requirements Analysis \\
-                                                   Requirements Management \\
-                                                   Requirements Risk Management} \\ 
+                                                   Collaborative Requirements} \\
                 \hline 
                 Software como servicio & \makecell{Software as a Service \\
                                                    SaaS \\
-                                                   Cloud Computing \\
-                                                   Cloud Services\\
-                                                   Service-oriented Requirements Engineering \\
-                                                   SORE } \\[1ex] 
+                                                   Cloud Computing }\\ [1ex]
                 \hline 
         \end{tabular}
         \label{table:tablaterminos}
@@ -165,13 +165,21 @@ la revisión sistemática de la literatura, a continuación se muestran los tér
 
 \subsection{Cadenas de búsqueda}
 Basado en la estructura de las preguntas de investigación, se extrajo un conjunto de 
-términos de búsqueda, que serán utilizados para llevar a cabo la búsqueda de estudios de interés, 
-para definir una cadena de búsqueda apropiada para las necesidades de la RSL, 
-se utilizaron los operadores lógicos AND y OR, lo anterior dió como resultado la siguiente cadena.\\
+términos de búsqueda, éstos serán utilizados con el objetivo de definir una cadena de búsqueda apropiada para 
+las necesidades de la RSL. En el proceso de llevar a cabo búsquedas piloto, se utilizaron los siguientes terminos 
+de interés extraídos de las preguntas de la investigación 
+\emph{Requirement* y Elicitation o Validation o Analysis o Management o Risk Management}, las búsquedas con estos 
+términos resultaron en un grupo de estudios primarios que no eran de importancia para alcanzar el objetivo de la 
+revisión sistemática. 
+
+Según lo anterior se estableció la siguiente cadena. 
+
+\emph{(Requirement* Engineering OR Collaborative Engineering AND (Software as a service or Saa* or Cloud computing))}
 
 
-(\emph{requirements* AND engineering OR elicitation OR validation OR analysis OR management OR risk management AND 
-(cloud computing* OR cloud services* OR software as a service* OR SaaS})
+
+
+
 
 
 \subsection{Selección de fuentes}
@@ -227,7 +235,7 @@ de seleccionar investigaciones que respondan las preguntas de investigación, co
 sintetizadas para extraer su información al fin de la revisión de estudios.
 Se incluyen solo estudios primarios escritos en inglés (CI-1) ya que no existe el
 recurso humano para traducir estudios en otros idiomas, durante las búsquedas piloto 
-se definió incluir estudios realizados entre 2015 y marzo del 2020, ya que es importante
+se definió incluir estudios realizados entre 2010  y enero del 2021, ya que es importante
 encontrar trabajos relevantes recientes relacionados al software como servicio, 
 se excluye literatura informal (CE-1), estudios duplicados (CE-2), se incluyen 
 estudios según el análisis de título y abstract (CI-3) y (CI-4),
@@ -239,9 +247,9 @@ de información (CE-4).
 \subsection{Criterios de inclusión}
 \begin{enumerate}[C-1.-]
   \item{Es un estudio primario escrito en inglés.}
-  \item{Es un estudio primario publicado entre 2015 - marzo del 2020.}
-  \item{El título y el abstract dan indicios de que se concentrará en una de las preguntas de investigación.}
+  \item{Es un estudio primario publicado entre 2010 - enero del 2021.}
   \item{El título y el abstract deben contener al menos dos términos de búsqueda.}
+  \item{El título y el abstract dan indicios de que se concentrará en una de las preguntas de investigación.}
   \item{El texto completo contesta a alguna de las preguntas de investigación.}
 \end{enumerate}
 
@@ -262,21 +270,21 @@ del conjunto de estudios, con el fin de obtener una base de conocimientos releva
 \subsection{Etapa número uno}
 \begin{enumerate}[(a)]
   \item{Idioma inglés. (CI1)}
-  \item{Publicado entre 2015-2020. (CI2)}
+  \item{Publicado entre 2010-2021. (CI2)}
   \item{No es un libro, capítulo de libro, curso o estándar. (CE1)}
+  \item{Contiene al menos dos términos de búsqueda. (CI3)}
 \end{enumerate}
 
 \subsection{Etapa número dos}
 \begin{enumerate}[(a)]
-  \item{El título y abstract dan indicios de que se trata del dominio de interés. (CI3)}
+  \item{El título y abstract dan indicios de que se trata del dominio de interés. (CI4)}
   \item{No duplicados. (CE2)}
   \item{No hay versiones anteriores. (CE3) }
-  \item{Acceso al texto. (CE4)}
+  \item{Acceso al texto completo. (CE4)}
 \end{enumerate}
 
 \subsection{Etapa número tres}
 \begin{enumerate}[(a)]
-  \item{Contiene al menos dos términos de búsqueda. (CI4)}
   \item{Texto completo contesta alguna pregunta de investigación. (CI5)}
 \end{enumerate}
 \newpage
