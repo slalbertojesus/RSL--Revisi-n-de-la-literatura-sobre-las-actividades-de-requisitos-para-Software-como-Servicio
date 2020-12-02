@@ -177,14 +177,23 @@ En el proceso de llevar a cabo búsquedas piloto, se utilizaron los siguientes t
 términos resultaron en un grupo de estudios primarios que no eran de importancia para alcanzar el objetivo de la 
 revisión sistemática. 
 
-Según lo anterior se estableció la siguiente cadena. 
+Según lo anterior se estableció la siguiente cadena.
 
 \emph{(Requirement* Engineering OR Collaborative Engineering AND (Software as a service or Saa* or Cloud computing))}
 
+Según la fuente de datos a utilizar, se realizaron un conjunto de modificaciones para satisfacer las necesidades específicas de cada fuente de datos,
 
 
-
-
+\subsection{Evaluación de búsqueda automatizada}
+Para la validación de la cadena de búsqueda se tomó como referencia \cite{Evidence-Based}
+para tener un punto de referencia que sea objetivo sobre el nivel de completitud para la RSL, 
+esto, para asegurar que existe un número apropiado de estudios obtenidos en la búsqueda automatizada.
+Los criterios clave para evaluar el nivel de completitud son \emph{Recall} y \emph{Precision}. \\ 
+El \emph{Recall} de una búsqueda es la proporción de todos los estudios relevantes encontrados en una búsqueda. \\
+El \emph{Precision} de una búsqueda es la proporción de los estudios encontrados que son relevantes a las preguntas 
+planteadas en la investigación. 
+Se va a calcular el \emph{Recall} y \emph{Precision} para cada cadeba de búsqueda utilizada en las fuentes de datos. 
+\newpage
 
 
 \subsection{Selección de fuentes}
@@ -219,7 +228,7 @@ artículos de interés para el estudio.
 \newpage
 
 \section{Selección de estudios primarios}
-Se seleccionó búsqueda automatizada con \emph{backwards snowballing} sugerida por \cite{kitchenham2007guidelines} para obtener el mayor número de 
+Se seleccionó búsqueda automatizada sugerida por \cite{kitchenham2007guidelines} para obtener el mayor número de 
 artículos posibles, con un alto nivel de precisión.
 Para validar el proceso de selección, se llevarán a cabo un conjunto de búsquedas 
 informales en librerías indexadoras, fuentes digitales y conferencias influyentes en el área de 
@@ -227,8 +236,8 @@ servicios cloud, también búsquedas manuales para validar que los estudios base
 el proceso de búsqueda, las fuentes, criterios de inclusión y exclusión y síntesis de los datos.
 
 La completetitud de análisis de los estudios primarios se ha definido como importante ya que 
-existe un conjunto limitado de estudios. Para mitigar lo anterior, se ha añadido el proceso de 
-\emph{backwards snowballing}.
+existe un conjunto limitado de conocimiento en el área. Para mitigar lo anterior, se ha añadido el proceso de 
+validación de completitud.
 El conocimiento adquirido en los estudios es de alta importancia, ya que las actividades 
 internas del proceso de requisitos en un software como servicio puede variar a través de los estudios
 seleccionados y es importante analizar un rango amplio de estudios que proyecten el estado actual del arte 
@@ -298,7 +307,8 @@ del conjunto de estudios, con el fin de obtener una base de conocimientos releva
 Incluso si no existe un éstandar que establezca las caracteristicas de un estudio 
 de alta calidad, hay un consenso común sobre el impacto de los estudios primarios 
 en los resultados de una revisión sistemática de la literatura, por eso y utilizando 
-preguntas definidas según \cite{kitchenham2007guidelines} el fin de evaluar de forma correcta en el contexto actual. 
+preguntas definidas según \cite{Evidence-Based} con el fin de evaluar el proceso y los
+resultados señalados en los estudios correspondientes. 
 
 \begin{center}
 \begin{table}[ht]
@@ -316,7 +326,7 @@ preguntas definidas según \cite{kitchenham2007guidelines} el fin de evaluar de 
                 \hline 
                 (C3) ¿Los resultados son claros? & {1, 0.5, 0} {Si, Nominalmente, No} \\
                 \hline
-                (C4) Según los resultados, ¿Que tan valioso es el estudio? \\
+                (C4) Según los resultados, ¿Que tan valioso es el estudio? & {1, 0.5, 0} {Altamente, Neutral, No aporta valor}\\
                 \hline 
         \end{tabular}}
         \label{table:tablacalidad}
