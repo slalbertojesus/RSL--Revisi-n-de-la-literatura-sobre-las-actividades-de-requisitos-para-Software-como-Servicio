@@ -101,7 +101,6 @@ El objetivo de la Revisión Sistemática de la Literatura es encontrar el estado
 \begin{enumerate}[P 1.-]
   \item\emph{¿Qué técnicas de elicitación se han utilizado para la identificación de requisitos de Software como Servicio?}
   \begin{enumerate}[(a)]
-  \item \emph{¿Qué técnicas de elicitación se aplican?}
   \item \emph{¿Qué retos se presentan en la elicitación?}
   \end{enumerate}
   Motivación: Señalar el conjunto de técnicas utilizadas para llevar a cabo un proceso de elicitación de requisitos para un software como servicio e identificar los retos encontrados en el proceso de elicitación. 
@@ -112,19 +111,6 @@ El objetivo de la Revisión Sistemática de la Literatura es encontrar el estado
   \item\emph{¿Qué actividades se han utilizado para llevar a cabo la validación de los requisitos de un Software como Servicio?}\\
   Motivación: Identificar las técnicas que utilizadas para definir un proceso de validación de requisitos para un software como servicio.
 
-  \item\emph{¿Qué actividades se han utilizado para gestionar los cambios de requisitos de un Software como Servicio?}
-  \begin{enumerate}[(a)]
-  \item \emph{¿Cómo se evalúan los cambios en los requisitos?}\
-  \end{enumerate}
-  Motivación: Señalar las actividades utilizadas para gestionar cambios de requisitos en un software como servicio encontradas en la literatura.
-            
-  \item\emph{¿Qué actividades se han utilizado para gestionar riesgos asociados a los requisitos de un Software como Servicio?}
-  \begin{enumerate}[(a)]
-  \item \emph{¿Cómo se identifican los riesgos?}
-  \item \emph{¿Cómo se controlan los riesgos?}
-  \end{enumerate}
-  Motivación: Identificar las actividades utilizadas para señalar y controlar los riesgos relacionados a cambios de requisitos en un software como servicio. 
-  
   \item\emph{¿Qué temas abiertos se identifican en la literatura reciente en el desarrollo de Software como Servicio?}
   \begin{enumerate}[(a)]
   \item \emph{¿Qué temas abiertos existen relacionados a las actividades llevadas a cabo en la gestión de requisitos de un software como servicio?}
@@ -132,6 +118,8 @@ El objetivo de la Revisión Sistemática de la Literatura es encontrar el estado
   Motivación: Identificar los temas abiertos sugeridos en la literatura relacionada a las actividades de elicitación, análisis, validación y gestión de cambios 
  para requisitos de un software como servicio.
 \end{enumerate}
+
+\newpage 
 
 
 \section{Estrategia de búsqueda}\label{Estrategia de búsqueda}
@@ -314,7 +302,7 @@ resultados señalados en los estudios correspondientes.
 \begin{table}[ht]
         \caption{Calidad} 
         \centering 
-        \scalebox{0.7}{
+        \scalebox{0.6}{
         \begin{tabular}{c c c}
                 \hline
                 Criterios & Grado & Grado obtenido\\ [0.5ex]
@@ -337,13 +325,12 @@ resultados señalados en los estudios correspondientes.
 
 \section{Extracción de los datos}
 El proceso de extracción de los datos se llevará a cabo por el estudiante autor de la RSL, según la guía realizada por
-\cite{kitchenham2007guidelines} se recomienda que los supervisores realicen búsquedas prototipo en un conjunto de estudios al azar para evaluar la consistencia
-en la extracción de datos.
+\cite{kitchenham2007guidelines} se recomienda que los supervisores realicen búsquedas prototipo en un conjunto de estudios al azar para evaluar la validez 
+de los datos extraídos.
+Para llevar a cabo la extracción de los datos, se definió un formato de extracción compuesto por dos partes; datos generales y contexto.
 
-\subsection{Formato para extracción de los datos}
-La siguiente tabla ha sido desarrollada con el propósito específico de extraer datos de interés para la investigación, 
-los datos deben estar relacionados a las preguntas de investigación, para poder ser analizados posteriormente 
-
+En la sección de datos generales se guardará la información importante relacionada a la publicación, con el propósito de guardar 
+una referencia bibligráfica del estudio, así como identificar año de publicación y palabras clave relacionadas a la investigación. 
 \begin{center}
 \begin{tabular}{ |l|l| }
 \hline
@@ -366,6 +353,21 @@ los datos deben estar relacionados a las preguntas de investigación, para poder
     Palabras clave & \\
     \hline
     \emph{Abstract} o resumen & \\
+ \hline
+\end{tabular}
+\end{center}
+
+En la sección de contexto, se almacena la información fundamental para la revisión sistemática, ya que contiene los datos que responderán a las
+preguntas de investigación, para lograr lo anterior se definió un grupo de campos para identificar la pregunta o preguntas posibles a ser contestadas 
+por el estudio, el primer campo definido, se utiliza para identificar las técnicas de elicitación, que es una respuesta a la PI1, también se creó un campo para 
+documentar los retos presentados en la elicitación que contesta a la sub-pregunta PI1-A, existe otro campo para almacenar las técnicas utilizadas para llevar a cabo 
+el análisis de requisitos, que da respuesta a la PI2, después se especifica otro campo para albergar las actividades realizadas para realizar la validación de requisitos que 
+dará respuesta a la pregunta PI3, por último se crea un campo para almacenar los temas abiertos propuestos observados en el estudio, que servirá para responder la pregunta PI4.
+
+\begin{center}
+\begin{tabular}{ |l|l| }
+\hline
+    \multicolumn{2}{|c|}{Contexto} \\
     \hline
     Pregunta/s de investigación relacionada/s & \\
     \hline
@@ -377,19 +379,20 @@ los datos deben estar relacionados a las preguntas de investigación, para poder
     \hline
     Técnica/s utilizada/s para validar requisitos & \\
     \hline
-    Actividade/s identificada/s para llevar a cabo la gestión de requisitos& \\
-    \hline
-    Actividade/s identificada/s para definir riesgos asociados a requisitos& \\
-    \hline
     Tema/s abierto/s propuesto/s en el área de requisitos en el software como servicio& \\
-    \hline
  \hline
 \end{tabular}
 \end{center}
 
+
+\subsection{Formato para extracción de los datos}
+La siguiente tabla ha sido desarrollada con el propósito específico de extraer datos de interés para la investigación, 
+los datos deben estar relacionados a las preguntas de investigación, para poder ser analizados posteriormente 
+
+
 \section{Estrategia para la síntesis de datos}
-Según la guía realizada por \cite{kitchenham2007guidelines} se ha decidido utilizar síntesis cualitativa, para identificar y estructurar los resultados compuestos por 
-lenguaje natural, resultantes del proceso de búsqueda, empleando el \emph{approach} traducción recíproca sugerido por REFERENCIA con el fin de señalar 
+Según la guía realizada por \cite{kitchenham2007guidelines} se ha decidido utilizar síntesis narrativa, para identificar y estructurar los resultados compuestos por 
+lenguaje natural, resultantes del proceso de búsqueda, empleando el \emph{approach} traducción recíproca sugerido por \cite{popay2006guidance}  con el fin de señalar 
 y sintetizar el conjunto de actividades identificadas.
 \newpage
 
