@@ -19,6 +19,48 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{abran2004software}{article}{}
+      \name{author}{5}{}{%
+        {{hash=da88027f17ed8ea2cce776417a323de1}{%
+           family={Abran},
+           familyi={A\bibinitperiod},
+           given={Alain},
+           giveni={A\bibinitperiod}}}%
+        {{hash=59a2917882fa183afbb34535a78d8bb0}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={James\bibnamedelima W},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=1047e5656cf5bda8cb1e42372563996c}{%
+           family={Bourque},
+           familyi={B\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+        {{hash=610153364be36d00e5b26f81db2091b4}{%
+           family={Dupuis},
+           familyi={D\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9fa5945303cde05aa71be9bb5285e52c}{%
+           family={Tripp},
+           familyi={T\bibinitperiod},
+           given={Leonard\bibnamedelima L},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{1f2956c3439ea60859ceb81657d4d84a}
+      \strng{fullhash}{f67d694ce553e194515d746cdea2baa9}
+      \strng{bibnamehash}{1f2956c3439ea60859ceb81657d4d84a}
+      \strng{authorbibnamehash}{1f2956c3439ea60859ceb81657d4d84a}
+      \strng{authornamehash}{1f2956c3439ea60859ceb81657d4d84a}
+      \strng{authorfullhash}{f67d694ce553e194515d746cdea2baa9}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Computer Society, Angela Burgess}
+      \field{title}{Software engineering body of knowledge}
+      \field{year}{2004}
+    \endentry
     \entry{7037656}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=c749e0f0e9821a08e5e0fcf028c07774}{%
@@ -60,6 +102,27 @@
       \verb{doi}
       \verb 10.1109/CloudCom.2014.115
       \endverb
+    \endentry
+    \entry{hernandez2020xaas}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e35773b97ff100d14a9cf8986ee30c43}{%
+           family={Hernández},
+           familyi={H\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{e35773b97ff100d14a9cf8986ee30c43}
+      \strng{fullhash}{e35773b97ff100d14a9cf8986ee30c43}
+      \strng{bibnamehash}{e35773b97ff100d14a9cf8986ee30c43}
+      \strng{authorbibnamehash}{e35773b97ff100d14a9cf8986ee30c43}
+      \strng{authornamehash}{e35773b97ff100d14a9cf8986ee30c43}
+      \strng{authorfullhash}{e35773b97ff100d14a9cf8986ee30c43}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{XaaS - Todo como servicio, sus aplicaciones}
+      \field{year}{2020}
     \endentry
     \entry{4960886}{article}{}
       \name{author}{2}{}{%
@@ -104,6 +167,53 @@
       \verb https://aip.scitation.org/doi/abs/10.1063/1.4960886
       \endverb
     \endentry
+    \entry{Evidence-Based}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=19919e365e4f12f6028593c952a9bacf}{%
+           family={Kitchenham},
+           familyi={K\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=ce27e94467d0457370844e86b072ffef}{%
+           family={M{ü}nch},
+           familyi={M\bibinitperiod},
+           given={J{ü}rgen},
+           giveni={J\bibinitperiod}}}%
+        {{hash=675cfa0c0c227d5bb087a8e079c3424a}{%
+           family={Vierimaa},
+           familyi={V\bibinitperiod},
+           given={Matias},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{19919e365e4f12f6028593c952a9bacf}
+      \strng{fullhash}{19919e365e4f12f6028593c952a9bacf}
+      \strng{bibnamehash}{19919e365e4f12f6028593c952a9bacf}
+      \strng{authorbibnamehash}{19919e365e4f12f6028593c952a9bacf}
+      \strng{authornamehash}{19919e365e4f12f6028593c952a9bacf}
+      \strng{authorfullhash}{19919e365e4f12f6028593c952a9bacf}
+      \strng{editorbibnamehash}{3a7dce30f33d53569c1cc20dcab9b12c}
+      \strng{editornamehash}{3a7dce30f33d53569c1cc20dcab9b12c}
+      \strng{editorfullhash}{3a7dce30f33d53569c1cc20dcab9b12c}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This keynote addresses the evidence-based paradigm currently being adopted in many practical sciences (e.g., medicine, education, social policy) and discusses whether it is applicable to software engineering. In the presentation, the view is taken that although Evidence-based Software Engineering may be unproven, one aspect of the evidencebased paradigm is hard to ignore, that is: Systematic literature reviews. Systematic literature reviews aim to summarize research studies related to a specific research question in a way that is fair, rigorous, and auditable. The keynote presentation will outline the potential benefit of systematic literature reviews and describe in detail the process of performing such a systematic literature review.}
+      \field{booktitle}{Product-Focused Software Process Improvement}
+      \field{isbn}{978-3-540-34683-8}
+      \field{title}{Evidence-Based Software Engineering and Systematic Literature Reviews}
+      \field{year}{2006}
+      \field{pages}{3\bibrangedash 3}
+      \range{pages}{1}
+    \endentry
     \entry{kitchenham2007guidelines}{article}{}
       \name{author}{2}{}{%
         {{hash=19919e365e4f12f6028593c952a9bacf}{%
@@ -132,6 +242,130 @@
       \field{labeltitlesource}{title}
       \field{title}{Guidelines for performing systematic literature reviews in software engineering}
       \field{year}{2007}
+    \endentry
+    \entry{oliveira20191}{article}{}
+      \name{author}{5}{}{%
+        {{hash=aecca5d48ae793eeef39f49874e8ebee}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Tiago},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c7a2496f1c84a1e99f0474f1f8f9aea1}{%
+           family={Martins},
+           familyi={M\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=99a8f5e74c71fcb50cac3c4bff22bcca}{%
+           family={Sarker},
+           familyi={S\bibinitperiod},
+           given={Saonee},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fbd618f40ccc8795c4af2ccb4741309b}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={Manoj},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5afe29f315834a0dbb269fd22e7f2cf2}{%
+           family={Popovič},
+           familyi={P\bibinitperiod},
+           given={Aleš},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{045628c115d0f509b9d672cfa1ac977a}
+      \strng{fullhash}{ed487ccf91d7dac8083c7f565204145e}
+      \strng{bibnamehash}{045628c115d0f509b9d672cfa1ac977a}
+      \strng{authorbibnamehash}{045628c115d0f509b9d672cfa1ac977a}
+      \strng{authornamehash}{045628c115d0f509b9d672cfa1ac977a}
+      \strng{authorfullhash}{ed487ccf91d7dac8083c7f565204145e}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the information management literature, Software-as-a-Service (SaaS) is recognized as a technology capable of providing operational and financial benefits to firms, and it is rising as the dominant IT service delivery model. Considered to be a promising solution it is garnering interest among researchers and professionals. However, SaaS can represent a vulnerability to firms due to its nature. The weighing of the pros and cons leads to firms’ uncertainty regarding SaaS adoption. Through the lenses of technology-organization-environment (TOE) framework we examine the contextual factors that influence the adoption of SaaS. Furthermore, this study explores the moderating effects of the environmental context in the adoption of SaaS and how it shapes the direct influences of technological and organizational contexts of the TOE framework. Data collected from 259 firms were used to test the proposed model. The study found the significance of the technology, organization, and environment context for SaaS adoption. Moreover, it was found the moderator influence of the environment context between the organization context and SaaS adoption. This study contributes to a deepest understanding of the determinants of SaaS adoption by providing a holistic theoretical lens, advancing newer paths of approaching the TOE framework.}
+      \field{issn}{0268-4012}
+      \field{journaltitle}{International Journal of Information Management}
+      \field{title}{Understanding SaaS adoption: The moderating impact of the environment context}
+      \field{volume}{49}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ijinfomgt.2019.02.009
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S026840121830673X
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S026840121830673X
+      \endverb
+      \keyw{Information technology (IT) adoption,Software-as-a-service (SaaS),Technology-organization-environment (TOE) framework,Institutional theory (INT)}
+    \endentry
+    \entry{popay2006guidance}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{9}{}{%
+        {{hash=a09ff0ec9a8a874a7026efbed307e3f1}{%
+           family={Popay},
+           familyi={P\bibinitperiod},
+           given={Jennie},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8f9eb20320622fc892264303eafa7287}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4ffc05e1875a3ecff3d0d36a4cfcdea6}{%
+           family={Sowden},
+           familyi={S\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d07f78cf6f8b40468e412e5f9ff6ebb7}{%
+           family={Petticrew},
+           familyi={P\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a3d68e7517fc5a93845c73c28dd19b2c}{%
+           family={Arai},
+           familyi={A\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=03960fe11c58b041df99f303d12c4a7a}{%
+           family={Rodgers},
+           familyi={R\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5182e7ebfcdb46b3b33da10ee9a4b9da}{%
+           family={Britten},
+           familyi={B\bibinitperiod},
+           given={Nicky},
+           giveni={N\bibinitperiod}}}%
+        {{hash=5451de0c94205d11bd38b8408bf1184d}{%
+           family={Roen},
+           familyi={R\bibinitperiod},
+           given={Katrina},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e49c3411d865823540d6f27457978c80}{%
+           family={Duffy},
+           familyi={D\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a197962255a53dac8aa1da20be8163f2}
+      \strng{fullhash}{d07c985fd34b98431dd960a930b38587}
+      \strng{bibnamehash}{a197962255a53dac8aa1da20be8163f2}
+      \strng{authorbibnamehash}{a197962255a53dac8aa1da20be8163f2}
+      \strng{authornamehash}{a197962255a53dac8aa1da20be8163f2}
+      \strng{authorfullhash}{d07c985fd34b98431dd960a930b38587}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A product from the ESRC methods programme Version}
+      \field{title}{Guidance on the conduct of narrative synthesis in systematic reviews}
+      \field{volume}{1}
+      \field{year}{2006}
+      \field{pages}{b92}
+      \range{pages}{-1}
     \endentry
     \entry{6530271}{inproceedings}{}
       \name{author}{4}{}{%
@@ -174,6 +408,14 @@
       \verb{doi}
       \verb 10.1109/EduCon.2013.6530271
       \endverb
+    \endentry
+    \entry{value:online}{misc}{}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.information-age.com/the-value-of-saas-offerings-in-a-post-covid-business-environment-123492065/}}
+      \field{note}{(Accedido el 11/17/2020)}
+      \field{title}{The value of SaaS offerings in a post-Covid business environment}
     \endentry
     \entry{wanderley2017requirements}{inproceedings}{}
       \name{author}{6}{}{%
@@ -226,6 +468,89 @@
       \field{year}{2017}
       \field{pages}{335\bibrangedash 349}
       \range{pages}{15}
+    \endentry
+    \entry{2543993}{inbook}{}
+      \name{author}{2}{}{%
+        {{hash=8f83f631bcd01fb0d46b41868ca73762}{%
+           family={Wiegers},
+           familyi={W\bibinitperiod},
+           given={Karl\bibnamedelima E},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6e9bf730dff65f7d0a80b17e1e86137a}{%
+           family={Beatty},
+           familyi={B\bibinitperiod},
+           given={Joy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {Microsoft Press}%
+      }
+      \strng{namehash}{56bbda0c30cc2f8976a3dcfadd956d4d}
+      \strng{fullhash}{56bbda0c30cc2f8976a3dcfadd956d4d}
+      \strng{bibnamehash}{56bbda0c30cc2f8976a3dcfadd956d4d}
+      \strng{authorbibnamehash}{56bbda0c30cc2f8976a3dcfadd956d4d}
+      \strng{authornamehash}{56bbda0c30cc2f8976a3dcfadd956d4d}
+      \strng{authorfullhash}{56bbda0c30cc2f8976a3dcfadd956d4d}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Now in its third edition, this classic guide to software requirements engineering has been fully updated with new topics, examples, and guidance. Two leaders in the requirements community have teamed up to deliver a contemporary set of practices covering the full range of requirements development and management activities on software projects. Describes practical, effective, field-tested techniques for managing the requirements engineering process from end to end. Provides examples demonstrating how requirements "good practices" can lead to fewer change requests, higher customer satisfaction, and lower development costs. Fully updated with contemporary examples and many new practices and techniques. Describes how to apply effective requirements practices to agile projects and numerous other special project situations. Targeted to business analysts, developers, project managers, and other software project stakeholders who have a general understanding of the software development process. Shares the insights gleaned from the authors extensive experience delivering hundreds of software-requirements training courses, presentations, and webinars. New chapters are included on specifying data requirements, writing high-quality functional requirements, and requirements reuse. Considerable depth has been added on business requirements, elicitation techniques, and nonfunctional requirements. In addition, new chapters recommend effective requirements practices for various special project situations, including enhancement and replacement, packaged solutions, outsourced, business process automation, analytics and reporting, and embedded and other real-time systems projects.}
+      \field{isbn}{0735679665}
+      \field{title}{Software Requirements 3}
+      \field{year}{2013}
+    \endentry
+    \entry{Wu2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=9b34cf6cd1bba9eae94c2e90b79b3639}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Wei-Wen},
+           giveni={W\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=adb5fae3241d972beb58c4368d741ceb}{%
+           family={Lan},
+           familyi={L\bibinitperiod},
+           given={Lawrence\bibnamedelima W.},
+           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=595132b36a3e83d137fd58d02089779c}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Yu-Ting},
+           giveni={Y\bibinithyphendelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{0e0b438c5e4207fe8bbf4c3260cf00e1}
+      \strng{fullhash}{0e0b438c5e4207fe8bbf4c3260cf00e1}
+      \strng{bibnamehash}{0e0b438c5e4207fe8bbf4c3260cf00e1}
+      \strng{authorbibnamehash}{0e0b438c5e4207fe8bbf4c3260cf00e1}
+      \strng{authornamehash}{0e0b438c5e4207fe8bbf4c3260cf00e1}
+      \strng{authorfullhash}{0e0b438c5e4207fe8bbf4c3260cf00e1}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Information Management}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{Exploring decisive factors affecting an organization's {SaaS} adoption: A case study}
+      \field{volume}{31}
+      \field{year}{2011}
+      \field{pages}{556\bibrangedash 563}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.ijinfomgt.2011.02.007
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.ijinfomgt.2011.02.007
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.ijinfomgt.2011.02.007
+      \endverb
     \endentry
     \entry{zalazar2017analyzing}{incollection}{}
       \name{author}{3}{}{%

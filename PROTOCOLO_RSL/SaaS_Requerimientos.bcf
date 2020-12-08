@@ -2183,25 +2183,24 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">wanderley2017requirements</bcf:citekey>
-    <bcf:citekey order="2">wanderley2017requirements</bcf:citekey>
-    <bcf:citekey order="3">4960886</bcf:citekey>
-    <bcf:citekey order="4">4960886</bcf:citekey>
-    <bcf:citekey order="5">6530271</bcf:citekey>
-    <bcf:citekey order="6">6530271</bcf:citekey>
-    <bcf:citekey order="7">7037656</bcf:citekey>
-    <bcf:citekey order="8">7037656</bcf:citekey>
-    <bcf:citekey order="9">zalazar2017analyzing</bcf:citekey>
-    <bcf:citekey order="10">zalazar2017analyzing</bcf:citekey>
-    <bcf:citekey order="11">wanderley2017requirements</bcf:citekey>
-    <bcf:citekey order="12">wanderley2017requirements</bcf:citekey>
-    <bcf:citekey order="13">kitchenham2007guidelines</bcf:citekey>
+    <bcf:citekey order="2">4960886</bcf:citekey>
+    <bcf:citekey order="3">6530271</bcf:citekey>
+    <bcf:citekey order="4">7037656</bcf:citekey>
+    <bcf:citekey order="5">zalazar2017analyzing</bcf:citekey>
+    <bcf:citekey order="6">wanderley2017requirements</bcf:citekey>
+    <bcf:citekey order="7">hernandez2020xaas</bcf:citekey>
+    <bcf:citekey order="8">value:online</bcf:citekey>
+    <bcf:citekey order="9">Wu2011</bcf:citekey>
+    <bcf:citekey order="10">oliveira20191</bcf:citekey>
+    <bcf:citekey order="11">abran2004software</bcf:citekey>
+    <bcf:citekey order="12">2543993</bcf:citekey>
+    <bcf:citekey order="13">Evidence-Based</bcf:citekey>
     <bcf:citekey order="14">kitchenham2007guidelines</bcf:citekey>
-    <bcf:citekey order="15">kitchenham2007guidelines</bcf:citekey>
+    <bcf:citekey order="15">Evidence-Based</bcf:citekey>
     <bcf:citekey order="16">kitchenham2007guidelines</bcf:citekey>
     <bcf:citekey order="17">kitchenham2007guidelines</bcf:citekey>
-    <bcf:citekey order="18">kitchenham2007guidelines</bcf:citekey>
+    <bcf:citekey order="18">popay2006guidance</bcf:citekey>
     <bcf:citekey order="19">kitchenham2007guidelines</bcf:citekey>
-    <bcf:citekey order="20">kitchenham2007guidelines</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
