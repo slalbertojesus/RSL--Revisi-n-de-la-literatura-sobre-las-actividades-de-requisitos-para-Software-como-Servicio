@@ -1,0 +1,16 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'Referencias.blg'
+[78] biber:322> INFO - === Tue Dec  8, 2020, 21:14:58
+[92] Biber.pm:415> INFO - Reading 'Referencias.bcf'
+[158] Biber.pm:943> INFO - Found 12 citekeys in bib section 0
+[174] Biber.pm:4256> INFO - Processing section 0
+[174] Utils.pm:75> INFO - Globbing data source 'Presentacion.bib'
+[174] Utils.pm:91> INFO - Globbed data source 'Presentacion.bib' to Presentacion.bib
+[184] Biber.pm:4455> INFO - Looking for bibtex format file 'Presentacion.bib' for section 0
+[185] bibtex.pm:1653> INFO - LaTeX decoding ...
+[202] bibtex.pm:1471> INFO - Found BibTeX data source 'Presentacion.bib'
+[323] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[323] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[323] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[341] bbl.pm:652> INFO - Writing 'Referencias.bbl' with encoding 'UTF-8'
+[348] bbl.pm:755> INFO - Output to Referencias.bbl
