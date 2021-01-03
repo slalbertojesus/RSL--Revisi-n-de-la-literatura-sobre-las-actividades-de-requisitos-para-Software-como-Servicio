@@ -1,0 +1,892 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{EF-15}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=f30b300284ad8de48fc216ddc61111bc}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=45915052d5fc06697f950c473599701c}{%
+           family={Nasr},
+           familyi={N\bibinitperiod},
+           given={Eman\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=be3eeb67323d3cda7092756cfb82aa71}{%
+           family={Gheith},
+           familyi={G\bibinitperiod},
+           given={Mervat\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cairo, Egypt}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{bea0856e964d34dc72cdaffe6d40d40a}
+      \strng{fullhash}{bea0856e964d34dc72cdaffe6d40d40a}
+      \strng{bibnamehash}{bea0856e964d34dc72cdaffe6d40d40a}
+      \strng{authorbibnamehash}{bea0856e964d34dc72cdaffe6d40d40a}
+      \strng{authornamehash}{bea0856e964d34dc72cdaffe6d40d40a}
+      \strng{authorfullhash}{bea0856e964d34dc72cdaffe6d40d40a}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Implementing Enterprise Resource Planning (ERP) systems in business organizations aims to integrate all business units of an organization. Configuring and customizing ERP systems are the main challenges that face the implementation process. ERP systems contain many similar modules and units which can be implemented for most of the ERP systems. Software Product Lines (SPLs) as a trend in software engineering is very promising, as it can offer a lot of facilities and benefits for all types of stakeholders. Building SPLs for ERP systems will affect the implementation process of ERP systems and will increase the flexibility of configuration and customization. Moreover, moving ERPs to the cloud will facilitate the implementation process and will affect the Return On Investment (ROI) due to scalability plans in cloud services. This research introduces an SPLs requirements elicitation approach for cloud ERP systems. This approach combines the principles of SPLs with ERP systems in the cloud environment.}
+      \field{booktitle}{Proceedings of the 2nd Africa and Middle East Conference on Software Engineering}
+      \field{isbn}{9781450342933}
+      \field{series}{AMECSE '16}
+      \field{title}{A Requirements Elicitation Approach for Cloud Based Software Product Line ERPs}
+      \field{year}{2016}
+      \field{pages}{34\bibrangedash 39}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/2944165.2944171
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2944165.2944171
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2944165.2944171
+      \endverb
+      \keyw{SaaS,ERP customization,cloud computing,enterprise resource planning,Software product line,systematic reuse,ecosystems,requirements elicitation}
+    \endentry
+    \entry{EF-3}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=71ec75ee38ef3e446a4316810e953628}{%
+           family={{Cecilio Lopes}},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bca17d1e9d4677a5db76827c4b257bbb}{%
+           family={{Rodrigues da Silva}},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbcc3e8feb545c8d27206849101b7aa6}
+      \strng{fullhash}{cbcc3e8feb545c8d27206849101b7aa6}
+      \strng{bibnamehash}{cbcc3e8feb545c8d27206849101b7aa6}
+      \strng{authorbibnamehash}{cbcc3e8feb545c8d27206849101b7aa6}
+      \strng{authornamehash}{cbcc3e8feb545c8d27206849101b7aa6}
+      \strng{authorfullhash}{cbcc3e8feb545c8d27206849101b7aa6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 11th International Conference on the Quality of Information and Communications Technology (QUATIC)}
+      \field{title}{A Collaborative Platform for Better Managing Technical Documentation: An Analysis from a Requirements Engineering Perspective}
+      \field{year}{2018}
+      \field{pages}{160\bibrangedash 163}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/QUATIC.2018.00032
+      \endverb
+    \endentry
+    \entry{EF-2}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=76a676591feed15a26c5c0815c81a129}{%
+           family={{Chanin}},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ce43115aec6ffcacaac7a50e4291544a}{%
+           family={{Pompermaier}},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4fd3e55bca1e9a4bf4785bae190efde2}{%
+           family={{Sales}},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=27ac5b791b95ccd9e8772c3e8c8a917e}{%
+           family={{Prikladnicki}},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{20882cb7363fdaa07efef287c3a3e220}
+      \strng{fullhash}{08a7a9f1d3aaab9545f32b69ea8139cb}
+      \strng{bibnamehash}{20882cb7363fdaa07efef287c3a3e220}
+      \strng{authorbibnamehash}{20882cb7363fdaa07efef287c3a3e220}
+      \strng{authornamehash}{20882cb7363fdaa07efef287c3a3e220}
+      \strng{authorfullhash}{08a7a9f1d3aaab9545f32b69ea8139cb}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2019 IEEE/ACM 12th International Workshop on Cooperative and Human Aspects of Software Engineering (CHASE)}
+      \field{title}{Collaborative Practices for Software Requirements Gathering in Software Startups}
+      \field{year}{2019}
+      \field{pages}{31\bibrangedash 32}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1109/CHASE.2019.00014
+      \endverb
+    \endentry
+    \entry{EF-8}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=903450580e5a88fed9162212b1d88c6d}{%
+           family={{Duarte}},
+           familyi={D\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2640a65d8421ccd9190cd40528655893}{%
+           family={{Farinha}},
+           familyi={F\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1e79008544f8735b668916a2562ffc5a}{%
+           family={{da Silva}},
+           familyi={d\bibinitperiod},
+           given={M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1e2d9e663103f5397470359563bf3e7f}{%
+           family={{da Silva}},
+           familyi={d\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{f9d46f9239f307fc145961b1f9689131}
+      \strng{fullhash}{75c01e160d93d47fe6310d14db0ab061}
+      \strng{bibnamehash}{f9d46f9239f307fc145961b1f9689131}
+      \strng{authorbibnamehash}{f9d46f9239f307fc145961b1f9689131}
+      \strng{authornamehash}{f9d46f9239f307fc145961b1f9689131}
+      \strng{authorfullhash}{75c01e160d93d47fe6310d14db0ab061}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 IEEE 21st International Workshop on Enabling Technologies: Infrastructure for Collaborative Enterprises}
+      \field{title}{Collaborative Requirements Elicitation with Visualization Techniques}
+      \field{year}{2012}
+      \field{pages}{343\bibrangedash 348}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/WETICE.2012.14
+      \endverb
+    \endentry
+    \entry{EF-4}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=b7903092460895cd4265b4fcba9767f1}{%
+           family={Kukreja},
+           familyi={K\bibinitperiod},
+           given={Nupul},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{b7903092460895cd4265b4fcba9767f1}
+      \strng{fullhash}{b7903092460895cd4265b4fcba9767f1}
+      \strng{bibnamehash}{b7903092460895cd4265b4fcba9767f1}
+      \strng{authorbibnamehash}{b7903092460895cd4265b4fcba9767f1}
+      \strng{authornamehash}{b7903092460895cd4265b4fcba9767f1}
+      \strng{authorfullhash}{b7903092460895cd4265b4fcba9767f1}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 34th International Conference on Software Engineering ({ICSE})}
+      \field{month}{6}
+      \field{title}{Winbook: A social networking based framework for collaborative requirements elicitation and {WinWin} negotiations}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1109/icse.2012.6227227
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/icse.2012.6227227
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/icse.2012.6227227
+      \endverb
+    \endentry
+    \entry{EF-18}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d059c7970be14e211f07a0e7870d9186}{%
+           family={Lee-Klenz},
+           familyi={L\bibinithyphendelim K\bibinitperiod},
+           given={Soonhwa},
+           giveni={S\bibinitperiod}}}%
+        {{hash=692b54dc0dd107a5b6b8b0b552596e74}{%
+           family={Sampaio},
+           familyi={S\bibinitperiod},
+           given={Pedro},
+           giveni={P\bibinitperiod}}}%
+        {{hash=796432400a568a0d9ef4ebeb21dc55b2}{%
+           family={Wood-Harper},
+           familyi={W\bibinithyphendelim H\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Sierre, Switzerland}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{dcf3bc71849d4725b2679292027c6063}
+      \strng{fullhash}{dcf3bc71849d4725b2679292027c6063}
+      \strng{bibnamehash}{dcf3bc71849d4725b2679292027c6063}
+      \strng{authorbibnamehash}{dcf3bc71849d4725b2679292027c6063}
+      \strng{authornamehash}{dcf3bc71849d4725b2679292027c6063}
+      \strng{authorfullhash}{dcf3bc71849d4725b2679292027c6063}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper describes a multiple perspectives goal-oriented requirements elicitation framework aimed at identifying IT service requirements for service sourcing in a service-oriented software marketplace (E-services marketplace). The framework is based on decomposing strategic goals into tactical and operational IT goals adopting a multiple perspectives elicitation approach that facilitates business-IT alignment in the elicitation/mapping of the service requirements and in the choice of the target service offerings. The framework is applicable in a scenario where there is a marketplace of software service providers (e.g. ASP's or web service yellow pages) and the sourcing organization is interested in developing service requirements and searching for services available in the marketplace that are aligned with the organizational goals. The framework is supported by a tool that helps the requirements analyst in the process of developing multiple perspectives service goal trees and also in the process of matching service goals to keywords describing service offerings available in the e-Service marketplace.}
+      \field{booktitle}{Proceedings of the 2010 ACM Symposium on Applied Computing}
+      \field{isbn}{9781605586397}
+      \field{series}{SAC '10}
+      \field{title}{A Requirements Elicitation Framework and Tool for Sourcing Business-IT Aligned e-Services}
+      \field{year}{2010}
+      \field{pages}{111\bibrangedash 117}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1145/1774088.1774112
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/1774088.1774112
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/1774088.1774112
+      \endverb
+      \keyw{e-services,business-IT alignment,requirements elicitation}
+    \endentry
+    \entry{EF-6}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=faec23f4af3d8e378144b1902f309033}{%
+           family={{Litvak}},
+           familyi={L\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=23255922fe1b935e9ee007fba931c1a7}{%
+           family={{Antonelli}},
+           familyi={A\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=4e5e59fe2f03306385d58ba9e3eebeb5}{%
+           family={{Rossi}},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bd2f5924191b039209f3ea4e09317af1}{%
+           family={{Gigante}},
+           familyi={G\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{405f1a35e12736d11616d1b1ffe258cc}
+      \strng{fullhash}{d872fb3888d43f38177e860e8cacade6}
+      \strng{bibnamehash}{405f1a35e12736d11616d1b1ffe258cc}
+      \strng{authorbibnamehash}{405f1a35e12736d11616d1b1ffe258cc}
+      \strng{authornamehash}{405f1a35e12736d11616d1b1ffe258cc}
+      \strng{authorfullhash}{d872fb3888d43f38177e860e8cacade6}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 International Conference on Computational Science and Computational Intelligence (CSCI)}
+      \field{title}{Improving the Identification of Conflicts in Collaborative Requirements Engineering}
+      \field{year}{2018}
+      \field{pages}{872\bibrangedash 877}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/CSCI46756.2018.00173
+      \endverb
+    \endentry
+    \entry{EF-19}{article}{}
+      \name{author}{4}{}{%
+        {{hash=4372b46d709249659b3db22bcffbb564}{%
+           family={Melegati},
+           familyi={M\bibinitperiod},
+           given={Jorge},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a8ac4fa2090622d8f1e56f858dc1e39c}{%
+           family={Goldman},
+           familyi={G\bibinitperiod},
+           given={Alfredo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=aa1b6c9f1476bc0e2f4c7fed93737a5d}{%
+           family={Kon},
+           familyi={K\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=93a575777f636107b8f65a815802b18f}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaofeng},
+           giveni={X\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{a640b5ce9b7c881cc6d042c77e98344a}
+      \strng{fullhash}{d781dabbf1d667583d99bcb5ec742c38}
+      \strng{bibnamehash}{a640b5ce9b7c881cc6d042c77e98344a}
+      \strng{authorbibnamehash}{a640b5ce9b7c881cc6d042c77e98344a}
+      \strng{authornamehash}{a640b5ce9b7c881cc6d042c77e98344a}
+      \strng{authorfullhash}{d781dabbf1d667583d99bcb5ec742c38}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information and Software Technology}
+      \field{month}{5}
+      \field{title}{A model of requirements engineering in software startups}
+      \field{volume}{109}
+      \field{year}{2019}
+      \field{pages}{92\bibrangedash 107}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.infsof.2019.02.001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.infsof.2019.02.001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.infsof.2019.02.001
+      \endverb
+    \endentry
+    \entry{EF-13}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=3c9daadb9aa3cf76bb93a91253e413bb}{%
+           family={{Najjar}},
+           familyi={N\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0ffc9ba43252b0fa9af0be2a386a65fa}{%
+           family={{Gravier}},
+           familyi={G\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f23ddb19c2f0511b2467122163b9f1bc}{%
+           family={{Serpaggi}},
+           familyi={S\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=6fb54b2a89bc22f999b00d649e7b5c8a}{%
+           family={{Boissier}},
+           familyi={B\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a07c13a340ef4a5ebb4ed312cc61536}
+      \strng{fullhash}{1b2aea3ac8c43966979756f5139bb224}
+      \strng{bibnamehash}{0a07c13a340ef4a5ebb4ed312cc61536}
+      \strng{authorbibnamehash}{0a07c13a340ef4a5ebb4ed312cc61536}
+      \strng{authornamehash}{0a07c13a340ef4a5ebb4ed312cc61536}
+      \strng{authorfullhash}{1b2aea3ac8c43966979756f5139bb224}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 IEEE/WIC/ACM International Conference on Web Intelligence (WI)}
+      \field{title}{Modeling User Expectations Satisfaction for SaaS Applications Using Multi-agent Negotiation}
+      \field{year}{2016}
+      \field{pages}{399\bibrangedash 406}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/WI.2016.0062
+      \endverb
+    \endentry
+    \entry{EF-9}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=201f274a7ac62e4808c668d240413c72}{%
+           family={Ochoa},
+           familyi={O\bibinitperiod},
+           given={Sergio\bibnamedelima F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=dc5592bb1f02c2db971fb1d48cae07a7}{%
+           family={Quispe},
+           familyi={Q\bibinitperiod},
+           given={Alcides},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b3cb01b502c979953a21d99c92ebd9a0}{%
+           family={Vergara},
+           familyi={V\bibinitperiod},
+           given={Andres},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e612e89e4733442d92c8b84e48c55761}{%
+           family={Pino},
+           familyi={P\bibinitperiod},
+           given={Jose\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c7699e1a83cb285c02d20b21a920b887}
+      \strng{fullhash}{a7b39308240c37b223480f25d841641a}
+      \strng{bibnamehash}{c7699e1a83cb285c02d20b21a920b887}
+      \strng{authorbibnamehash}{c7699e1a83cb285c02d20b21a920b887}
+      \strng{authornamehash}{c7699e1a83cb285c02d20b21a920b887}
+      \strng{authorfullhash}{a7b39308240c37b223480f25d841641a}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The 2010 14th International Conference on Computer Supported Cooperative Work in Design}
+      \field{month}{4}
+      \field{title}{Improving requirements engineering processes in very small software enterprises through the use of a collaborative application}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.1109/cscwd.2010.5471992
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/cscwd.2010.5471992
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/cscwd.2010.5471992
+      \endverb
+    \endentry
+    \entry{EF-20}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bf658fc079074ba20876f4ea83a833e0}{%
+           family={Prakasa},
+           familyi={P\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=4f3d57df90d7afc1ddeb560dde0dd488}{%
+           family={Shigo},
+           familyi={S\bibinitperiod},
+           given={Osamu},
+           giveni={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{305e030b83f79550f95b3ccedacc3ff7}
+      \strng{fullhash}{305e030b83f79550f95b3ccedacc3ff7}
+      \strng{bibnamehash}{305e030b83f79550f95b3ccedacc3ff7}
+      \strng{authorbibnamehash}{305e030b83f79550f95b3ccedacc3ff7}
+      \strng{authornamehash}{305e030b83f79550f95b3ccedacc3ff7}
+      \strng{authorfullhash}{305e030b83f79550f95b3ccedacc3ff7}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{Global Collaboration Requirement Analysis System in Cloud Computing}
+      \field{volume}{62}
+      \field{year}{2015}
+      \field{pages}{332\bibrangedash 334}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1016/j.procs.2015.08.403
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.procs.2015.08.403
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.procs.2015.08.403
+      \endverb
+    \endentry
+    \entry{EF-14}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=d02903fe42a45b4029b9a6e5dead0bd6}{%
+           family={{Ruehl}},
+           familyi={R\bibinitperiod},
+           given={S.\bibnamedelimi T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=e7baaddec89cd424bcb2823330dd0ca8}{%
+           family={{Wache}},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=86c57e93f25aa158a188784305af8e47}{%
+           family={{Verclas}},
+           familyi={V\bibinitperiod},
+           given={S.\bibnamedelimi A.\bibnamedelimi W.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{18bd50b3e0901c7d2ccc8a5639a25520}
+      \strng{fullhash}{18bd50b3e0901c7d2ccc8a5639a25520}
+      \strng{bibnamehash}{18bd50b3e0901c7d2ccc8a5639a25520}
+      \strng{authorbibnamehash}{18bd50b3e0901c7d2ccc8a5639a25520}
+      \strng{authornamehash}{18bd50b3e0901c7d2ccc8a5639a25520}
+      \strng{authorfullhash}{18bd50b3e0901c7d2ccc8a5639a25520}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2013 IEEE Sixth International Conference on Cloud Computing}
+      \field{title}{Capturing Customers' Requirements towards Mixed-Tenancy Deployments of SaaS-Applications}
+      \field{year}{2013}
+      \field{pages}{462\bibrangedash 469}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/CLOUD.2013.42
+      \endverb
+    \endentry
+    \entry{EF-16}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=54ea16e638cf1a8efca15abcdc1de53c}{%
+           family={Shim},
+           familyi={S\bibinitperiod},
+           given={Jaekeun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fcd2c7c6b7ef4febf513a2b179fa58fc}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Jongdae},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3ba94b67179d6bd1d8ac5c38babf878f}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jindae},
+           giveni={J\bibinitperiod}}}%
+        {{hash=16c8db0a5e36d6ea31c9733adf335cc9}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Byungjeong},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5ad1cf7418509b35d0bbb945aa3e69fb}{%
+           family={Oh},
+           familyi={O\bibinitperiod},
+           given={Jaewon},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cb3876d5be4d4fa3be1bf66a13e3facf}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Chisu},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {TaiChung, Taiwan}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{55cd3a0400a536adceadf721eee02a41}
+      \strng{fullhash}{d2d4cfcb8b8bde9d580f2b0d68c6ce61}
+      \strng{bibnamehash}{55cd3a0400a536adceadf721eee02a41}
+      \strng{authorbibnamehash}{55cd3a0400a536adceadf721eee02a41}
+      \strng{authornamehash}{55cd3a0400a536adceadf721eee02a41}
+      \strng{authorfullhash}{d2d4cfcb8b8bde9d580f2b0d68c6ce61}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Software-as-a-Service is becoming popular in the software business, due to its rapid delivery and cost effectiveness in development and maintenance. Software-as-a-Service should be provided in single code base and operated as a single instance. To meet these constraints and requirements from various customers, Software-as-a-Service must be highly configurable. To develop configurable Software-as-a-Service, it is important to elicit and analyze configuration requirements in the early stages of development. Another issue is that on implementing configuration requirements, there are duplicated and untidy code segments. In our study, configuration requirements are identified and classified. This study introduces design patterns to remove duplicated codes for configuration.}
+      \field{booktitle}{Proceedings of the 2011 ACM Symposium on Applied Computing}
+      \field{isbn}{9781450301138}
+      \field{series}{SAC '11}
+      \field{title}{Patterns for Configuration Requirements of Software-as-a-Service}
+      \field{year}{2011}
+      \field{pages}{155\bibrangedash 161}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1145/1982185.1982222
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/1982185.1982222
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/1982185.1982222
+      \endverb
+      \keyw{configuration requirements,configuration,SaaS,design pattern}
+    \endentry
+    \entry{EF-10}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=d77a51ef0fdcd6646b1bbfe7594a9459}{%
+           family={{Singhto}},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=68da7b72bccd3eecf0be423358087bbd}{%
+           family={{Phakdee}},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{db67f0ffdbfbf311ff9d678295823246}
+      \strng{fullhash}{db67f0ffdbfbf311ff9d678295823246}
+      \strng{bibnamehash}{db67f0ffdbfbf311ff9d678295823246}
+      \strng{authorbibnamehash}{db67f0ffdbfbf311ff9d678295823246}
+      \strng{authornamehash}{db67f0ffdbfbf311ff9d678295823246}
+      \strng{authorfullhash}{db67f0ffdbfbf311ff9d678295823246}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2016 International Computer Science and Engineering Conference (ICSEC)}
+      \field{title}{Adopting a combination of Scrum and Waterfall methodologies in developing Tailor-made SaaS products for Thai Service and manufacturing SMEs}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICSEC.2016.7859882
+      \endverb
+    \endentry
+    \entry{EF-12}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=589c5f8b849dc06104f0c236611dd9d5}{%
+           family={{Sourour}},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=1c1213a819abdfbb0b7c824572721240}{%
+           family={{Zarour}},
+           familyi={Z\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{d95f065bb1fec65680da4f9c71eded22}
+      \strng{fullhash}{d95f065bb1fec65680da4f9c71eded22}
+      \strng{bibnamehash}{d95f065bb1fec65680da4f9c71eded22}
+      \strng{authorbibnamehash}{d95f065bb1fec65680da4f9c71eded22}
+      \strng{authornamehash}{d95f065bb1fec65680da4f9c71eded22}
+      \strng{authorfullhash}{d95f065bb1fec65680da4f9c71eded22}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 10th International Symposium on Programming and Systems}
+      \field{title}{A methodology of Collaborative Requirements Validation in a cooperative environment}
+      \field{year}{2011}
+      \field{pages}{140\bibrangedash 147}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ISPS.2011.5898877
+      \endverb
+    \endentry
+    \entry{EF-11}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=386df9f71501dda35f14f269ddb7dfbb}{%
+           family={Tariq},
+           familyi={T\bibinitperiod},
+           given={Anum},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b378cf91f67bdc09d419b5aaca353c47}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Shoab\bibnamedelima Ahmed},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=5377c646fdd365b61b1908a649f8b830}{%
+           family={Iftikhar},
+           familyi={I\bibinitperiod},
+           given={Sundas},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{77afd3ceffafedb655b90a37ea4a1d90}
+      \strng{fullhash}{77afd3ceffafedb655b90a37ea4a1d90}
+      \strng{bibnamehash}{77afd3ceffafedb655b90a37ea4a1d90}
+      \strng{authorbibnamehash}{77afd3ceffafedb655b90a37ea4a1d90}
+      \strng{authornamehash}{77afd3ceffafedb655b90a37ea4a1d90}
+      \strng{authorfullhash}{77afd3ceffafedb655b90a37ea4a1d90}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 International Conference on Emerging Technologies ({ICET})}
+      \field{month}{12}
+      \field{title}{Requirements Engineering process for Software-as-a-Service ({SaaS}) cloud environment}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1109/icet.2014.7021009
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/icet.2014.7021009
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/icet.2014.7021009
+      \endverb
+    \endentry
+    \entry{EF-5}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=2ffed7245f839f0448b97e39701496af}{%
+           family={{Tsai}},
+           familyi={T\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=cae9da35ae12a6cbd407d07b86b4e18c}{%
+           family={{Huang}},
+           familyi={H\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=761be73334ba0c3a6db1a6fa768eee6e}{%
+           family={{Shao}},
+           familyi={S\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{fda37dc20bca8f8ab27a9f711e84b119}
+      \strng{fullhash}{fda37dc20bca8f8ab27a9f711e84b119}
+      \strng{bibnamehash}{fda37dc20bca8f8ab27a9f711e84b119}
+      \strng{authorbibnamehash}{fda37dc20bca8f8ab27a9f711e84b119}
+      \strng{authornamehash}{fda37dc20bca8f8ab27a9f711e84b119}
+      \strng{authorfullhash}{fda37dc20bca8f8ab27a9f711e84b119}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 IEEE International Conference on Service-Oriented Computing and Applications (SOCA)}
+      \field{title}{EasySaaS: A SaaS development framework}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/SOCA.2011.6166262
+      \endverb
+    \endentry
+    \entry{EF-7}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=52be2b222d6509b97a021129d698eedd}{%
+           family={Wangsa},
+           familyi={W\bibinitperiod},
+           given={Ince\bibnamedelima T},
+           giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=efe3a586062939fdb51188719b05ea11}{%
+           family={Uden},
+           familyi={U\bibinitperiod},
+           given={Lorna},
+           giveni={L\bibinitperiod}}}%
+        {{hash=89385288a540c621d146ffac16ae3ba6}{%
+           family={Mills},
+           familyi={M\bibinitperiod},
+           given={Stella\bibnamedelima F},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{a48cfe519874bfb2f5276deda75ac604}
+      \strng{fullhash}{a48cfe519874bfb2f5276deda75ac604}
+      \strng{bibnamehash}{a48cfe519874bfb2f5276deda75ac604}
+      \strng{authorbibnamehash}{a48cfe519874bfb2f5276deda75ac604}
+      \strng{authornamehash}{a48cfe519874bfb2f5276deda75ac604}
+      \strng{authorfullhash}{a48cfe519874bfb2f5276deda75ac604}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 2011 15th International Conference on Computer Supported Cooperative Work in Design ({CSCWD})}
+      \field{month}{6}
+      \field{title}{Using Activity Theory to develop requirements analysis framework for Collaborative Working Environments}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1109/cscwd.2011.5960203
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/cscwd.2011.5960203
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/cscwd.2011.5960203
+      \endverb
+    \endentry
+    \entry{EF-17}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=3a1c006446475b18500fbb631985ba9d}{%
+           family={Zardari},
+           familyi={Z\bibinitperiod},
+           given={Shehnila},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ba6a7927ce2dab9a4cc296f36a7040e6}{%
+           family={Bahsoon},
+           familyi={B\bibinitperiod},
+           given={Rami},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{ACM} Press}%
+      }
+      \strng{namehash}{bfad033f62b864c30f099a86c6caa75a}
+      \strng{fullhash}{bfad033f62b864c30f099a86c6caa75a}
+      \strng{bibnamehash}{bfad033f62b864c30f099a86c6caa75a}
+      \strng{authorbibnamehash}{bfad033f62b864c30f099a86c6caa75a}
+      \strng{authornamehash}{bfad033f62b864c30f099a86c6caa75a}
+      \strng{authorfullhash}{bfad033f62b864c30f099a86c6caa75a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceeding of the 2nd international workshop on Software engineering for cloud computing - {SECLOUD} '11}
+      \field{title}{Cloud adoption: a goal-oriented requirements engineering approach}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1145/1985500.1985506
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/1985500.1985506
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/1985500.1985506
+      \endverb
+    \endentry
+    \entry{EF-1}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=35b53a5f450cc6a8ce8bce633606e1de}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=b182798c336bebfb4b9120e5cf6a1c2b}{%
+           family={Yi},
+           familyi={Y\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d16056932a393b93367a5223974b55f6}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{0052bd5fc10fe63dfa4cfdd0a2792114}
+      \strng{fullhash}{0052bd5fc10fe63dfa4cfdd0a2792114}
+      \strng{bibnamehash}{0052bd5fc10fe63dfa4cfdd0a2792114}
+      \strng{authorbibnamehash}{0052bd5fc10fe63dfa4cfdd0a2792114}
+      \strng{authornamehash}{0052bd5fc10fe63dfa4cfdd0a2792114}
+      \strng{authorfullhash}{0052bd5fc10fe63dfa4cfdd0a2792114}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of 2011 {IEEE} International Conference on Service Operations, Logistics and Informatics}
+      \field{month}{7}
+      \field{title}{A collaborative requirement elicitation technique for {SaaS} applications}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1109/soli.2011.5986533
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1109/soli.2011.5986533
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1109/soli.2011.5986533
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{kitchenham2007guidelines}
+\endrefsection
+\endinput
+
