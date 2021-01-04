@@ -36,6 +36,7 @@
 \documentclass[conference,onecolumn,10pt]{IEEEtran}
 \usepackage[section]{placeins}
 \usepackage{enumerate}
+\usepackage[table,xcdraw]{xcolor}
 \usepackage{makecell} 
 \usepackage{graphicx}
 \usepackage{url}
@@ -292,21 +293,18 @@ la información contesta alguna pregunta de investigación.
 \newpage
 
 \subsection{Estrategia de extracción de datos}
-El proceso de extracción de los datos se llevará a cabo por el estudiante autor de la RSL, según la guía realizada por
-\cite{kitchenham2007guidelines} se recomienda que los supervisores realicen búsquedas prototipo en un conjunto de estudios al azar para evaluar la validez 
-de los datos extraídos.
 Para llevar a cabo la extracción de los datos, se definió un formato de extracción compuesto por dos partes; datos generales y contexto.
-
 En la sección de datos generales se guardará la información importante relacionada a la publicación, con el propósito de guardar 
 una referencia bibligráfica del estudio, así como identificar año de publicación y palabras clave relacionadas a la investigación. 
 
-\begin{table}
-\begin{center}
-\caption{Tabla de información general.}
-\begin{tabular}{ |l|l| }
-\hline
-\multicolumn{2}{|c|}{Datos generales} \\
-  \hline
+\begin{table}[h!]
+    \begin{center}
+    \caption{Tabla de información general.}
+    \label{tab:datosgenerales}
+    \begin{tabular}{|l|c|} 
+    \hline
+    \multicolumn{2}{|c|}{Información general} \\
+    \hline
     Identificador &       \\
     \hline
     Título & \\
@@ -324,9 +322,9 @@ una referencia bibligráfica del estudio, así como identificar año de publicac
     Palabras clave & \\
     \hline
     \emph{Abstract} o resumen & \\
- \hline
-\end{tabular}
-\end{center}
+    \hline
+    \end{tabular}
+    \end{center}
 \end{table}
 
 En la sección de contexto, se almacena la información fundamental para la revisión sistemática, ya que contiene los datos que responderán a las
@@ -336,11 +334,13 @@ documentar los retos presentados en la elicitación que contesta a la sub-pregun
 el análisis de requisitos, que da respuesta a la PI2, después se especifica otro campo para albergar las actividades realizadas para realizar la validación de requisitos que 
 dará respuesta a la pregunta PI3, por último se crea un campo para almacenar los temas abiertos propuestos observados en el estudio, que servirá para responder la pregunta PI4.
 
-\begin{table}
-\begin{center}
-\caption{Tabla de contexto.}
-\begin{tabular}{ |l|l| }
-\hline
+
+\begin{table}[h!]
+    \begin{center}
+    \caption{Tabla de contexto.}
+    \label{tab:datosgenerales}
+    \begin{tabular}{|l|c|}
+    \hline
     \multicolumn{2}{|c|}{Contexto} \\
     \hline
     Pregunta/s de investigación relacionada/s & \\
@@ -354,14 +354,42 @@ dará respuesta a la pregunta PI3, por último se crea un campo para almacenar l
     Técnica/s utilizada/s para validar requisitos & \\
     \hline
     Tema/s abierto/s propuesto/s en el área de requisitos en el software como servicio& \\
- \hline
-\end{tabular}
-\end{center}
+    \hline
+    \end{tabular}
+    \end{center}
 \end{table}
+
+
+El proceso de extracción de los datos se llevó cabo por un estudiante de licenciatura, autor de la RSL, para validar el proceso de búsqueda, la guía realizada por
+\cite{kitchenham2007guidelines} recomienda que el o los supervisores realicen búsquedas prototipo en un conjunto de estudios al azar para evaluar la validez 
+de los datos extraídos.
 \newpage
 
 \subsection{Evaluación de la calidad}
-\newpage
+
+Con el propósito de documentar la calidad de los estudios obtenidos seleccionados, 
+se especificó un conjunto de genérico de criterios que fueron aplicados al terminar la 
+selección, detallado en cuadro cinco.
+El conjunto de criterios ha sido diseñado para evaluar la rigurosidad del método. 
+
+
+\begin{table}[ht]
+        \caption{Criterios para evaluar} 
+        \centering 
+        \scalebox{1.3}{
+        \begin{tabular}{c c}
+                \hline
+                CC1 & ¿Es el objetivo del estudio definido de forma clara?\\ [0.5ex] 
+                \hline
+                CC2 & ¿El contexto del estudio está bien definido?\\ [0.5ex] 
+                \hline
+                CC3 & ¿Los resultados son claros?\\ [0.5ex] 
+                \hline
+                CC4 & Según los resultados ¿Que tan valioso es el estudio?\\ [0.5ex] 
+                \hline
+        \end{tabular}}
+        \label{table:tablaterminos}
+\end{table}
 
 \subsection{Método de síntesis de datos}
 El método de síntesis de datos se realizó según la guía de conducción de síntesis narrativa en revisiones
@@ -380,6 +408,60 @@ sistemáticas del 2009.
    \caption{Etapas de conducción.}
    \label{fig:etapasconducción}
 \end{figure}
+
+\subsection{Evaluación de calidad}
+
+\begin{table}[]
+        \caption{}
+        \label{tab:my-table}
+        \centering 
+        \begin{tabular}{|c|c|c|c|c|l|l|}
+                \hline
+                \multicolumn{7}{|l|}{Evaluación de calidad}                                                                                                                                               \\ \hline
+                \multicolumn{1}{|l|}{Estudio} & \multicolumn{1}{l|}{CC1} & \multicolumn{1}{l|}{CC2} & \multicolumn{1}{l|}{CC3} & \multicolumn{1}{l|}{CC4} & \multicolumn{2}{l|}{Evaluación resultante}    \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-1                          & 1                        & 1                        & 0.5                      & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-2                          & 0.5                      & 1                        & 0.5                      & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-3                          & 1                        & 1                        & 0.5                      & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-4                          & 1                        & 0.5                      & 0.5                      & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-5                          & 1                        & 0.5                      & 0                        & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-6                          & 1                        & 1                        & 0.5                      & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-7                          & 1                        & 0.5                      & 0.5                      & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-8                          & 1                        & 0.5                      & 1                        & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-9                          & 1                        & 1                        & 0.5                      & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-10                         & 1                        & 1                        & 1                        & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-11                         & 1                        & 1                        & 1                        & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-12                         & 1                        & 1                        & 1                        & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-13                         & 1                        & 1                        & 1                        & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-14                         & 1                        & 1                        & 1                        & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-15                         & 1                        & 0,5                      & 0,5                      & 0,5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-16                         & 1                        & 1                        & 0.5                      & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-17                         & 1                        & 1                        & 0.5                      & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-18                         & 1                        & 1                        & 1                        & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-19                         & 1                        & 1                        & 1                        & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \rowcolor[HTML]{FFFFFF} 
+                EF-20                         & 0.5                      & 0                        & 0.5                      & 0                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+        \end{tabular}
+\end{table}
+
 \newpage
 
 \section{Resultados}
