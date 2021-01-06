@@ -1,0 +1,20 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Antecedentes}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Planteamiento del Problema}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Objetivos}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Justificación}{5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Alcances y Limitaciones}{6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Marco Teórico}{7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Método}{8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Cronograma}{9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Referencias}{10}%

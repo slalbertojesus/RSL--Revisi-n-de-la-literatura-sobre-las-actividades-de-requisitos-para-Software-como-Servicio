@@ -1,0 +1,94 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{sintesisnarrativa}{article}{}
+      \name{author}{7}{}{%
+        {{hash=03960fe11c58b041df99f303d12c4a7a}{%
+           family={Rodgers},
+           familyi={R\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4ffc05e1875a3ecff3d0d36a4cfcdea6}{%
+           family={Sowden},
+           familyi={S\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d07f78cf6f8b40468e412e5f9ff6ebb7}{%
+           family={Petticrew},
+           familyi={P\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a3d68e7517fc5a93845c73c28dd19b2c}{%
+           family={Arai},
+           familyi={A\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8f9eb20320622fc892264303eafa7287}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Helen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=5182e7ebfcdb46b3b33da10ee9a4b9da}{%
+           family={Britten},
+           familyi={B\bibinitperiod},
+           given={Nicky},
+           giveni={N\bibinitperiod}}}%
+        {{hash=a09ff0ec9a8a874a7026efbed307e3f1}{%
+           family={Popay},
+           familyi={P\bibinitperiod},
+           given={Jennie},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{SAGE} Publications}%
+      }
+      \strng{namehash}{4be87c7a91297a9bd812a78dcbe4f1e7}
+      \strng{fullhash}{e5032c093ffca8b747eb791f6b51ec32}
+      \strng{bibnamehash}{4be87c7a91297a9bd812a78dcbe4f1e7}
+      \strng{authorbibnamehash}{4be87c7a91297a9bd812a78dcbe4f1e7}
+      \strng{authornamehash}{4be87c7a91297a9bd812a78dcbe4f1e7}
+      \strng{authorfullhash}{e5032c093ffca8b747eb791f6b51ec32}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Evaluation}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Testing Methodological Guidance on the Conduct of Narrative Synthesis in Systematic Reviews}
+      \field{volume}{15}
+      \field{year}{2009}
+      \field{pages}{49\bibrangedash 73}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1177/1356389008097871
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1177/1356389008097871
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1177/1356389008097871
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
