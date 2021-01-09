@@ -19,28 +19,27 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{antecedentes2}{article}{}
+    \entry{antecedentes}{article}{}
       \name{author}{1}{}{%
-        {{hash=572d9c46c54ac4f173526a8f2df63fa9}{%
-           family={{Anton}},
+        {{hash=a06b5e899bbce05d0cf5e5116bd6800d}{%
+           family={Anton},
            familyi={A\bibinitperiod},
-           given={A.\bibnamedelimi I.},
-           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+           given={A.},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{572d9c46c54ac4f173526a8f2df63fa9}
-      \strng{fullhash}{572d9c46c54ac4f173526a8f2df63fa9}
-      \strng{bibnamehash}{572d9c46c54ac4f173526a8f2df63fa9}
-      \strng{authorbibnamehash}{572d9c46c54ac4f173526a8f2df63fa9}
-      \strng{authornamehash}{572d9c46c54ac4f173526a8f2df63fa9}
-      \strng{authorfullhash}{572d9c46c54ac4f173526a8f2df63fa9}
+      \strng{namehash}{a06b5e899bbce05d0cf5e5116bd6800d}
+      \strng{fullhash}{a06b5e899bbce05d0cf5e5116bd6800d}
+      \strng{bibnamehash}{a06b5e899bbce05d0cf5e5116bd6800d}
+      \strng{authorbibnamehash}{a06b5e899bbce05d0cf5e5116bd6800d}
+      \strng{authornamehash}{a06b5e899bbce05d0cf5e5116bd6800d}
+      \strng{authorfullhash}{a06b5e899bbce05d0cf5e5116bd6800d}
       \field{sortinit}{A}
       \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{IEEE Software}
-      \field{number}{3}
       \field{title}{Successful software projects need requirements planning}
-      \field{volume}{20}
+      \field{volume}{\emph{IEEE Software.}}
       \field{year}{2003}
       \field{pages}{44\bibrangedash}
       \range{pages}{-1}
@@ -123,80 +122,41 @@
       \keyw{engineering evidence evidence-based literature real review software systematic}
     \endentry
     \entry{sintesisnarrativa}{article}{}
-      \name{author}{7}{}{%
-        {{hash=03960fe11c58b041df99f303d12c4a7a}{%
-           family={Rodgers},
-           familyi={R\bibinitperiod},
-           given={Mark},
-           giveni={M\bibinitperiod}}}%
-        {{hash=4ffc05e1875a3ecff3d0d36a4cfcdea6}{%
-           family={Sowden},
-           familyi={S\bibinitperiod},
-           given={Amanda},
-           giveni={A\bibinitperiod}}}%
-        {{hash=d07f78cf6f8b40468e412e5f9ff6ebb7}{%
-           family={Petticrew},
+      \name{author}{2}{}{%
+        {{hash=cecc9996abb8713ee23db7904aed9021}{%
+           family={{Popay}},
            familyi={P\bibinitperiod},
-           given={Mark},
-           giveni={M\bibinitperiod}}}%
-        {{hash=a3d68e7517fc5a93845c73c28dd19b2c}{%
-           family={Arai},
-           familyi={A\bibinitperiod},
-           given={Lisa},
-           giveni={L\bibinitperiod}}}%
-        {{hash=8f9eb20320622fc892264303eafa7287}{%
-           family={Roberts},
-           familyi={R\bibinitperiod},
-           given={Helen},
-           giveni={H\bibinitperiod}}}%
-        {{hash=5182e7ebfcdb46b3b33da10ee9a4b9da}{%
-           family={Britten},
-           familyi={B\bibinitperiod},
-           given={Nicky},
-           giveni={N\bibinitperiod}}}%
-        {{hash=a09ff0ec9a8a874a7026efbed307e3f1}{%
-           family={Popay},
-           familyi={P\bibinitperiod},
-           given={Jennie},
+           given={J.},
            giveni={J\bibinitperiod}}}%
+        {{hash=c398bb29dc20ea22152076f887243a46}{%
+           family={{Helen}},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {{SAGE} Publications}%
-      }
-      \strng{namehash}{4be87c7a91297a9bd812a78dcbe4f1e7}
-      \strng{fullhash}{e5032c093ffca8b747eb791f6b51ec32}
-      \strng{bibnamehash}{4be87c7a91297a9bd812a78dcbe4f1e7}
-      \strng{authorbibnamehash}{4be87c7a91297a9bd812a78dcbe4f1e7}
-      \strng{authornamehash}{4be87c7a91297a9bd812a78dcbe4f1e7}
-      \strng{authorfullhash}{e5032c093ffca8b747eb791f6b51ec32}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \strng{namehash}{229d95fc1e5ceb51efe211269cb9c8a8}
+      \strng{fullhash}{229d95fc1e5ceb51efe211269cb9c8a8}
+      \strng{bibnamehash}{229d95fc1e5ceb51efe211269cb9c8a8}
+      \strng{authorbibnamehash}{229d95fc1e5ceb51efe211269cb9c8a8}
+      \strng{authornamehash}{229d95fc1e5ceb51efe211269cb9c8a8}
+      \strng{authorfullhash}{229d95fc1e5ceb51efe211269cb9c8a8}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Evaluation}
-      \field{month}{1}
-      \field{number}{1}
-      \field{title}{Testing Methodological Guidance on the Conduct of Narrative Synthesis in Systematic Reviews}
-      \field{volume}{15}
-      \field{year}{2009}
-      \field{pages}{49\bibrangedash 73}
-      \range{pages}{25}
-      \verb{doi}
-      \verb 10.1177/1356389008097871
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1177/1356389008097871
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1177/1356389008097871
-      \endverb
+      \field{journaltitle}{A product from the ESRC methods programme Version}
+      \field{title}{Guidance on the conduct of narrative synthesis in systematic reviews}
+      \field{volume}{1}
+      \field{year}{2006}
+      \field{pages}{b92}
+      \range{pages}{-1}
     \endentry
-    \entry{manualcronograma}{book}{}
+    \entry{manualcronograma}{thesis}{}
       \name{author}{1}{}{%
-        {{hash=b177cc1366556961a93c76983f39e62b}{%
-           family={Schmelkes},
+        {{hash=653ac07caa01228499dcdfe3e46b9197}{%
+           family={{Schmelkes}},
            familyi={S\bibinitperiod},
-           given={Corina},
+           given={C.},
            giveni={C\bibinitperiod}}}%
       }
       \list{location}{1}{%
@@ -205,21 +165,21 @@
       \list{publisher}{1}{%
         {Oxford University Press}%
       }
-      \strng{namehash}{b177cc1366556961a93c76983f39e62b}
-      \strng{fullhash}{b177cc1366556961a93c76983f39e62b}
-      \strng{bibnamehash}{b177cc1366556961a93c76983f39e62b}
-      \strng{authorbibnamehash}{b177cc1366556961a93c76983f39e62b}
-      \strng{authornamehash}{b177cc1366556961a93c76983f39e62b}
-      \strng{authorfullhash}{b177cc1366556961a93c76983f39e62b}
+      \strng{namehash}{653ac07caa01228499dcdfe3e46b9197}
+      \strng{fullhash}{653ac07caa01228499dcdfe3e46b9197}
+      \strng{bibnamehash}{653ac07caa01228499dcdfe3e46b9197}
+      \strng{authorbibnamehash}{653ac07caa01228499dcdfe3e46b9197}
+      \strng{authornamehash}{653ac07caa01228499dcdfe3e46b9197}
+      \strng{authorfullhash}{653ac07caa01228499dcdfe3e46b9197}
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{9786074260915}
-      \field{title}{Manual para la presentacion de anteproyectos e informes de investigacion : (Tesis}
+      \field{title}{Manual para la presentacion de anteproyectos e informes de investigacion : (Tesis)}
       \field{year}{2010}
     \endentry
-    \entry{antecedentes5}{misc}{}
+    \entry{antecedentes5}{online}{}
       \name{author}{1}{}{%
         {{hash=2c528ec769079cc43320d94eb0c26a74}{%
            family={Smith},
@@ -281,7 +241,7 @@
       \field{pages}{5}
       \range{pages}{1}
     \endentry
-    \entry{antecedentes7}{misc}{}
+    \entry{antecedentes7}{online}{}
       \name{author}{1}{}{%
         {{hash=69e333b360ce743de5de85057f06e200}{%
            family={Spencer},
@@ -346,7 +306,7 @@
       \verb 10.1109/ICET.2014.7021009
       \endverb
     \endentry
-    \entry{antecedentes6}{misc}{}
+    \entry{antecedentes6}{online}{}
       \name{author}{1}{}{%
         {{hash=2b1554bb0703c9468f8ca8c7e9fba4a6}{%
            family={White},
@@ -374,6 +334,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{antecedentes2}
 \endrefsection
 \endinput
 
