@@ -11,10 +11,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Alcances y Limitaciones}{6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Marco Teórico}{7}%
+\contentsline {section}{\numberline {6}Método}{7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Método}{8}%
+\contentsline {section}{\numberline {7}Cronograma}{8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Cronograma}{9}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Referencias}{10}%
+\contentsline {section}{\numberline {8}Referencias}{9}%

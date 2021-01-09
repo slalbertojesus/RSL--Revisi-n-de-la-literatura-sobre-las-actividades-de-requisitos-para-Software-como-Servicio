@@ -245,7 +245,6 @@ se incluye si el texto completo contesta a alguna de las preguntas de investigac
 se excluye si es una versión previa a un estudio más completo (CE-3), o si no es posible acceder desde la fuente 
 de información (CE-4).
 
-
 \subsection{Criterios de inclusión}
 \begin{enumerate}[C-1.-]
   \item{Es un estudio primario escrito en inglés.}
@@ -324,18 +323,19 @@ resultados señalados en los estudios correspondientes.
 \newpage
 
 \section{Extracción de los datos}
-El proceso de extracción de los datos se llevará a cabo por el estudiante autor de la RSL, según la guía realizada por
-\cite{kitchenham2007guidelines} se recomienda que los supervisores realicen búsquedas prototipo en un conjunto de estudios al azar para evaluar la validez 
-de los datos extraídos.
+\subsection{Formato para extracción de los datos}
 Para llevar a cabo la extracción de los datos, se definió un formato de extracción compuesto por dos partes; datos generales y contexto.
-
 En la sección de datos generales se guardará la información importante relacionada a la publicación, con el propósito de guardar 
 una referencia bibligráfica del estudio, así como identificar año de publicación y palabras clave relacionadas a la investigación. 
-\begin{center}
-\begin{tabular}{ |l|l| }
-\hline
-\multicolumn{2}{|c|}{Datos generales} \\
-  \hline
+
+\begin{table}[h!]
+    \begin{center}
+    \caption{Tabla de información general.}
+    \label{tab:datosgenerales}
+    \begin{tabular}{|l|c|} 
+    \hline
+    \multicolumn{2}{|c|}{Información general} \\
+    \hline
     Identificador &       \\
     \hline
     Título & \\
@@ -353,9 +353,10 @@ una referencia bibligráfica del estudio, así como identificar año de publicac
     Palabras clave & \\
     \hline
     \emph{Abstract} o resumen & \\
- \hline
-\end{tabular}
-\end{center}
+    \hline
+    \end{tabular}
+    \end{center}
+\end{table}
 
 En la sección de contexto, se almacena la información fundamental para la revisión sistemática, ya que contiene los datos que responderán a las
 preguntas de investigación, para lograr lo anterior se definió un grupo de campos para identificar la pregunta o preguntas posibles a ser contestadas 
@@ -364,9 +365,13 @@ documentar los retos presentados en la elicitación que contesta a la sub-pregun
 el análisis de requisitos, que da respuesta a la PI2, después se especifica otro campo para albergar las actividades realizadas para realizar la validación de requisitos que 
 dará respuesta a la pregunta PI3, por último se crea un campo para almacenar los temas abiertos propuestos observados en el estudio, que servirá para responder la pregunta PI4.
 
-\begin{center}
-\begin{tabular}{ |l|l| }
-\hline
+
+\begin{table}[h!]
+    \begin{center}
+    \caption{Tabla de contexto.}
+    \label{tab:datosgenerales}
+    \begin{tabular}{|l|c|}
+    \hline
     \multicolumn{2}{|c|}{Contexto} \\
     \hline
     Pregunta/s de investigación relacionada/s & \\
@@ -380,20 +385,31 @@ dará respuesta a la pregunta PI3, por último se crea un campo para almacenar l
     Técnica/s utilizada/s para validar requisitos & \\
     \hline
     Tema/s abierto/s propuesto/s en el área de requisitos en el software como servicio& \\
- \hline
-\end{tabular}
-\end{center}
-
-
-\subsection{Formato para extracción de los datos}
-La siguiente tabla ha sido desarrollada con el propósito específico de extraer datos de interés para la investigación, 
-los datos deben estar relacionados a las preguntas de investigación, para poder ser analizados posteriormente 
+    \hline
+    \end{tabular}
+    \end{center}
+\end{table}
 
 
 \section{Estrategia para la síntesis de datos}
-Según la guía realizada por \cite{kitchenham2007guidelines} se ha decidido utilizar síntesis narrativa, para identificar y estructurar los resultados compuestos por 
-lenguaje natural, resultantes del proceso de búsqueda, empleando el \emph{approach} traducción recíproca sugerido por \cite{popay2006guidance}  con el fin de señalar 
-y sintetizar el conjunto de actividades identificadas.
+El proceso de síntesis se llevará a cabo de forma narrativa, para el cual se escogió como guía para conducción de síntesis narrativa (referencia). 
+La primera fase “Desarrollar una teoría” nos permite contribuir a la interpretación de la información recopilada y evalúa qué tan aplicable es la 
+información en el contexto de la revisión. En la segunda fase “Desarrollar una síntesis preliminar” se realiza un análisis general de los datos 
+para presentar una síntesis preliminar, con el objetivo de identificar patrones o relaciones entre la información recabada, en la tercera fase 
+“Explorar la relación entre los datos.” se repite el análisis sobre la información obtenida para entender la razón de las relaciones y sus efectos 
+en los resultados del estudio. Siguiendo con la cuarta fase “Evaluar la robustez del producto de la síntesis” se habla sobre seguir un proceso 
+para evaluar la calidad de los estudios obtenidos, ya que la robustez de la síntesis depende de la calidad metodológica de los estudios, con el 
+propósito de definir un proceso de evaluación orientado a robustez, se definieron los criterios de calidad con una perspectiva hacia el método. 
+En la guía no existe una última fase definida, sin embargo se agregó la fase “Conclusiones y recomendaciones” 
+con el fin de identificar e informar los hallazgos encontrados en la investigación, así como las áreas de oportunidad encontradas..  
+
+
+\begin{figure}[!htb]
+   \includegraphics[width=\linewidth]{narrativa.png}
+   \caption{Proceso de síntesis narrativa.}
+   \label{fig:sistesisnarrativa}
+\end{figure}
+
 \newpage
 
 \section{Limitaciones}
@@ -409,7 +425,6 @@ El campo de software como servicio es nuevo y sigue en crecimiento, esto se hace
 RSL relacionadas al tema, por lo tanto se define lo anterior como  una amenaza externa ya que, un conjunto 
 de revisiones sistemáticas podrían formar una base de fundamentos para el desarrollo de temas de investigación, el cual no existe.
 \newpage
-
 
 \section{Informe}
 \subsection{Titulo}

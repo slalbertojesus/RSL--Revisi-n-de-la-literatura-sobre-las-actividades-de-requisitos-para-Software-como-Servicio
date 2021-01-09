@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.12)  2 JAN 2021 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.12)  8 JAN 2021 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -365,6 +365,10 @@ File: l3backend-pdfmode.def 2020-06-03 L3 backend support: PDF mode
 (./SaaS_Requerimientos.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
+
+
+LaTeX Warning: Label `tab:datosgenerales' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
@@ -380,8 +384,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count373
 \scratchdimen=\dimen141
@@ -450,18 +453,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
  [3] [1] [2] [3] [4] [5] [6] [7] [8]
 [9] [10] [11]
-Overfull \hbox (40.25606pt too wide) in paragraph at lines 368--385
+Overfull \hbox (40.25606pt too wide) in paragraph at lines 373--390
  [] 
  []
 
-[12] [13] [14] [15]
-<gant.png, id=66, 974.64125pt x 477.785pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12]
+<narrativa.png, id=57, 1427.3325pt x 316.18124pt>
+File: narrativa.png Graphic file (type png)
+<use narrativa.png>
+Package pdftex.def Info: narrativa.png  used on input line 408.
+(pdftex.def)             Requested size: 345.0pt x 76.42056pt.
+ [13 <./narrativa.png>] [14] [15]
+<gant.png, id=69, 974.64125pt x 477.785pt>
 File: gant.png Graphic file (type png)
 <use gant.png>
-Package pdftex.def Info: gant.png  used on input line 431.
+Package pdftex.def Info: gant.png  used on input line 446.
 (pdftex.def)             Requested size: 345.0pt x 169.12276pt.
  [16 <./gant.png>] [17]
-Overfull \hbox (11.55893pt too wide) in paragraph at lines 466--466
+Overfull \hbox (11.55893pt too wide) in paragraph at lines 481--481
 \OT1/cmr/m/it/10 tio-nal Jour-nal of In-for-ma-tion Ma-na-ge-ment \OT1/cmr/m/n/
 10 31.6 (dic. de 2011), p^^Sags. 556[]563.
  []
@@ -471,18 +483,15 @@ LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
 
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please rerun LaTeX.
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'SaaS_Requerimientos.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 10025 strings out of 480478
- 178681 string characters out of 5905958
- 821531 words of memory out of 5000000
- 25962 multiletter control sequences out of 15000+600000
+ 10031 strings out of 480478
+ 178722 string characters out of 5905958
+ 821903 words of memory out of 5000000
+ 25967 multiletter control sequences out of 15000+600000
  537707 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,45p,1800b,1887s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -494,10 +503,10 @@ cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 /share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb>
-Output written on SaaS_Requerimientos.pdf (22 pages, 220679 bytes).
+Output written on SaaS_Requerimientos.pdf (22 pages, 256523 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 116 PDF objects out of 1000 (max. 8388607)
  78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

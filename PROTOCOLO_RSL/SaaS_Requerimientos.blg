@@ -1,16 +1,16 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'SaaS_Requerimientos.blg'
-[79] biber:322> INFO - === Sat Jan  2, 2021, 18:13:26
-[93] Biber.pm:415> INFO - Reading 'SaaS_Requerimientos.bcf'
-[160] Biber.pm:943> INFO - Found 14 citekeys in bib section 0
-[176] Biber.pm:4256> INFO - Processing section 0
-[176] Utils.pm:75> INFO - Globbing data source 'PROTOCOLO_RSL.bib'
-[176] Utils.pm:91> INFO - Globbed data source 'PROTOCOLO_RSL.bib' to PROTOCOLO_RSL.bib
-[186] Biber.pm:4455> INFO - Looking for bibtex format file 'PROTOCOLO_RSL.bib' for section 0
-[203] bibtex.pm:1653> INFO - LaTeX decoding ...
-[238] bibtex.pm:1471> INFO - Found BibTeX data source 'PROTOCOLO_RSL.bib'
-[392] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[392] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[392] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[410] bbl.pm:652> INFO - Writing 'SaaS_Requerimientos.bbl' with encoding 'UTF-8'
-[420] bbl.pm:755> INFO - Output to SaaS_Requerimientos.bbl
+[79] biber:322> INFO - === Fri Jan  8, 2021, 14:59:25
+[92] Biber.pm:415> INFO - Reading 'SaaS_Requerimientos.bcf'
+[159] Biber.pm:943> INFO - Found 13 citekeys in bib section 0
+[174] Biber.pm:4256> INFO - Processing section 0
+[175] Utils.pm:75> INFO - Globbing data source 'PROTOCOLO_RSL.bib'
+[175] Utils.pm:91> INFO - Globbed data source 'PROTOCOLO_RSL.bib' to PROTOCOLO_RSL.bib
+[185] Biber.pm:4455> INFO - Looking for bibtex format file 'PROTOCOLO_RSL.bib' for section 0
+[187] bibtex.pm:1653> INFO - LaTeX decoding ...
+[223] bibtex.pm:1471> INFO - Found BibTeX data source 'PROTOCOLO_RSL.bib'
+[361] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[361] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[361] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[378] bbl.pm:652> INFO - Writing 'SaaS_Requerimientos.bbl' with encoding 'UTF-8'
+[386] bbl.pm:755> INFO - Output to SaaS_Requerimientos.bbl

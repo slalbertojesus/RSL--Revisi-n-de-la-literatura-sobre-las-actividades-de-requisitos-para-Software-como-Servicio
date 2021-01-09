@@ -19,6 +19,109 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{antecedentes2}{article}{}
+      \name{author}{1}{}{%
+        {{hash=572d9c46c54ac4f173526a8f2df63fa9}{%
+           family={{Anton}},
+           familyi={A\bibinitperiod},
+           given={A.\bibnamedelimi I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \strng{namehash}{572d9c46c54ac4f173526a8f2df63fa9}
+      \strng{fullhash}{572d9c46c54ac4f173526a8f2df63fa9}
+      \strng{bibnamehash}{572d9c46c54ac4f173526a8f2df63fa9}
+      \strng{authorbibnamehash}{572d9c46c54ac4f173526a8f2df63fa9}
+      \strng{authornamehash}{572d9c46c54ac4f173526a8f2df63fa9}
+      \strng{authorfullhash}{572d9c46c54ac4f173526a8f2df63fa9}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{IEEE Software}
+      \field{number}{3}
+      \field{title}{Successful software projects need requirements planning}
+      \field{volume}{20}
+      \field{year}{2003}
+      \field{pages}{44\bibrangedash}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/MS.2003.1196319
+      \endverb
+    \endentry
+    \entry{antecedentes4}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=1a76c2c80f50d1b385e3ee592ee02cc7}{%
+           family={{Hussarin}},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6d9f214182eb84061c2a497d1ded2ede}{%
+           family={{Mkpojiogu}},
+           familyi={M\bibinitperiod},
+           given={E.O.C},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e4f4c5a5f579216b678b1feb6209364}
+      \strng{fullhash}{6e4f4c5a5f579216b678b1feb6209364}
+      \strng{bibnamehash}{6e4f4c5a5f579216b678b1feb6209364}
+      \strng{authorbibnamehash}{6e4f4c5a5f579216b678b1feb6209364}
+      \strng{authornamehash}{6e4f4c5a5f579216b678b1feb6209364}
+      \strng{authorfullhash}{6e4f4c5a5f579216b678b1feb6209364}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the international conference on applied science and technology (AIP)}
+      \field{number}{1}
+      \field{title}{Requirements: Towards an understanding on why software projects fail}
+      \field{volume}{1761}
+      \field{year}{2016}
+      \field{pages}{36\bibrangedash 42}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1063/1.4960886
+      \endverb
+    \endentry
+    \entry{metodo}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d8c0615cb138b3882503b4fa2179758d}{%
+           family={{Kitchenham}},
+           familyi={K\bibinitperiod},
+           given={B.\bibnamedelimi A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=478f6ea40e6922c074e0ed67a3cc9697}{%
+           family={{Charters}},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Keele University}%
+        {Durham University Joint Report}%
+      }
+      \strng{namehash}{2fbc6dc449f36b8b6f686cb086081590}
+      \strng{fullhash}{2fbc6dc449f36b8b6f686cb086081590}
+      \strng{bibnamehash}{2fbc6dc449f36b8b6f686cb086081590}
+      \strng{authorbibnamehash}{2fbc6dc449f36b8b6f686cb086081590}
+      \strng{authornamehash}{2fbc6dc449f36b8b6f686cb086081590}
+      \strng{authorfullhash}{2fbc6dc449f36b8b6f686cb086081590}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The objective of this report is to propose comprehensive guidelines for systematic literature reviews appropriate for software engineering researchers, including PhD students. A systematic literature review is a means of evaluating and interpreting all available research relevant to a particular research question, topic area, or phenomenon of interest. Systematic reviews aim to present a fair evaluation of a research topic by using a trustworthy, rigorous, and auditable methodology. The guidelines presented in this report were derived from three existing guidelines used by medical researchers, two books produced by researchers with social science backgrounds and discussions with researchers from other disciplines who are involved in evidence-based practice. The guidelines have been adapted to reflect the specific problems of software engineering research. The guidelines cover three phases of a systematic literature review: planning the review, conducting the review and reporting the review. They provide a relatively high level description. They do not consider the impact of the research questions on the review procedures, nor do they specify in detail the mechanisms needed to perform meta-analysis.}
+      \field{month}{07}
+      \field{number}{EBSE 2007-001}
+      \field{title}{Guidelines for performing Systematic Literature Reviews in Software Engineering}
+      \field{year}{2007}
+      \verb{urlraw}
+      \verb https://www.elsevier.com/__data/promis_misc/525444systematicreviewsguide.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.elsevier.com/__data/promis_misc/525444systematicreviewsguide.pdf
+      \endverb
+      \keyw{engineering evidence evidence-based literature real review software systematic}
+    \endentry
     \entry{sintesisnarrativa}{article}{}
       \name{author}{7}{}{%
         {{hash=03960fe11c58b041df99f303d12c4a7a}{%
@@ -86,6 +189,188 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1177/1356389008097871
+      \endverb
+    \endentry
+    \entry{manualcronograma}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b177cc1366556961a93c76983f39e62b}{%
+           family={Schmelkes},
+           familyi={S\bibinitperiod},
+           given={Corina},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Mexico}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{b177cc1366556961a93c76983f39e62b}
+      \strng{fullhash}{b177cc1366556961a93c76983f39e62b}
+      \strng{bibnamehash}{b177cc1366556961a93c76983f39e62b}
+      \strng{authorbibnamehash}{b177cc1366556961a93c76983f39e62b}
+      \strng{authornamehash}{b177cc1366556961a93c76983f39e62b}
+      \strng{authorfullhash}{b177cc1366556961a93c76983f39e62b}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9786074260915}
+      \field{title}{Manual para la presentacion de anteproyectos e informes de investigacion : (Tesis}
+      \field{year}{2010}
+    \endentry
+    \entry{antecedentes5}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2c528ec769079cc43320d94eb0c26a74}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c528ec769079cc43320d94eb0c26a74}
+      \strng{fullhash}{2c528ec769079cc43320d94eb0c26a74}
+      \strng{bibnamehash}{2c528ec769079cc43320d94eb0c26a74}
+      \strng{authorbibnamehash}{2c528ec769079cc43320d94eb0c26a74}
+      \strng{authornamehash}{2c528ec769079cc43320d94eb0c26a74}
+      \strng{authorfullhash}{2c528ec769079cc43320d94eb0c26a74}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido el: 5. Junio. 2021. [En-línea]}
+      \field{title}{{SaaS startups: kings of the coronavirus crisis?.}}
+      \verb{urlraw}
+      \verb https://sifted.eu/articles/saas-startups-coronavirus-crisis
+      \endverb
+      \verb{url}
+      \verb https://sifted.eu/articles/saas-startups-coronavirus-crisis
+      \endverb
+    \endentry
+    \entry{antecedentes8}{book}{}
+      \name{author}{2}{}{%
+        {{hash=391822eb61c91ef5882d24cbd1592b6f}{%
+           family={{Sommerville}},
+           familyi={S\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=baacb362fca23395eaebab947907d439}{%
+           family={{Sawyer}},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chichester}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{2edbfb632f5695e6d024677f7aa288cd}
+      \strng{fullhash}{2edbfb632f5695e6d024677f7aa288cd}
+      \strng{bibnamehash}{2edbfb632f5695e6d024677f7aa288cd}
+      \strng{authorbibnamehash}{2edbfb632f5695e6d024677f7aa288cd}
+      \strng{authornamehash}{2edbfb632f5695e6d024677f7aa288cd}
+      \strng{authorfullhash}{2edbfb632f5695e6d024677f7aa288cd}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-471-97444-4}
+      \field{title}{Requirements engineering : a good practice guide}
+      \field{year}{1997}
+      \field{pages}{5}
+      \range{pages}{1}
+    \endentry
+    \entry{antecedentes7}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=69e333b360ce743de5de85057f06e200}{%
+           family={Spencer},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{69e333b360ce743de5de85057f06e200}
+      \strng{fullhash}{69e333b360ce743de5de85057f06e200}
+      \strng{bibnamehash}{69e333b360ce743de5de85057f06e200}
+      \strng{authorbibnamehash}{69e333b360ce743de5de85057f06e200}
+      \strng{authornamehash}{69e333b360ce743de5de85057f06e200}
+      \strng{authorfullhash}{69e333b360ce743de5de85057f06e200}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Stories}
+      \field{note}{Accedido el: 5. Junio. 2021. [En-línea]}
+      \field{title}{{Microsoft cloud strength drives fourth quarter results - Stories}}
+      \verb{urlraw}
+      \verb https://news.microsoft.com/2020/07/22/microsoft-cloud-strength-drives-fourth-quarter-results-2
+      \endverb
+      \verb{url}
+      \verb https://news.microsoft.com/2020/07/22/microsoft-cloud-strength-drives-fourth-quarter-results-2
+      \endverb
+    \endentry
+    \entry{antecedentes1}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=c4f7ebc23a0ef3e65cfd14c002b4b474}{%
+           family={{Tariq}},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=65647c50f2a14af7d163862efb91a4f4}{%
+           family={{Khan}},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=365fccd854eb654383706659300fa9ea}{%
+           family={{Iftikhar}},
+           familyi={I\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1bfa799779e5bf59d833a1fde4e03823}
+      \strng{fullhash}{1bfa799779e5bf59d833a1fde4e03823}
+      \strng{bibnamehash}{1bfa799779e5bf59d833a1fde4e03823}
+      \strng{authorbibnamehash}{1bfa799779e5bf59d833a1fde4e03823}
+      \strng{authornamehash}{1bfa799779e5bf59d833a1fde4e03823}
+      \strng{authorfullhash}{1bfa799779e5bf59d833a1fde4e03823}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 International Conference on Emerging Technologies (ICET)}
+      \field{title}{Requirements Engineering process for Software-as-a-Service (SaaS) cloud environment}
+      \field{year}{2014}
+      \field{pages}{13\bibrangedash 18}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICET.2014.7021009
+      \endverb
+    \endentry
+    \entry{antecedentes6}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2b1554bb0703c9468f8ca8c7e9fba4a6}{%
+           family={White},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b1554bb0703c9468f8ca8c7e9fba4a6}
+      \strng{fullhash}{2b1554bb0703c9468f8ca8c7e9fba4a6}
+      \strng{bibnamehash}{2b1554bb0703c9468f8ca8c7e9fba4a6}
+      \strng{authorbibnamehash}{2b1554bb0703c9468f8ca8c7e9fba4a6}
+      \strng{authornamehash}{2b1554bb0703c9468f8ca8c7e9fba4a6}
+      \strng{authorfullhash}{2b1554bb0703c9468f8ca8c7e9fba4a6}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accedido el: 5. Junio. 2021. [En-línea]}
+      \field{title}{{Network Specifications for Remote Job Entry and Remote Job Output Retrieval at UCSB}}
+      \verb{urlraw}
+      \verb https://tools.ietf.org/html/rfc105
+      \endverb
+      \verb{url}
+      \verb https://tools.ietf.org/html/rfc105
       \endverb
     \endentry
   \enddatalist
