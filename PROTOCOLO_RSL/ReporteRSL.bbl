@@ -190,32 +190,43 @@
     \endentry
     \entry{kitchenham2007guidelines}{article}{}
       \name{author}{2}{}{%
-        {{hash=19919e365e4f12f6028593c952a9bacf}{%
-           family={Kitchenham},
+        {{hash=d8c0615cb138b3882503b4fa2179758d}{%
+           family={{Kitchenham}},
            familyi={K\bibinitperiod},
-           given={Barbara},
-           giveni={B\bibinitperiod}}}%
-        {{hash=e3aec3b248f01d4d14bbd3f116591257}{%
-           family={Charters},
+           given={B.\bibnamedelimi A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=478f6ea40e6922c074e0ed67a3cc9697}{%
+           family={{Charters}},
            familyi={C\bibinitperiod},
-           given={Stuart},
+           given={S.},
            giveni={S\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Citeseer}%
+      \list{institution}{2}{%
+        {Keele University}%
+        {Durham University Joint Report}%
       }
-      \strng{namehash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
-      \strng{fullhash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
-      \strng{bibnamehash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
-      \strng{authorbibnamehash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
-      \strng{authornamehash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
-      \strng{authorfullhash}{bfd5bed68d4e3feb5cdc7e00ae82b588}
+      \strng{namehash}{2fbc6dc449f36b8b6f686cb086081590}
+      \strng{fullhash}{2fbc6dc449f36b8b6f686cb086081590}
+      \strng{bibnamehash}{2fbc6dc449f36b8b6f686cb086081590}
+      \strng{authorbibnamehash}{2fbc6dc449f36b8b6f686cb086081590}
+      \strng{authornamehash}{2fbc6dc449f36b8b6f686cb086081590}
+      \strng{authorfullhash}{2fbc6dc449f36b8b6f686cb086081590}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Guidelines for performing systematic literature reviews in software engineering}
+      \field{abstract}{The objective of this report is to propose comprehensive guidelines for systematic literature reviews appropriate for software engineering researchers, including PhD students. A systematic literature review is a means of evaluating and interpreting all available research relevant to a particular research question, topic area, or phenomenon of interest. Systematic reviews aim to present a fair evaluation of a research topic by using a trustworthy, rigorous, and auditable methodology. The guidelines presented in this report were derived from three existing guidelines used by medical researchers, two books produced by researchers with social science backgrounds and discussions with researchers from other disciplines who are involved in evidence-based practice. The guidelines have been adapted to reflect the specific problems of software engineering research. The guidelines cover three phases of a systematic literature review: planning the review, conducting the review and reporting the review. They provide a relatively high level description. They do not consider the impact of the research questions on the review procedures, nor do they specify in detail the mechanisms needed to perform meta-analysis.}
+      \field{month}{07}
+      \field{number}{EBSE 2007-001}
+      \field{title}{Guidelines for performing Systematic Literature Reviews in Software Engineering}
       \field{year}{2007}
+      \verb{urlraw}
+      \verb https://www.elsevier.com/__data/promis_misc/525444systematicreviewsguide.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.elsevier.com/__data/promis_misc/525444systematicreviewsguide.pdf
+      \endverb
+      \keyw{engineering evidence evidence-based literature real review software systematic}
     \endentry
     \entry{EF-4}{inproceedings}{}
       \name{author}{1}{}{%
@@ -491,6 +502,36 @@
       \verb{url}
       \verb https://doi.org/10.1109/cscwd.2010.5471992
       \endverb
+    \endentry
+    \entry{sintesisnarrativa}{article}{}
+      \name{author}{2}{}{%
+        {{hash=cecc9996abb8713ee23db7904aed9021}{%
+           family={{Popay}},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c398bb29dc20ea22152076f887243a46}{%
+           family={{Helen}},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{229d95fc1e5ceb51efe211269cb9c8a8}
+      \strng{fullhash}{229d95fc1e5ceb51efe211269cb9c8a8}
+      \strng{bibnamehash}{229d95fc1e5ceb51efe211269cb9c8a8}
+      \strng{authorbibnamehash}{229d95fc1e5ceb51efe211269cb9c8a8}
+      \strng{authornamehash}{229d95fc1e5ceb51efe211269cb9c8a8}
+      \strng{authorfullhash}{229d95fc1e5ceb51efe211269cb9c8a8}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A product from the ESRC methods programme Version}
+      \field{title}{Guidance on the conduct of narrative synthesis in systematic reviews}
+      \field{volume}{1}
+      \field{year}{2006}
+      \field{pages}{b92}
+      \range{pages}{-1}
     \endentry
     \entry{EF-20}{article}{}
       \name{author}{2}{}{%
@@ -856,7 +897,7 @@
       \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Proceeding of the 2nd international workshop on Software engineering for cloud computing - {SECLOUD} '11}
+      \field{booktitle}{Proceeding of the 2nd international workshop on Software engineering for cloud computing - {SECLOUD} {'}11}
       \field{title}{Cloud adoption: a goal-oriented requirements engineering approach}
       \field{year}{2011}
       \verb{doi}

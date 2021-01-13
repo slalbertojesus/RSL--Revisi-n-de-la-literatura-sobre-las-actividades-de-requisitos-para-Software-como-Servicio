@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.12)  8 JAN 2021 21:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2020.11.12)  8 JAN 2021 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -431,15 +431,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ProtocoloInvestigacion.bbl' found.
 
-(./ProtocoloInvestigacion.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                antecedentes2
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./ProtocoloInvestigacion.bbl)
 Package biblatex Info: Reference section=0 on input line 13.
 Package biblatex Info: Reference segment=0 on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -523,10 +515,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'ProtocoloInvestigacion.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 10017 strings out of 480478
- 178238 string characters out of 5905958
- 820694 words of memory out of 5000000
- 25954 multiletter control sequences out of 15000+600000
+ 10016 strings out of 480478
+ 178228 string characters out of 5905958
+ 820666 words of memory out of 5000000
+ 25953 multiletter control sequences out of 15000+600000
  537101 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,45p,1331b,1841s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -537,7 +529,7 @@ ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
 /share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on ProtocoloInvestigacion.pdf (11 pages, 220229 bytes).
+Output written on ProtocoloInvestigacion.pdf (11 pages, 220198 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream

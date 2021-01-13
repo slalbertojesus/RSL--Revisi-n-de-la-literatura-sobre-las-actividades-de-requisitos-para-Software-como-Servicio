@@ -1,18 +1,16 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'ProtocoloInvestigacion.blg'
-[84] biber:322> INFO - === Fri Jan  8, 2021, 21:59:21
-[97] Biber.pm:415> INFO - Reading 'ProtocoloInvestigacion.bcf'
-[164] Biber.pm:943> INFO - Found 11 citekeys in bib section 0
-[179] Biber.pm:4256> INFO - Processing section 0
-[179] Utils.pm:75> INFO - Globbing data source 'ProtocoloRSL.bib'
-[179] Utils.pm:91> INFO - Globbed data source 'ProtocoloRSL.bib' to ProtocoloRSL.bib
-[189] Biber.pm:4455> INFO - Looking for bibtex format file 'ProtocoloRSL.bib' for section 0
-[190] bibtex.pm:1653> INFO - LaTeX decoding ...
-[206] bibtex.pm:1471> INFO - Found BibTeX data source 'ProtocoloRSL.bib'
-[283] Utils.pm:304> WARN - I didn't find a database entry for 'antecedentes2' (section 0)
-[301] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[301] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[302] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[315] bbl.pm:652> INFO - Writing 'ProtocoloInvestigacion.bbl' with encoding 'UTF-8'
-[319] bbl.pm:755> INFO - Output to ProtocoloInvestigacion.bbl
-[319] Biber.pm:128> INFO - WARNINGS: 1
+[78] biber:322> INFO - === Fri Jan  8, 2021, 22:21:19
+[91] Biber.pm:415> INFO - Reading 'ProtocoloInvestigacion.bcf'
+[158] Biber.pm:943> INFO - Found 10 citekeys in bib section 0
+[173] Biber.pm:4256> INFO - Processing section 0
+[174] Utils.pm:75> INFO - Globbing data source 'ProtocoloRSL.bib'
+[174] Utils.pm:91> INFO - Globbed data source 'ProtocoloRSL.bib' to ProtocoloRSL.bib
+[184] Biber.pm:4455> INFO - Looking for bibtex format file 'ProtocoloRSL.bib' for section 0
+[185] bibtex.pm:1653> INFO - LaTeX decoding ...
+[201] bibtex.pm:1471> INFO - Found BibTeX data source 'ProtocoloRSL.bib'
+[297] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[297] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[297] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[310] bbl.pm:652> INFO - Writing 'ProtocoloInvestigacion.bbl' with encoding 'UTF-8'
+[315] bbl.pm:755> INFO - Output to ProtocoloInvestigacion.bbl

@@ -43,7 +43,7 @@
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[backend=biber, style=numeric]{biblatex}
-\addbibresource{Presentacion.bib}
+\addbibresource{ReporteRSLRef.bib}
 
 % If IEEEtran.cls has not been installed into the LaTeX system files,
 % manually specify the path to it like:
@@ -104,10 +104,25 @@ Veracruz, México\\}}
 % As a general rule, do not put math, special symbols or citations
 % in the abstract or keywords.
 \begin{abstract}
+        El software como servicio o SaaS (por sus siglas en inglés \emph{Software as a Service}), es una modalidad de distribución en línea que provee 
+        funcionalidades y modelos de pago flexibles, un proceso de adquisición totalmente automático (autoservicio), donde la disposición 
+        del recurso debe ser ejecutada,  otorgada y administrada en su totalidad línea. Para realizar el proceso de requisitos para un 
+        software como servicio se han adaptado un conjunto de estrategias utilizadas en  el software tradicional. La investigación presente tiene 
+        como objetivo principal, enfocarse en identificar las actividades y metodologías involucradas en el proceso de requisitos de un Saas,
+        que han sido documentadas en la literatura. Se utilizó como método una revisión sistemática de la literatura y se siguió  como referencia 
+        la guía desarrollada por Kitchenham y Charters \cite{kitchenham2007guidelines}, se diseñaron preguntas de investigación que condujeron 
+        la búsqueda, la cual se desarrolló de forma manual, después se seleccionó un conjunto de estudios y para la etapa de síntesis, se utilizó 
+        síntesis narrativa, cuyo proceso siguó los pasos especificados en la guía \emph{"Guidance of the conduct of narrative in systematic reviews."}
+        \cite{sintesisnarrativa}. Como resultado de la investigación, en la fase de elicitación, se hallaron técnicas enfocadas a interacciones   
+        entre \emph{stakeholders}, como \emph{Digital workshop}, sessiones \emph{JAD (Joint Application Development)} y \emph{Surveys}, también se 
+        detectó que existe popularidad entre los estudios que reportaban a \emph{Digital workshops}, como técnica utilizada. Siendo ideal para aquellos 
+        interesados en la facilidad de adopción para usuarios no técnicos.
+        
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
 \begin{IEEEkeywords}
+        Software como servicio, Requisitos, Revisión sistemática de la literatura. 
 \end{IEEEkeywords}
 
 \section{Introducción}
@@ -126,9 +141,36 @@ Veracruz, México\\}}
 % 
 % Here we have the typical use of a "T" for an initial drop letter
 % and "HIS" in caps to complete the first word.
-\IEEEPARstart{T}{his} demo file is intended to serve as a ``starter file''
-for IEEE journal papers produced under \LaTeX\ using
-IEEEtran.cls version 1.8b and later.
+\IEEEPARstart{D}{desarrollar} un producto de software que pueda ser distribuido en un modelo de software como servicio 
+es un proceso complejo, porque el producto debe aportar un conjunto de ventajas funcionales hacia el usuario final, estas ventajas
+representan un valor competitivo a empresas de alto impacto interesadas en entrar en un mercado. Es importante mencionar que no existen procesos logísticos 
+externos, ya que la gestión del producto se lleva a cabo en su totalidad, en línea. Lo anterior permite olvidarse de problemas relacionados a la gestión interna de
+las funcionalidades del software, esto se traduce en una forma efectiva de mitigar costos operacionales dentro de la empresa.
+
+Por lo tanto, la creación de un software como servicio representa un conjunto de retos, debido a que las metodologías y estrategias tradicionales no cubren
+las necesidades para desarrollar un \emph{Saas}. lo que hace necesario adecuar el conocimiento existente [10]. El éxito de un Saas depende de entender y definir el
+conjunto de requisitos dictados por cliente o mercado [4], la fase de requisitos, es crucial para delimitar el alcance del proyecto, analizar, documentar y verificar
+los servicios y restricciones del sistema. Una definición de requisitos que ha sido desarrollada siguiendo un conjunto de estrategias formales, es de suma importancia 
+para el éxito del proyecto [8] ya que esto garantiza que la especificación de requisitos ha sido realizada siguiendo un proceso y los fundamentos necesarios
+para el correcto diseño de la solución son confiables, lo que asegura que existe una documentación formal de las necesidades del sistema. Sin embargo no hay una 
+compilación sobre aquellas técnicas y actividades utilizadas para el proceso de elicitación y gestión de cambios de requisitos en el Software como servicio [2].
+
+Para identificar el estado actual de las investigaciones sobre el tema se llevaron a cabo búsquedas de estudios secundarios relacionados al proceso de requisitos 
+en un software como servicio o computación en la nube, se encontraron dos estudios secundarios de interés. El estudio secundario [13] identifica las metodologías 
+utilizadas para el proceso de requisitos en sistemas de la nube, clasifica a los stakeholders considerados en el proceso de requisitos y clasifica las dificultades 
+encontradas en publicaciones relacionadas a requisitos para cómputo en la nube, la investigación realiza una identificación y clasificación de metodologías soportadas, 
+se enfoca hacia los roles involucrados en el proceso de elicitación, no se hace un acercamiento hacia las metodologías, actividades o técnicas utilizadas.  
+
+En el segundo estudio secundario \cite{wanderley2017requirements} se realizó un análisis de metodologías, modelos o herramientas para abordar requisitos en sistemas en la nube, el estudio 
+señala el enfoque principal de investigaciones, el tipo de distribución utilizada en las publicaciones seleccionadas y las fuentes de distribución de 
+estudios primarios relacionados al \emph{software} como servicio. 
+
+Los estudios anteriores, no se encargan de cerrar el vacío de conocimiento en el área de requisitos para un software como servicio, ya que ninguno de los dos 
+analiza el estado del arte de las actividades de requisitos para un \emph{software} como servicio. Esto representa una oportunidad para realizar una revisión
+sistemática de la literatura, con el objetivo de analizar e identificar las actividades relacionadas a requisitos en un \emph{software} como servicio,
+Esto permitirá a investigadores y estudiantes obtener una recopilación reciente del conjunto de estrategias utilizadas para definir los fundamentos de un producto, 
+así como ofrecer un conjunto de áreas de investigación abierta.
+
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
 \section{Cuadro de fundamentos}
@@ -253,7 +295,10 @@ de información (CE-4).
 \newpage
 
 \subsection{Proceso de selección}
-Los crietrios especificados, se ejecutarán en el siguiente orden:
+Se diseñó un proceso de selección para el proceso de inclusión y exclusión de los estudios 
+encontrados con la cadena de búsqueda especificada, con el propósito de poder documentar 
+las fases de selección y que estas puedan ser replicadas a detalle por los 
+interesados en validar y verificar el proceso y los resultados de la selección.
 
 \subsection{Etapa número uno}
 En la primera etapa, se realiza un filtrado inicial, si la fuente de búsqueda 
@@ -270,12 +315,12 @@ excluir aquellos que no contienen al menos dos términos de búsqueda (CI4).
   \item{El título y abstract dan indicios de que se trata del dominio de interés. (CI4)}
 \end{enumerate}
 
+\subsection{Etapa número dos}
 En la segunda etapa, se realiza un análisis detallado del título y resumen, para 
 concluir si hay indicios que trata el dominio de interés (CI3), se incluye 
 la investigación si no ha sido encontrado en otra búsqueda en una de datos diferente (CE2), 
 no existe una versión anterior (CE3) y se pudo acceder al texto completo (CE4)
 
-\subsection{Etapa número dos}
 \begin{enumerate}[(a)]
   \item{Contiene al menos dos términos de búsqueda. (CI3)}
   \item{No duplicados. (CE2)}
@@ -283,10 +328,9 @@ no existe una versión anterior (CE3) y se pudo acceder al texto completo (CE4)
   \item{Acceso al texto completo. (CE4)}
 \end{enumerate}
 
+\subsection{Etapa número tres}
 En la última etapa, se leerá el texto completo, analizando el contenido del estudio para decidir si 
 la información contesta alguna pregunta de investigación. 
-
-\subsection{Etapa número tres}
 \begin{enumerate}[(a)]
   \item{Texto completo contesta alguna pregunta de investigación. (CI5)}
 \end{enumerate}
@@ -368,9 +412,12 @@ de los datos extraídos.
 \subsection{Evaluación de la calidad}
 
 Con el propósito de documentar la calidad de los estudios obtenidos seleccionados, 
-se especificó un conjunto de genérico de criterios que fueron aplicados al terminar la 
+se especificó un conjunto de criterios que fueron aplicados al terminar la 
 selección, detallado en cuadro cinco.
-El conjunto de criterios ha sido diseñado para evaluar la rigurosidad del método. 
+El conjunto de criterios ha sido diseñado para evaluar la rigurosidad del método y fué 
+diseñado con el objetivo de documentar la calidad de los estudios obtenidos y de esta forma, 
+respaldar los hallazgos de la revisión sistemática de la literatura. Los criterios fueron 
+extraídos del libro \emph{Nombre de libro} referencia.
 
 
 \begin{table}[ht]
