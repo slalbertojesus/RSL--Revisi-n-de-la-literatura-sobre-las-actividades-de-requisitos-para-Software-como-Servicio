@@ -188,6 +188,47 @@
       \verb 10.1109/WETICE.2012.14
       \endverb
     \endentry
+    \entry{kitchenhambook}{book}{}
+      \name{author}{3}{}{%
+        {{hash=d8c0615cb138b3882503b4fa2179758d}{%
+           family={Kitchenham},
+           familyi={K\bibinitperiod},
+           given={B.\bibnamedelimi A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d00f431cf6ba32dfa8eb5db1cfe169ce}{%
+           family={Budgen},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3e5719d805164af5445637808682bd7a}{%
+           family={Brereton},
+           familyi={B\bibinitperiod},
+           given={Pearl},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{943213b08460ba770f18466d62f147f8}
+      \strng{fullhash}{943213b08460ba770f18466d62f147f8}
+      \strng{bibnamehash}{943213b08460ba770f18466d62f147f8}
+      \strng{authorbibnamehash}{943213b08460ba770f18466d62f147f8}
+      \strng{authornamehash}{943213b08460ba770f18466d62f147f8}
+      \strng{authorfullhash}{943213b08460ba770f18466d62f147f8}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781482228656}
+      \field{note}{OCLC: ocn932588149}
+      \field{series}{Chapman \& {Hall}/{CRC} innovations in software engineering and software development}
+      \field{title}{Evidence-based software engineering and systematic reviews}
+      \field{year}{2016}
+      \keyw{Software engineering,Research,Software engineering,Decision making}
+    \endentry
     \entry{kitchenham2007guidelines}{article}{}
       \name{author}{2}{}{%
         {{hash=d8c0615cb138b3882503b4fa2179758d}{%
@@ -956,6 +997,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{wanderley2017requirements}
 \endrefsection
 \endinput
 

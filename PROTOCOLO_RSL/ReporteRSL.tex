@@ -207,6 +207,88 @@ El objetivo de la Revisión Sistemática de la Literatura es encontrar el estado
 \end{enumerate}
 
 \subsection{Proceso de búsqueda}
+Basado en la estructura de las preguntas de investigación, se extrajo un conjunto de 
+términos de búsqueda, éstos serán utilizados con el objetivo de definir una cadena de búsqueda apropiada para 
+las necesidades de la RSL. 
+En el proceso de llevar a cabo búsquedas piloto, se utilizaron los siguientes terminos de interés extraídos de las preguntas de la investigación: 
+\emph{Requirement* y Elicitation o Validation o Analysis o Management o Risk Management}, las búsquedas con estos 
+términos resultaron en un grupo de estudios primarios que no eran de importancia para alcanzar el objetivo de la 
+revisión sistemática. 
+
+Según lo anterior se estableció la siguiente cadena.
+
+\emph{(Requirement* Engineering OR Collaborative Engineering AND (Software as a service or Saa* or Cloud computing))}
+
+Según la fuente de datos a utilizar, se realizaron un conjunto de modificaciones para satisfacer las necesidades específicas de cada fuente de datos,
+
+\subsection{Estudios relevantes}
+Se definió un conjunto de estudios de relevantes, que forman parte de los fundamentos importantes para la investigación, son parte de la literatura 
+necesaria para el desarrollo de misma, también son utilizados para evaluar, desde un punto objetivo el rendimiento de las cadenas de búsqueda, 
+puesto que los estudios relevantes se utilizan como un criterio para calificar el nivel de recuperación de estudios importantes en la cadena de búsqueda.
+Todos los estudios relevantes pasaron por el proceso de selección especificado en el apartado \ref{ssec:pro-selec}, con el objetivo de asegurar 
+que podrían llegar al final del proceso. 
+En el cuadro uno, se muestra el total de los estudios relevantes utilizados.
+
+\begin{table}[!htbp]
+        \caption{Tabla de estudios relevantes}
+        \label{tab:tableestudios}
+        \begin{center}
+        \scalebox{0.8}{
+        \begin{tabular}{|l|l|l|}
+                \hline
+                EC   & Título                                                                                                                                      & {\color[HTML]{000000} Fuente}              \\ \hline
+                EC-1 & EasySaaS: A SaaS development framework                                                                                                      & {\color[HTML]{000000} IEEE Explore}        \\ \hline
+                EC-2 & A Collaborative Requirement Elicitation Technique or SaaS Applications                                                                      & {\color[HTML]{000000} IEEE Explore}        \\ \hline
+                EC-3 & Adopting a combination of Scrum and Waterfall methodologies in developing Tailor-made SaaS products for Thai Service and manufacturing SMEs & {\color[HTML]{000000} IEEE Explore}        \\ \hline
+                EC-4 & Requirements Engineering process for Software-as-a-Service (SaaS) cloud environment                                                         & {\color[HTML]{000000} IEEE Explore}        \\ \hline
+                EC-5 & An improved Requirements Engineering framework for cloud based application development                                                      & {\color[HTML]{000000} IEEE Explore}        \\ \hline
+                EC-6 & A Conceptual Model of Requirement Engineering in Cloud Project Delivery for Thai Government Organizations                                   & {\color[HTML]{000000} IEEE Explore}        \\ \hline
+                EC-7 & Cloud adoption: a goal-oriented requirements engineering approach                                                                           & {\color[HTML]{000000} ACM Digital Library} \\ \hline
+                EC-8 & The Cloud: Requirements for a Better Service                                                                                                & {\color[HTML]{000000} ACM Digital Library} \\ \hline
+        \end{tabular}}
+        \end{center}
+\end{table}
+
+Es importante remarcar que en ningúna de las fuentes de datos se alcanzó el número indicado de estudios 
+recomendados para la validación de la cadena de búsqueda, sin embargo se decidió incluir los estudios 
+para tener una estrategia de evaluación objetiva. 
+
+\subsection{Validación de rendimiento de cadena de búsqueda}
+Para llevar a cabo el proceso de evaluación de la cadena de búsqueda, se siguió la estrategia de evaluación especificada en \emph{Evidence-Based 
+Software Engineering and Systematic Reviews} \cite{kitchenhambook}. En el cual se recomienda utilizar dos criterios importantes, \emph{Precision} y 
+\emph{Recall}. El criterio \emph{precision} es el porcentaje o proporción de los estudios encontrados que son relevantes a las preguntas de 
+investigación definidas en la revisión, el criterio \emph{recall} es la proporción o porcentaje de todos los estudios relevantes utilizados en la revisión. 
+
+\begin{figure}[!htb]
+    \begin{center}
+   \includegraphics[scale=0.7]{recpre.png}
+   \caption{Proceso de síntesis narrativa.}
+   \label{fig:sistesisnarrativa}
+\end{center}
+\end{figure}
+
+Donde: 
+
+  \begin{enumerate}[(a)]
+  \item \emph{Rtotal} Total de estudios relevantes a la pregunta de investigación.  
+  \item \emph{Ntotal} Total de estudios encontrados por la cadena. 
+  \item \emph{NFound} Total de estudios relevantes encontrados. 
+  \end{enumerate}
+
+
+\subsection{Resultado de validación de rendimiento de cadena de búsqueda}
+
+\begin{table}[]
+        \caption{}
+        \label{tab:my-table}
+        \begin{tabular}{cccccll}
+                \multicolumn{7}{c}{Resultado de validación de cadena}                                                                                  \\
+                Total de estudios & Estudios que responden a PI & RFound & Recall & Precision & \multicolumn{1}{c}{Fuente} & \multicolumn{1}{c}{Etapa} \\
+                280               & 2                           & 0      & 0\%    & "0.0035"  & Science Direct             & \textbf{Número uno}       \\
+                543               & 16                          & 4      & 80\%   & "0.030"   & IeeeExplore                & \textbf{Número uno}       \\
+                532               & 7                           & 7      & 100\%  & "0.011"   & ACM Digital Library        & \textbf{Número uno}      
+        \end{tabular}
+\end{table}
 
 \subsection{Selección de fuentes}
 Seleccionar bases de datos relevantes en el área de Tecnologías de la Información 
@@ -229,7 +311,6 @@ artículos de interés para el estudio.
         \begin{tabular}{c}
                 \hline
                 Fuentes \\ 
-                %heading
                 \hline 
                 \makecell{iEEE Explore\\
                           Science Direct\\
@@ -239,8 +320,17 @@ artículos de interés para el estudio.
 \end{table}
 \newpage
 
-
-
+\subsection{Términos de búsqueda}
+Los siguientes términos de búsqueda fueron seleccionados con el propósito de identificar los estudios que 
+proveen información relevante a las preguntas de investigación definidas. 
+Para lograr lo antes mencionado, se extrajo un conjunto de palabras clave encontradas en las 
+preguntas de investigación y se llevó a cabo un conjunto de búsquedas piloto con el fin de encontrar
+términos de búsqueda adecuados para hallar investigaciones primarias relevantes a 
+la revisión sistemática de la literatura. Se analizó la lectura de artículos especificados en la bibliografía recomendada, 
+de tal proceso se extrajo el término \emph{Collaborative Requirements}, ya que las necesidades 
+específicas de un mercado son expresadas por un conjunto de usuarios clave y es primordial incluir procesos de gestión de requisitos 
+en un conjunto de clientes.
+A continuación se muestran los términos seleccionados.
 
 \begin{table}[ht]
         \caption{Términos de búsqueda} 
@@ -294,7 +384,8 @@ de información (CE-4).
 \end{enumerate}
 \newpage
 
-\subsection{Proceso de selección}
+\subsection{Proceso de selección} \label{ssec:pro-selec}
+
 Se diseñó un proceso de selección para el proceso de inclusión y exclusión de los estudios 
 encontrados con la cadena de búsqueda especificada, con el propósito de poder documentar 
 las fases de selección y que estas puedan ser replicadas a detalle por los 
@@ -411,13 +502,13 @@ de los datos extraídos.
 
 \subsection{Evaluación de la calidad}
 
-Con el propósito de documentar la calidad de los estudios obtenidos seleccionados, 
-se especificó un conjunto de criterios que fueron aplicados al terminar la 
-selección, detallado en cuadro cinco.
-El conjunto de criterios ha sido diseñado para evaluar la rigurosidad del método y fué 
-diseñado con el objetivo de documentar la calidad de los estudios obtenidos y de esta forma, 
-respaldar los hallazgos de la revisión sistemática de la literatura. Los criterios fueron 
-extraídos del libro \emph{Nombre de libro} referencia.
+Con el propósito de documentar la calidad de los estudios seleccionados, 
+se especificó un conjunto de criterios que fueron evaluados al terminar la 
+selección.
+El conjunto de criterios ha sido diseñado para evaluar la rigurosidad del método, 
+con el objetivo de analizar el enfoque de buenas prácticas al realizar el proceso de 
+investigación, documentar la calidad nos permitió respaldar los hallazgos de la 
+revisión sistemática de la literatura. 
 
 
 \begin{table}[ht]
@@ -438,29 +529,16 @@ extraídos del libro \emph{Nombre de libro} referencia.
         \label{table:tablaterminos}
 \end{table}
 
-\subsection{Método de síntesis de datos}
-El método de síntesis de datos se realizó según la guía de conducción de síntesis narrativa en revisiones
-sistemáticas del 2009. 
 
-\begin{figure}[!htb]
-   \includegraphics[width=\linewidth]{narrativa.png}
-   \caption{Proceso de síntesis narrativa.}
-   \label{fig:sistesisnarrativa}
-\end{figure}
-\newpage
+\subsection{Resultados de evaluación}
+Al terminar el proceso de selección, cada estudio aprobado fué valorado por el autor de la revisión sistemática.
+Los criterios, fueron inspirados de las propuestas especificadas en la guía de \cite{kitchenham2007guidelines}, 
+los cuales se enfocan en evaluar el seguimiento de buenas prácticas al conducir estudios empíricos en el área 
+de ingeniería de software.
 
-\section{Conducción}
-\begin{figure}[!htb]
-   \includegraphics[width=\linewidth]{etapas.png}
-   \caption{Etapas de conducción.}
-   \label{fig:etapasconducción}
-\end{figure}
-
-\subsection{Evaluación de calidad}
-
-\begin{table}[]
-        \caption{}
-        \label{tab:my-table}
+\begin{table}[!htbp]
+        \caption{Resultados de evaluación.} 
+        \label{tab:Resultados de evaluación}
         \centering 
         \begin{tabular}{|c|c|c|c|c|l|l|}
                 \hline
@@ -509,7 +587,37 @@ sistemáticas del 2009.
         \end{tabular}
 \end{table}
 
+
+
 \newpage
+
+\subsection{Método de síntesis de datos}
+Se escogió la síntesis narrativa como método para realizar el proceso de síntasis de los resultados, las fases aplicadas fueron 
+inspiradas en el manual de \emph{noimbre del manual}. La primera fase “Desarrollar una teoría” nos permite contribuir a la 
+interpretación de la información recopilada y evalúa qué tan aplicable es la información en el contexto de la revisión. 
+En la segunda fase “Desarrollar una síntesis preliminar” se realiza un análisis general de los datos para presentar una síntesis 
+preliminar, con el objetivo de identificar patrones o relaciones entre la información recabada, en la tercera fase 
+“Explorar la relación entre los datos.” se repite el análisis sobre la información obtenida para entender la razón de las relaciones y sus efectos 
+en los resultados del estudio. Siguiendo con la cuarta fase “Evaluar la robustez del producto de la síntesis” se habla sobre seguir un proceso 
+para evaluar la calidad de los estudios obtenidos, ya que la robustez de la síntesis depende de la calidad metodológica de los estudios, con el 
+propósito de definir un proceso de evaluación orientado a robustez, se definieron los criterios de calidad con un enfoque hacia el seguimiento de 
+buenas prácticas en desarrollo del método. 
+En la guía no existe una fase centrada en la creación de conclusiones, sin embargo se agregó la fase “Conclusiones y recomendaciones” 
+con el fin de identificar e informar los hallazgos encontrados en la investigación, así como las áreas de oportunidad encontradas.
+
+\begin{figure}[!htb]
+   \includegraphics[width=\linewidth]{narrativa.png}
+   \caption{Proceso de síntesis narrativa.}
+   \label{fig:sistesisnarrativa}
+\end{figure}
+\newpage
+
+\section{Conducción}
+\begin{figure}[!htb]
+   \includegraphics[width=\linewidth]{etapas.png}
+   \caption{Etapas de conducción.}
+   \label{fig:etapasconducción}
+\end{figure}
 
 \section{Resultados}
 
@@ -593,6 +701,7 @@ Llevar a cabo el proceso de extracción, permitió realizar un análisis
 \section{Discusión}
 
 \section{Conclusión}
+
 The conclusion goes here.
 
 % if have a single appendix:

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.10)  13 JAN 2021 00:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.10)  14 JAN 2021 00:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,6 +506,9 @@ LaTeX Warning: Label `tab:datosgenerales' multiply defined.
 LaTeX Warning: Label `table:tablaterminos' multiply defined.
 
 
+LaTeX Warning: Label `fig:sistesisnarrativa' multiply defined.
+
+
 LaTeX Warning: Label `table:tablaterminos' multiply defined.
 
 )
@@ -560,115 +563,62 @@ Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ReporteRSL.bbl' found.
- (./ReporteRSL.bbl)
+ (./ReporteRSL.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                wanderley2017requirements
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 68.
 Package biblatex Info: Reference segment=0 on input line 68.
 
 ** WARNING: \IEEEPARstart is locked out when in conference mode (line 144).
-
-LaTeX Warning: Citation 'wanderley2017requirements' on page 1 undefined on inpu
-t line 164.
-
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 229.
+(Font)              <8> on input line 248.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 229.
+(Font)              <6> on input line 248.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 229.
- [4] [5] [6]
-[7]
-<narrativa.png, id=28, 1427.3325pt x 316.18124pt>
-File: narrativa.png Graphic file (type png)
-<use narrativa.png>
-Package pdftex.def Info: narrativa.png  used on input line 446.
-(pdftex.def)             Requested size: 516.0pt x 114.30278pt.
- [8 <./narrativa.png>]
-<etapas.png, id=34, 1390.19376pt x 371.3875pt>
-File: etapas.png Graphic file (type png)
-<use etapas.png>
-Package pdftex.def Info: etapas.png  used on input line 454.
-(pdftex.def)             Requested size: 516.0pt x 137.84756pt.
+(Font)              <5> on input line 248.
+ [4]
+<recpre.png, id=18, 227.85126pt x 124.465pt>
+File: recpre.png Graphic file (type png)
+<use recpre.png>
+Package pdftex.def Info: recpre.png  used on input line 264.
+(pdftex.def)             Requested size: 159.49478pt x 87.1249pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 461.
-
-[9 <./etapas.png>]
-<chart.png, id=39, 774.895pt x 480.79625pt>
-File: chart.png Graphic file (type png)
-<use chart.png>
-Package pdftex.def Info: chart.png  used on input line 517.
-(pdftex.def)             Requested size: 516.0pt x 320.16566pt.
-
-Overfull \hbox (18.31288pt too wide) in paragraph at lines 573--575
- [][] 
- []
-
-[10 <./chart.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 583--584
-
- []
+               Default added (so using `tbp') on input line 281.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--586
+! Package array Error:  Illegal pream-token (1): `c' used.
 
- []
+See the array package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.284         \begin{tabular}{|1|1|1|}
+                                      
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.284         \begin{tabular}{|1|1|1|}
+                                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 636.
-
-Overfull \hbox (3.37708pt too wide) in paragraph at lines 637--637
-[]\OT1/ptm/m/n/10 R. Cha-nin y col. ``Co-lla-bo-ra-ti-ve Prac-ti-ces for Soft-w
-a-re Re-qui-re-ments Gathe-ring in Soft-wa-re Star-tups''. En: \OT1/ptm/m/it/10
- 2019 IEEE/ACM
- []
-
-[11] [12]
-
-** Conference Paper **
-Before submitting the final camera ready copy, remember to:
-
- 1. Manually equalize the lengths of two columns on the last page
- of your paper;
-
- 2. Ensure that any PostScript and/or PDF output post-processing
- uses only Type 1 fonts and that every step in the generation
- process uses the appropriate paper size.
-
-[13] (./ReporteRSL.aux
-LaTeX Info: Redefining \sptext on input line 18.
-LaTeX Info: Redefining \. on input line 18.
-LaTeX Info: Redefining \% on input line 18.
-)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                ReporteRSL
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'ReporteRSL.run.xml'.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 11684 strings out of 479383
- 209634 string characters out of 5875830
- 952599 words of memory out of 5000000
- 28682 multiletter control sequences out of 15000+600000
- 439705 words of font info for 86 fonts, out of 8000000 for 9000
+ 11672 strings out of 479383
+ 209721 string characters out of 5875830
+ 946658 words of memory out of 5000000
+ 28676 multiletter control sequences out of 15000+600000
+ 438569 words of font info for 85 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 66i,18n,73p,1337b,1786s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr
-8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ReporteRSL.pdf (13 pages, 197720 bytes).
-PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 66i,11n,73p,1337b,1422s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
