@@ -38,6 +38,7 @@
 \usepackage{enumerate}
 \usepackage[table,xcdraw]{xcolor}
 \usepackage{makecell} 
+\usepackage{multirow}
 \usepackage{graphicx}
 \usepackage{url}
 \usepackage[spanish]{babel}
@@ -277,17 +278,23 @@ Donde:
 
 
 \subsection{Resultado de validación de rendimiento de cadena de búsqueda}
+Se realizó la validación de la cadena de búsqueda con el propósito de obtener un número cercano a 100 por ciento para el \emph{recall} y 
+\emph{precision}, sim embargo, no se encontraron  estudios relevantes para \emph{Science Direct}, para IeeeExplore se alcanzó un valor
+aceptable para el \emph{recall}, en ACM digital library, se llegó a cien por ciento, debido a que solo existe un estudio relevante. 
 
-\begin{table}[]
-        \caption{}
+\begin{table}[!htbp]
+\begin{center}
+        \caption{Tabla de evaluación de rendimiento para cadena de búsqueda}
         \label{tab:my-table}
-        \begin{tabular}{cccccll}
-                \multicolumn{7}{c}{Resultado de validación de cadena}                                                                                  \\
-                Total de estudios & Estudios que responden a PI & RFound & Recall & Precision & \multicolumn{1}{c}{Fuente} & \multicolumn{1}{c}{Etapa} \\
-                280               & 2                           & 0      & 0\%    & "0.0035"  & Science Direct             & \textbf{Número uno}       \\
-                543               & 16                          & 4      & 80\%   & "0.030"   & IeeeExplore                & \textbf{Número uno}       \\
-                532               & 7                           & 7      & 100\%  & "0.011"   & ACM Digital Library        & \textbf{Número uno}      
+        \begin{tabular}{|c|c|c|c|c|l|l|}
+                \hline
+                \multicolumn{7}{|c|}{Resultado de validación de cadena}                                                                                \\ \hline
+                Total de estudios & Estudios que responden a PI & RFound & Recall & Precision & \multicolumn{1}{c}{Fuente} & Etapa                     \\ \hline
+                280               & 2                           & 0      & 0\%    & "0.0035"  & Science Direct             & \textbf{Número uno}       \\ \hline
+                543               & 16                          & 4      & 80\%   & "0.030"   & IeeeExplore                & \textbf{Número uno}       \\ \hline
+                532               & 7                           & 1      & 100\%  & "0.011"   & ACM Digital Library        & \textbf{Número uno}       \\ \hline
         \end{tabular}
+\end{center}
 \end{table}
 
 \subsection{Selección de fuentes}
@@ -537,58 +544,44 @@ los cuales se enfocan en evaluar el seguimiento de buenas prácticas al conducir
 de ingeniería de software.
 
 \begin{table}[!htbp]
-        \caption{Resultados de evaluación.} 
-        \label{tab:Resultados de evaluación}
-        \centering 
-        \begin{tabular}{|c|c|c|c|c|l|l|}
+        \caption{Resultados de evaluación}
+        \label{tab:tablaresultados}
+                \begin{center}
+        \begin{tabular}{|c|c|c|c|c|c|l|}
                 \hline
-                \multicolumn{7}{|l|}{Evaluación de calidad}                                                                                                                                               \\ \hline
-                \multicolumn{1}{|l|}{Estudio} & \multicolumn{1}{l|}{CC1} & \multicolumn{1}{l|}{CC2} & \multicolumn{1}{l|}{CC3} & \multicolumn{1}{l|}{CC4} & \multicolumn{2}{l|}{Evaluación resultante}    \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-1                          & 1                        & 1                        & 0.5                      & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-2                          & 0.5                      & 1                        & 0.5                      & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-3                          & 1                        & 1                        & 0.5                      & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-4                          & 1                        & 0.5                      & 0.5                      & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-5                          & 1                        & 0.5                      & 0                        & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-6                          & 1                        & 1                        & 0.5                      & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-7                          & 1                        & 0.5                      & 0.5                      & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-8                          & 1                        & 0.5                      & 1                        & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-9                          & 1                        & 1                        & 0.5                      & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-10                         & 1                        & 1                        & 1                        & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-11                         & 1                        & 1                        & 1                        & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-12                         & 1                        & 1                        & 1                        & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-13                         & 1                        & 1                        & 1                        & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-14                         & 1                        & 1                        & 1                        & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-15                         & 1                        & 0,5                      & 0,5                      & 0,5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-16                         & 1                        & 1                        & 0.5                      & 0.5                      & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-17                         & 1                        & 1                        & 0.5                      & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-18                         & 1                        & 1                        & 1                        & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-19                         & 1                        & 1                        & 1                        & 1                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
-                \rowcolor[HTML]{FFFFFF} 
-                EF-20                         & 0.5                      & 0                        & 0.5                      & 0                        & \multicolumn{2}{l|}{\cellcolor[HTML]{FFFFFF}} \\ \hline
+                \multicolumn{7}{|c|}{Evaluación de calidad}                                       \\ \hline
+                Estudio  & C1   & C2   & C3   & C4   & \multicolumn{2}{c|}{Evaluación resultante} \\ \hline
+                EF-1     & 1    & 1    & 0.5  & 1    & \multicolumn{2}{c|}{3.5}                   \\ \hline
+                EF-2     & 0.5  & 1    & 0.5  & 0.5  & \multicolumn{2}{c|}{2.5}                   \\ \hline
+                EF-3     & 1    & 1    & 0.5  & 1    & \multicolumn{2}{c|}{3.5}                   \\ \hline
+                EF-4     & 1    & 0.5  & 0.5  & 1    & \multicolumn{2}{c|}{3}                     \\ \hline
+                EF-5     & 1    & 0.5  & 0    & 0.5  & \multicolumn{2}{c|}{2}                     \\ \hline
+                EF-6     & 1    & 1    & 0.5  & 0.5  & \multicolumn{2}{c|}{3}                     \\ \hline
+                EF-7     & 1    & 0.5  & 0.5  & 1    & \multicolumn{2}{c|}{3}                     \\ \hline
+                EF-8     & 1    & 0.5  & 1    & 1    & \multicolumn{2}{c|}{3.5}                   \\ \hline
+                EF-9     & 1    & 1    & 0.5  & 0.5  & \multicolumn{2}{c|}{3}                     \\ \hline
+                EF-10    & 1    & 1    & 1    & 0.5  & \multicolumn{2}{c|}{3.5}                   \\ \hline
+                EF-11    & 1    & 1    & 1    & 0.5  & \multicolumn{2}{c|}{3.5}                   \\ \hline
+                EF-12    & 1    & 1    & 1    & 0.5  & \multicolumn{2}{c|}{3.5}                   \\ \hline
+                EF-13    & 1    & 1    & 1    & 1    & \multicolumn{2}{c|}{4}                     \\ \hline
+                EF-14    & 1    & 1    & 1    & 1    & \multicolumn{2}{c|}{4}                     \\ \hline
+                EF-15    & 1    & 0,5  & 0,5  & 0,5  & \multicolumn{2}{c|}{2.5}                   \\ \hline
+                EF-16    & 1    & 1    & 0.5  & 0.5  & \multicolumn{2}{c|}{3}                     \\ \hline
+                EF-17    & 1    & 1    & 0.5  & 1    & \multicolumn{2}{c|}{3.5}                   \\ \hline
+                EF-18    & 1    & 1    & 1    & 1    & \multicolumn{2}{c|}{4}                     \\ \hline
+                EF-19    & 1    & 1    & 1    & 1    & \multicolumn{2}{c|}{4}                     \\ \hline
+                EF-20    & 0.5  & 0    & 0.5  & 0    & \multicolumn{2}{c|}{1}                     \\ \hline
         \end{tabular}
+        \end{center}
 \end{table}
 
-
-
+Los criterios seleccionados proveen una métrica objetiva para determinar la confiabilidad de un artículo 
+en particular para revisión sistemática, la calificación asignada a los criterios evaluados puede ser 
+respondida con un 1 en \emph{Muy positivo}, 0.5 en \emph{Normal} y 0 para \emph{Sin valor}. Los resultados 
+pueden ser mostrados en el cuadro \ref{tab:tablaresultados}. Como métrica aceptable se definió entre 2 y 4, siguiendo la guía 
+para aseguración de calidad detallada en \cite{kitchenhambook}. Por lo cual, se descartó el estudio primario EF-20 como 
+artículo apto para la revisión sistemática de la literatura. 
+ 
 \newpage
 
 \subsection{Método de síntesis de datos}
@@ -613,11 +606,23 @@ con el fin de identificar e informar los hallazgos encontrados en la investigaci
 \newpage
 
 \section{Conducción}
-\begin{figure}[!htb]
-   \includegraphics[width=\linewidth]{etapas.png}
-   \caption{Etapas de conducción.}
-   \label{fig:etapasconducción}
-\end{figure}
+
+
+\begin{table}[!htbp]
+        \caption{}
+        \label{tab:my-table}
+        \caption{Etapas de conducción.}
+        \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
+                \hline
+                \multirow{2}{*}{Fuente} & \multirow{2}{*}{Cadena de búsqueda}                                                                                                                                                                                                                                             & \multirow{2}{*}{Resultados} & \multicolumn{4}{l|}{Etapa 1} & \multicolumn{4}{l|}{Etapa 2} & Etapa 3 \\ \cline{4-12} 
+                                        &                                                                                                                                                                                                                                                                                 &                             & CI1   & CI2   & CE1   & CI4  & CI3   & CE2   & CE3   & CE4  & CI5     \\ \hline
+                                        Science Direct          & \begin{tabular}[c]{@{}l@{}}("Requirements Engineering" \\ AND \\ "Software as a Service" \\ OR "Saas" AND "Cloud")\end{tabular}                                                                                                                                                 & 280                         & 279   & 279   & 279   & 2    & 3     & 3     & 3     & 3    & 2       \\ \hline
+                                                ACM Digital Library     & \begin{tabular}[c]{@{}l@{}}("Requirements Engineering" \\ AND "Collaborative requirements" \\ AND "Software as a Service" \\ OR "Saas" AND "Cloud")\end{tabular}                                                                                                                & 532                         & 532   & 532   & 532   & 7    & 7     & 7     & 7     & 7    & 4       \\ \hline
+                                                        IEEEXplore              & \begin{tabular}[c]{@{}l@{}}(("Requirements Engineering"  \\ AND "Software as a Service" \\ AND "Cloud computing" OR "Saas") \\ OR ("Requirements Engineering" \\ AND "Software as a service" OR "Saas" \\ AND "Cloud computing" OR Collaborative \\ Requirements))\end{tabular} & 543                         & 543   & 543   & 543   & 16   & 15    & 14    & 14    & 14   & 14      \\ \hline
+                                                                \multicolumn{2}{|l|}{Total}                                                                                                                                                                                                                                                                               & 1355                        & 1354  & 1354  & 1354  & 40   & 33    & 24    & 24    & 24   & 20      \\ \hline
+        \end{tabular}
+\end{table}
+
 
 \section{Resultados}
 
