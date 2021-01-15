@@ -181,7 +181,11 @@ así como ofrecer un conjunto de áreas de investigación abierta.
 \newpage
 
 \section{Método de investigación}
-
+Inspirados por el método establecido en la guía de Kitchenham y Charters \cite{kitchenham2007guidelines}, 
+se llevó a cabo la revisión en diferentes etapas: desarrollo del protocolo, identificación de criterios de 
+inclusión y exclusión, búsqueda y selección de estudios relevantes, evaluación de calidad de los estudios 
+resultantes y proceso de extracción de datos y síntesis, en el resto de la sección se describe a 
+detalle los procedimientos de las etapas. 
 
 \subsection{Preguntas de investigación}
 El objetivo de la Revisión Sistemática de la Literatura es encontrar el estado del arte del las actividades de requisitos para un \emph{software} como servicio. 
@@ -310,7 +314,6 @@ Es importante notar que cada fuente de datos contiene un conjunto de opciones pa
 esto se tomó en cuenta para posteriormente, diseñar criterios individuales con el objetivo de mejorar la calidad de inclusión de los 
 artículos de interés para el estudio.
 
-
 \begin{table}[ht]
         \caption{Fuentes seleccionadas\strut}
         \label{tablafuentes} 
@@ -410,7 +413,7 @@ excluir aquellos que no contienen al menos dos términos de búsqueda (CI4).
   \item{Idioma inglés. (CI1)}
   \item{Publicado entre 2010-2020. (CI2)}
   \item{No es un libro, capítulo de libro, curso o estándar. (CE1)}
-  \item{El título y abstract dan indicios de que se trata del dominio de interés. (CI4)}
+  \item{Contiene al menos dos términos de búsqueda. (CI3)}
 \end{enumerate}
 
 \subsection{Etapa número dos}
@@ -420,7 +423,7 @@ la investigación si no ha sido encontrado en otra búsqueda en una de datos dif
 no existe una versión anterior (CE3) y se pudo acceder al texto completo (CE4)
 
 \begin{enumerate}[(a)]
-  \item{Contiene al menos dos términos de búsqueda. (CI3)}
+  \item{El título y abstract dan indicios de que se trata del dominio de interés. (CI4)}
   \item{No duplicados. (CE2)}
   \item{No hay versiones anteriores. (CE3) }
   \item{Acceso al texto completo. (CE4)}
@@ -606,23 +609,40 @@ con el fin de identificar e informar los hallazgos encontrados en la investigaci
 \newpage
 
 \section{Conducción}
+El proceso de búsqueda se ejecutó manualmente, la ejecución de las búsquedas realizadas resultó en un total de 
+1355 artículos, el proceso de selección definido consiste en tres etapas, la etapa número uno se realizó 
+con asistencia de las herramientas de búsqueda, lo que culminó en un total de 25 estudios. En la etapa número dos 
+se realizó un análisis preeliminar de los artículos, realizando un análisis del titulo y el resumen, se aseguró que 
+existiera acceso al texto completo, lo que resultó en  un total de 23 artículos. En la última etapa, se leeyó el 
+texto completo, para saber si contesta a alguna pregunta de investigación. El proceso anterior puede ser apreciado en la tabla \ref{tab:cond}.
 
 
-\begin{table}[!htbp]
-        \caption{}
-        \label{tab:my-table}
+\begin{table}[!htp]
+        \label{tab:cond}
         \caption{Etapas de conducción.}
         \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|}
                 \hline
                 \multirow{2}{*}{Fuente} & \multirow{2}{*}{Cadena de búsqueda}                                                                                                                                                                                                                                             & \multirow{2}{*}{Resultados} & \multicolumn{4}{l|}{Etapa 1} & \multicolumn{4}{l|}{Etapa 2} & Etapa 3 \\ \cline{4-12} 
                                         &                                                                                                                                                                                                                                                                                 &                             & CI1   & CI2   & CE1   & CI4  & CI3   & CE2   & CE3   & CE4  & CI5     \\ \hline
-                                        Science Direct          & \begin{tabular}[c]{@{}l@{}}("Requirements Engineering" \\ AND \\ "Software as a Service" \\ OR "Saas" AND "Cloud")\end{tabular}                                                                                                                                                 & 280                         & 279   & 279   & 279   & 2    & 3     & 3     & 3     & 3    & 2       \\ \hline
+                                        Science Direct          & \begin{tabular}[c]{@{}l@{}}("Requirements Engineering" \\ AND \\ "Software as a Service" \\ OR "Saas" AND "Cloud")\end{tabular}                                                                                                                                                 & 280                         & 279   & 279   & 279   & 2    & 2     & 2     & 2     & 2    & 2       \\ \hline
                                                 ACM Digital Library     & \begin{tabular}[c]{@{}l@{}}("Requirements Engineering" \\ AND "Collaborative requirements" \\ AND "Software as a Service" \\ OR "Saas" AND "Cloud")\end{tabular}                                                                                                                & 532                         & 532   & 532   & 532   & 7    & 7     & 7     & 7     & 7    & 4       \\ \hline
                                                         IEEEXplore              & \begin{tabular}[c]{@{}l@{}}(("Requirements Engineering"  \\ AND "Software as a Service" \\ AND "Cloud computing" OR "Saas") \\ OR ("Requirements Engineering" \\ AND "Software as a service" OR "Saas" \\ AND "Cloud computing" OR Collaborative \\ Requirements))\end{tabular} & 543                         & 543   & 543   & 543   & 16   & 15    & 14    & 14    & 14   & 14      \\ \hline
-                                                                \multicolumn{2}{|l|}{Total}                                                                                                                                                                                                                                                                               & 1355                        & 1354  & 1354  & 1354  & 40   & 33    & 24    & 24    & 24   & 20      \\ \hline
+                                                                \multicolumn{2}{|l|}{Total}                                                                                                                                                                                                                                                                               & 1355                        & 1354  & 1354  & 1354  & 25 & 24 & 23    & 23    & 23   & 20      \\ \hline
         \end{tabular}
 \end{table}
 
+Al terminar la última fase de selección, se hizo uso de la nube para almacenar los artículos, formatos y hojas en \emph{Google Drive}, con el propósito de documentar a detalle 
+el proceso de selección y la fase de síntesis detallada. Para el alojamiento local se utilzaron archivos de referencia en formato BibTex 
+con extensión .Bib, después de realizar la evaluación de calidad de los estudios, se realizó el proceso de extracción de datos, para desarrollar una síntesis 
+preeliminar, el proceso fué documentado en una hoja de \emph{Google Sheets} con el propósito de facilitar el acceso a la información de la investigación, 
+se puede encontrar el formato en el apéndice \ref{ape:extra}. Siguiendo con la síntesis de datos, se explora una relación 
+entre los datos extraídos, para llevar a cabo el proceso, se definió un formato para síntesis detallada en \emph{Google Sheets}, 
+con el objetivo de realizar un análisis a profundidad, para obtener las relaciones entre los estudios y sus efectos en los resultados obtenidos. Al realizar esta etapa 
+se pudieron encontrar técnicas utilizadas de elicitación (PI1), los retos encontrados en elicitación (PI-a), técnicas de análisis (PI2), actividades de validación (PI3) y 
+temas abiertos en las actividades, técnicas de requisitos para software como servicio (PI4). El formato para síntesis de datos fué de gran ayuda para mapear las actividades, técnicas y 
+temas propuestos en la literatura, ya que permitió un análisis visual de la matriz contenedora y de esta forma facilitó la identificación de relaciones entre datos. Se puede 
+encontrar el formato y la hoja mencionadas previamente en el siguiente enlace: 
+https://docs.google.com/spreadsheets/d/1zrzO9t3ukyxNGzbueZnz5dIirBylgEmgJ1LfvfIrVHg/edit?usp=sharing. 
 
 \section{Resultados}
 
@@ -634,7 +654,7 @@ con el fin de identificar e informar los hallazgos encontrados en la investigaci
 
 Llevar a cabo el proceso de extracción, permitió realizar un análisis 
 
-\begin{table}[ht]
+\begin{table}[!htbp]
 \caption{Tabla de estudios primarios encontrados } 
 \centering
         \scalebox{1.2}{
@@ -717,36 +737,26 @@ The conclusion goes here.
 % is possibly needed
 
 \appendices
-\section{Proof of the First Zonklar Equation}
-Appendix one text goes here.
+\section{Apéndice}
+
+\begin{table}[!htbp]
+        \begin{center}
+        \caption{Tabla de extracción de datos}
+        \label{ape:extra}
+        \scalebox{0.5}{
+        \begin{tabular}{|l|l|l|l|l|l|l|l|l|}
+                \hline
+                \textbf{ID}                                  & \textbf{Título}                        & \textbf{Autores}                      & \textbf{Año}                         & \textbf{Fuente}                             & \textbf{Conf o journals}      & \textbf{DOI}         & \textbf{Palabras clave}      & \textit{\textbf{Abstract o resumen}} \\ \hline
+                EF-1                                         & Título de estudio.                     & Autores del estudio.                  & Año de publicación.                  & Fuente de datos.                            & Tipo de publicación           & Identificador único. & Palabras clave del artículo. & Resumen del artículo.                \\ \hline
+                \textbf{PI}                                  & \textbf{Técnicas de elicitación (PI1)} & \textbf{Retos de elicitación  (PI-a)} & \textbf{Técnicas de análisis  (PI2)} & \textbf{Actividades para validación  (PI3)} & \textbf{Temas abiertos (PI4)} & \textbf{}            &                              &                                      \\ \hline
+                Pregunta de investigación a la que responde. & Responde a PI1                         & Responde a PI-a                       & Responde a PI2                       & Responde a PI3                              & Responde a PI4                &                      &                              &                                      \\ \hline
+        \end{tabular}}
+        \end{center}
+\end{table}
+
 
 % you can choose not to have a title for an appendix
 % if you want by leaving the argument blank
-\section{}
-Appendix two text goes here.
-
-% trigger a \newpage just before the given reference
-% number - used to balance the columns on the last page
-% adjust value as needed - may need to be readjusted if
-% the document is modified later
-%\IEEEtriggeratref{8}
-% The "triggered" command can be changed if desired:
-%\IEEEtriggercmd{\enlargethispage{-5in}}
-
-% references section
-
-% can use a bibliography generated by BibTeX as a .bbl file
-% BibTeX documentation can be easily obtained at:
-% http://mirror.ctan.org/biblio/bibtex/contrib/doc/
-% The IEEEtran BibTeX style support page is at:
-% http://www.michaelshell.org/tex/ieeetran/bibtex/
-%\bibliographystyle{IEEEtran}
-% argument is your BibTeX string definitions and bibliography database(s)
-%\bibliography{IEEEabrv,../bib/paper}
-%
-% <OR> manually copy in the resultant .bbl file
-% set second argument of \begin to the number of references
-% (used to reserve space for the reference number labels box)
 \printbibliography
 
 
