@@ -2378,6 +2378,9 @@
     <bcf:citekey order="26">EF-18</bcf:citekey>
     <bcf:citekey order="27">EF-19</bcf:citekey>
     <bcf:citekey order="28">EF-20</bcf:citekey>
+    <bcf:citekey order="29">existente1</bcf:citekey>
+    <bcf:citekey order="30">existente2</bcf:citekey>
+    <bcf:citekey order="31">existente3</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

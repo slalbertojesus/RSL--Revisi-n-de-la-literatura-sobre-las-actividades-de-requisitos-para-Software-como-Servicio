@@ -72,6 +72,48 @@
       \endverb
       \keyw{SaaS,ERP customization,cloud computing,enterprise resource planning,Software product line,systematic reuse,ecosystems,requirements elicitation}
     \endentry
+    \entry{existente1}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=c749e0f0e9821a08e5e0fcf028c07774}{%
+           family={{Benslimane}},
+           familyi={B\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=0b523ad39ef3e62eb81c7532b0eb881c}{%
+           family={{Plaisent}},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d893efcbb3a571c92e9ccfe1295657c5}{%
+           family={{Bernard}},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=4f4e2dc3fb809348a14514ee8d55952e}{%
+           family={{Bahli}},
+           familyi={B\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{65f9156bd8504c996564acf139c3ee5c}
+      \strng{fullhash}{911e633c862dd34539998c83ee48ba95}
+      \strng{bibnamehash}{65f9156bd8504c996564acf139c3ee5c}
+      \strng{authorbibnamehash}{65f9156bd8504c996564acf139c3ee5c}
+      \strng{authornamehash}{65f9156bd8504c996564acf139c3ee5c}
+      \strng{authorfullhash}{911e633c862dd34539998c83ee48ba95}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2014 IEEE 6th International Conference on Cloud Computing Technology and Science}
+      \field{title}{Key Challenges and Opportunities in Cloud Computing and Implications on Service Requirements: Evidence from a Systematic Literature Review}
+      \field{year}{2014}
+      \field{pages}{114\bibrangedash 121}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/CloudCom.2014.115
+      \endverb
+    \endentry
     \entry{EF-3}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=71ec75ee38ef3e446a4316810e953628}{%
@@ -865,6 +907,108 @@
       \range{pages}{4}
       \verb{doi}
       \verb 10.1109/SOCA.2011.6166262
+      \endverb
+    \endentry
+    \entry{existente2}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=59256de7e4d934f0c3f803374ae9345e}{%
+           family={Wanderley},
+           familyi={W\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3ba1268140a4b3e87a856d979239f5e9}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a8e750288ad440bd97226483b86627c1}{%
+           family={Goulão},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2d5712d094dd9bb94b19c6eb99c2cdda}{%
+           family={Araújo},
+           familyi={A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=44e959a30f598c17b4bf9e736906ff01}{%
+           family={Filho},
+           familyi={F\bibinitperiod},
+           given={Gilberto\bibnamedelimb A.\bibnamedelimi Cysneiros},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=c691266d453676e5ae92536b8573b56f}{%
+           family={Misra},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0309fe7c25c8b4a8c3127928071149c8}
+      \strng{fullhash}{359dc0913f6c8e6628979f4386f862c1}
+      \strng{bibnamehash}{0309fe7c25c8b4a8c3127928071149c8}
+      \strng{authorbibnamehash}{0309fe7c25c8b4a8c3127928071149c8}
+      \strng{authornamehash}{0309fe7c25c8b4a8c3127928071149c8}
+      \strng{authorfullhash}{359dc0913f6c8e6628979f4386f862c1}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{ICCSA}
+      \field{title}{Requirements Engineering for Cloud Systems: A Mapping Study Design}
+      \field{year}{2017}
+    \endentry
+    \entry{existente3}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=59256de7e4d934f0c3f803374ae9345e}{%
+           family={Wanderley},
+           familyi={W\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=3ba1268140a4b3e87a856d979239f5e9}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=1b1033001089b6eb342237c4ff6cde9b}{%
+           family={Goulão},
+           familyi={G\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e0100c28c3639f8c6cb939ec0a99250c}{%
+           family={Araújo},
+           familyi={A\bibinitperiod},
+           given={João},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5786969cfb651833b17b25bcd2f03d02}{%
+           family={Cysneiros},
+           familyi={C\bibinitperiod},
+           given={Gilberto},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bfd09809f316b3b9b693fc6657344ce5}{%
+           family={Misra},
+           familyi={M\bibinitperiod},
+           given={Ananya},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{0309fe7c25c8b4a8c3127928071149c8}
+      \strng{fullhash}{08ecaf03df054eb79763e7c69b906b87}
+      \strng{bibnamehash}{0309fe7c25c8b4a8c3127928071149c8}
+      \strng{authorbibnamehash}{0309fe7c25c8b4a8c3127928071149c8}
+      \strng{authornamehash}{0309fe7c25c8b4a8c3127928071149c8}
+      \strng{authorfullhash}{08ecaf03df054eb79763e7c69b906b87}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-319-62406-8}
+      \field{month}{07}
+      \field{title}{Requirements Engineering for Cloud Systems: A Mapping Study Design}
+      \field{year}{2017}
+      \field{pages}{335\bibrangedash 349}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/978-3-319-62407-5_24
       \endverb
     \endentry
     \entry{EF-7}{inproceedings}{}
