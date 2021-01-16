@@ -204,9 +204,6 @@ El objetivo de la Revisión Sistemática de la Literatura es encontrar el estado
   Motivación: Identificar las técnicas que utilizadas para definir un proceso de validación de requisitos para un software como servicio.
 
   \item\emph{¿Qué temas abiertos se identifican en la literatura reciente en el desarrollo de Software como Servicio?}
-  \begin{enumerate}[(a)]
-  \item \emph{¿Qué temas abiertos existen relacionados a las actividades llevadas a cabo en la gestión de requisitos de un software como servicio?}
-  \end{enumerate}
   Motivación: Identificar los temas abiertos sugeridos en la literatura relacionada a las actividades de elicitación, análisis, validación y gestión de cambios 
  para requisitos de un software como servicio.
 \end{enumerate}
@@ -541,6 +538,7 @@ revisión sistemática de la literatura.
 
 
 \subsection{Resultados de evaluación}
+\label{sub:reseval}
 Al terminar el proceso de selección, cada estudio aprobado fué valorado por el autor de la revisión sistemática.
 Los criterios, fueron inspirados de las propuestas especificadas en la guía de \cite{kitchenham2007guidelines}, 
 los cuales se enfocan en evaluar el seguimiento de buenas prácticas al conducir estudios empíricos en el área 
@@ -643,9 +641,20 @@ temas abiertos en las actividades y técnicas de requisitos para software como s
 temas propuestos en la literatura, ya que permitió un análisis visual de la matriz contenedora y de esta forma facilitó la identificación de relaciones entre datos. Se puede 
 encontrar el formato y la hoja mencionadas previamente en el siguiente enlace: 
 https://docs.google.com/spreadsheets/d/1zrzO9t3ukyxNGzbueZnz5dIirBylgEmgJ1LfvfIrVHg/edit?usp=sharing. 
+\newpage
 
 \section{Resultados}
-Llevar a cabo el proceso de extracción, permitió realizar un análisis 
+Se intendificó un total de 19 estudios primarios: vea la tabla \ref{tab:total} enfocados a alguna fase de requisitos en un software como servicio, 
+los estudios incluídos cubren temas de investigación diferentes, utilizan metodologías de investigación variadas y fueron realizados en 
+contextos diferentes que abarcan desde cursos de universidad hasta proyectos profesionales. Se definieron cinco grupos para almacenar los estudios,
+ cada uno relacionado con una pregunta de investigación. Después se procedió a realizar un 
+análisis e interpretación de los datos recopilados, se identificó un incremento en el año 2011, el cual puede 
+ser resultante de la madurez y adopción del termino por investigadores \emph{Software as a service}, es notable 
+que la inclinación a realizar estudios en el área de requisitos del software como servicio disminuyó hasta el 
+2016. Entre los retos encontrados al realizar la fase de elicitación, se encuentra la falta de enfoque hacia 
+documentar y gestionar requisitos del cliente, lo cual resulta preocupante para el área, ya que el decremento 
+de estudios así como la falta de interés en gestión de requisitos es un problema grave que afecta directamente 
+a la calidad del producto final. La tabla con los estudios primarios por años se puede encontrar a continuación.
 
 
 \begin{figure}[!htbp]
@@ -654,15 +663,24 @@ Llevar a cabo el proceso de extracción, permitió realizar un análisis
    \label{fig:estudiostotales}
 \end{figure}
 
+Es evidente que existe una falta de estudios enfocados al análisis, dado que un 31 por ciento de los estudios (que es un número reducido, 
+dada la popularidad actual e importancia de los requisitos en la calidad de un producto final) tiene un enfoque hacia el análisis, se debe  
+indicar que hay un impacto directo del proceso de análisis en el producto final y la falta de actividades reportadas en la literatura es 
+alarmante. 
+\newpage
+
+A continuación se detalla la tabla que contiene el total de estudios que pasaron el proceso de selección, 
+y la evaluación de calidad detallada en la sección \ref{sub:reseval}, se eliminó el estudio EF-20, debido a 
+que no aprobó el proceso de evaluación. 
 
 \begin{table}[!htbp]
+\label{tab:total}
 \caption{Tabla de estudios primarios encontrados } 
 \centering
         \scalebox{1.2}{
         \begin{tabular}{c c c c}
                 \hline
                 ID & Autor(es) & Año de publicación & Referencia \\ [0.5ex] % inserts table
-                %heading
                 \hline
                 EF-1 & Xin Zhou, Li Yi, Ying Liu & 2010 & \cite{EF-1} \\
                 \hline
@@ -702,25 +720,77 @@ Llevar a cabo el proceso de extracción, permitió realizar un análisis
                 \hline 
                 EF-19 & Jorge Melegatia, Alfredo Goldman, Fabio Kon, Xiaofeng Wang & 2019 & \cite{EF-19} \\
                 \hline 
-                EF-20 & Ivan Prakasa, Osamu Shigo & 2015 & \cite{EF-20} \\
-                \hline 
         \end{tabular}}
         \label{table:tablaterminos}
 \end{table}
-\newpage
 
-\emph{¿Qué técnicas de elicitación se han utilizado para la identificación de requisitos de Software como Servicio?}
-  \begin{enumerate}[(a)]
-  \item \emph{¿Qué retos se presentan en la elicitación?}
-  \end{enumerate}
+\emph{¿Qué técnicas de elicitación se han utilizado para la identificación de requisitos de Software como Servicio?} \\
+Las técnicas encontradas están enfocadas en diferentes perspectivas para realizar la elicitación, el enfoque más 
+frecuente reportado en la literatura es \emph{Digital Workshop} \cite{EF-1,EF-4,EF-5,EF-8,EF-9,EF-13,EF-15} 
+ya que es una ténica enfocada en la comunicación
+entre \emph{stakeholders} y el desarrollo de requisitos de un software como servicio requiere de estrategias 
+enfocadas en el conocimiento y consenso colectivo para abordar el proceso de elicitación. 
+Sin embargo, la literatura arrojó un conjunto de variedad de técnicas, como \emph{LEL} \cite{EF-6} que utiliza lenguaje 
+de modelado en combinación con una \emph{Workshop}, se encontró una técnica que utiliza inteligencia artificial 
+para la asistencia de minería de requisitos en sistemas con múltiples clientes, en inglés \emph{AI assisted requirements mining} \cite{EF-5}
+Se encontró un conjunto de técnicas tradicionales que fueron adaptadas, como \emph{Surveys} \cite{EF-2}, \emph{JAD sessions} \cite{EF-1}, \emph{Prototyping} \cite{EF-2},
+\emph{WorkShop} \cite{EF-14, EF-6}, \emph{Interview} \cite{EF-11}, \emph{Document analysis} \cite{EF-15}.
+También se encontró una técnica enfocada a metas \emph{Goal oriented elicitation techniques} \cite{EF-18} y procesos informales reportados como 
+un proceso de elicitación, como el obtener requisitos como resultado de analizar productos rivales \emph{Requirements Elicitation Derived from Mining Rival Products} \cite{EF-19}.
+
+\begin{table}[h!]
+        \caption{Estudios con técnicas de elicitación}
+        \label{tab:tec-elici}
+        \begin{center}
+        \begin{tabular}{|l|l|}
+                \hline
+                \multicolumn{2}{|c|}{Estudios con técnicas de elicitación}                                                \\ \hline
+                Estudios & Técnicas encontradas                                                                           \\ \hline
+                EF-1     & JAD  y Digital Workshop                                                                        \\ \hline
+                EF-2     & Prototyping y Surveys                                                                          \\ \hline
+                EF-4     & Digital Workshop                                                                               \\ \hline
+                EF-5     & \begin{tabular}[c]{@{}l@{}}Digital workshops y \\ AI assisted requirements mining\end{tabular} \\ \hline
+                        EF-6     & Workshop y LEL                                                                                 \\ \hline
+                        EF-7     & Digital Workshop                                                                               \\ \hline
+                        EF-9     & Digital Workshop                                                                               \\ \hline
+                        EF-11    & Interview                                                                                      \\ \hline
+                        EF-13    & Digital Workshop                                                                               \\ \hline
+                        EF-14    & Workshop                                                                                       \\ \hline
+                        EF-15    & Document analysis y Digital workShop                                                            \\ \hline
+                        EF-18    & Goal-oriented elicitation techniques                                                           \\ \hline
+                        EF-19    & Requirements Elicitation Derived from Mining Rival Products                                    \\ \hline
+        \end{tabular}
+        \end{center}
+\end{table}
+
+\begin{table}[h!]
+        \caption{Estudios con técnicas combinadas}
+        \label{tab:my-table}
+        \begin{center}
+        \begin{tabular}{|l|l|}
+                \hline
+                \multicolumn{2}{|c|}{Estudios con técnicas combinadas}                                                    \\ \hline
+                Estudios & Técnicas combinadas                                                                            \\ \hline
+                EF-1     & JAD  y Digital Workshop                                                                        \\ \hline
+                EF-2     & Prototyping y Surveys                                                                          \\ \hline
+                EF-5     & \begin{tabular}[c]{@{}l@{}}Digital workshops y\\  AI assisted requirements mining\end{tabular} \\ \hline
+                        EF-6     & Workshop y LEL                                                                                 \\ \hline
+                        EF-15    & Docment analysis y Digital workShop                                                            \\ \hline
+        \end{tabular}
+        \end{center}
+\end{table}
+
+\begin{enumerate}[(a)]
+\item \emph{¿Qué retos se presentan en la elicitación?}
+\end{enumerate}
+
+
 
 \emph{¿Qué técnicas de análisis se han utilizado para la definición de requisitos de Software como Servicio?}\\
 
 \emph{¿Qué actividades se han utilizado para llevar a cabo la validación de los requisitos de un Software como Servicio?}\\
 
 \emph{¿Qué temas abiertos se identifican en la literatura reciente en el desarrollo de Software como Servicio?}
-
-\emph{¿Qué temas abiertos existen relacionados a las actividades llevadas a cabo en la gestión de requisitos de un software como servicio?}
 
 \section{Amenazas a la validez}
 Las limitación principal de esta revisión sistemática de la literatura es la falta de objetividad al llevar a cabo el proceso de selección, 
@@ -745,7 +815,7 @@ en contraste con las revisiones mencionadas, nuestra investigación posee un mé
 creación de preguntas de investigación, evaluación del proceso de búsqueda, evaluación de cadenas de búsqueda, proceso de selección
 estrategia para extracción de datos y método para síntesis de los mismos y evaluación de calidad de los datos obtenidos. 
 Los estudios no cuentan con los procesos antes mencionados, por lo que se puede asegurar que el trabajo actual cubre puntos clave
-de seguimiento de buenas prácticas en un desarrollo de una investigación, así como también se enfoca en áreas de conocimiento sin 
+de seguimiento de buenas prácticas en el desarrollo de una investigación, así como también, se enfoca en áreas de conocimiento sin 
 acercamiento previo. 
 
 \section{Conclusión}
