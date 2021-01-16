@@ -616,48 +616,6 @@
       \field{pages}{b92}
       \range{pages}{-1}
     \endentry
-    \entry{EF-20}{article}{}
-      \name{author}{2}{}{%
-        {{hash=bf658fc079074ba20876f4ea83a833e0}{%
-           family={Prakasa},
-           familyi={P\bibinitperiod},
-           given={Ivan},
-           giveni={I\bibinitperiod}}}%
-        {{hash=4f3d57df90d7afc1ddeb560dde0dd488}{%
-           family={Shigo},
-           familyi={S\bibinitperiod},
-           given={Osamu},
-           giveni={O\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier {BV}}%
-      }
-      \strng{namehash}{305e030b83f79550f95b3ccedacc3ff7}
-      \strng{fullhash}{305e030b83f79550f95b3ccedacc3ff7}
-      \strng{bibnamehash}{305e030b83f79550f95b3ccedacc3ff7}
-      \strng{authorbibnamehash}{305e030b83f79550f95b3ccedacc3ff7}
-      \strng{authornamehash}{305e030b83f79550f95b3ccedacc3ff7}
-      \strng{authorfullhash}{305e030b83f79550f95b3ccedacc3ff7}
-      \field{sortinit}{P}
-      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Procedia Computer Science}
-      \field{title}{Global Collaboration Requirement Analysis System in Cloud Computing}
-      \field{volume}{62}
-      \field{year}{2015}
-      \field{pages}{332\bibrangedash 334}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1016/j.procs.2015.08.403
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1016/j.procs.2015.08.403
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1016/j.procs.2015.08.403
-      \endverb
-    \endentry
     \entry{EF-14}{inproceedings}{}
       \name{author}{3}{}{%
         {{hash=d02903fe42a45b4029b9a6e5dead0bd6}{%
