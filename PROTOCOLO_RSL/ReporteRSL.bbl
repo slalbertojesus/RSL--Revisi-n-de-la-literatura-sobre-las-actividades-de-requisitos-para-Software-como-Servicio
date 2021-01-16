@@ -19,59 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{EF-15}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=f30b300284ad8de48fc216ddc61111bc}{%
-           family={Ali},
-           familyi={A\bibinitperiod},
-           given={Mohamed},
-           giveni={M\bibinitperiod}}}%
-        {{hash=45915052d5fc06697f950c473599701c}{%
-           family={Nasr},
-           familyi={N\bibinitperiod},
-           given={Eman\bibnamedelima S.},
-           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=be3eeb67323d3cda7092756cfb82aa71}{%
-           family={Gheith},
-           familyi={G\bibinitperiod},
-           given={Mervat\bibnamedelima H.},
-           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Cairo, Egypt}%
-      }
-      \list{publisher}{1}{%
-        {Association for Computing Machinery}%
-      }
-      \strng{namehash}{bea0856e964d34dc72cdaffe6d40d40a}
-      \strng{fullhash}{bea0856e964d34dc72cdaffe6d40d40a}
-      \strng{bibnamehash}{bea0856e964d34dc72cdaffe6d40d40a}
-      \strng{authorbibnamehash}{bea0856e964d34dc72cdaffe6d40d40a}
-      \strng{authornamehash}{bea0856e964d34dc72cdaffe6d40d40a}
-      \strng{authorfullhash}{bea0856e964d34dc72cdaffe6d40d40a}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Implementing Enterprise Resource Planning (ERP) systems in business organizations aims to integrate all business units of an organization. Configuring and customizing ERP systems are the main challenges that face the implementation process. ERP systems contain many similar modules and units which can be implemented for most of the ERP systems. Software Product Lines (SPLs) as a trend in software engineering is very promising, as it can offer a lot of facilities and benefits for all types of stakeholders. Building SPLs for ERP systems will affect the implementation process of ERP systems and will increase the flexibility of configuration and customization. Moreover, moving ERPs to the cloud will facilitate the implementation process and will affect the Return On Investment (ROI) due to scalability plans in cloud services. This research introduces an SPLs requirements elicitation approach for cloud ERP systems. This approach combines the principles of SPLs with ERP systems in the cloud environment.}
-      \field{booktitle}{Proceedings of the 2nd Africa and Middle East Conference on Software Engineering}
-      \field{isbn}{9781450342933}
-      \field{series}{AMECSE '16}
-      \field{title}{A Requirements Elicitation Approach for Cloud Based Software Product Line ERPs}
-      \field{year}{2016}
-      \field{pages}{34\bibrangedash 39}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1145/2944165.2944171
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/2944165.2944171
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/2944165.2944171
-      \endverb
-      \keyw{SaaS,ERP customization,cloud computing,enterprise resource planning,Software product line,systematic reuse,ecosystems,requirements elicitation}
-    \endentry
     \entry{existente1}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=c749e0f0e9821a08e5e0fcf028c07774}{%
@@ -97,8 +44,8 @@
       }
       \strng{namehash}{65f9156bd8504c996564acf139c3ee5c}
       \strng{fullhash}{911e633c862dd34539998c83ee48ba95}
-      \strng{bibnamehash}{65f9156bd8504c996564acf139c3ee5c}
-      \strng{authorbibnamehash}{65f9156bd8504c996564acf139c3ee5c}
+      \strng{bibnamehash}{911e633c862dd34539998c83ee48ba95}
+      \strng{authorbibnamehash}{911e633c862dd34539998c83ee48ba95}
       \strng{authornamehash}{65f9156bd8504c996564acf139c3ee5c}
       \strng{authorfullhash}{911e633c862dd34539998c83ee48ba95}
       \field{sortinit}{B}
@@ -112,38 +59,6 @@
       \range{pages}{8}
       \verb{doi}
       \verb 10.1109/CloudCom.2014.115
-      \endverb
-    \endentry
-    \entry{EF-3}{inproceedings}{}
-      \name{author}{2}{}{%
-        {{hash=71ec75ee38ef3e446a4316810e953628}{%
-           family={{Cecilio Lopes}},
-           familyi={C\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=bca17d1e9d4677a5db76827c4b257bbb}{%
-           family={{Rodrigues da Silva}},
-           familyi={R\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{cbcc3e8feb545c8d27206849101b7aa6}
-      \strng{fullhash}{cbcc3e8feb545c8d27206849101b7aa6}
-      \strng{bibnamehash}{cbcc3e8feb545c8d27206849101b7aa6}
-      \strng{authorbibnamehash}{cbcc3e8feb545c8d27206849101b7aa6}
-      \strng{authornamehash}{cbcc3e8feb545c8d27206849101b7aa6}
-      \strng{authorfullhash}{cbcc3e8feb545c8d27206849101b7aa6}
-      \field{sortinit}{C}
-      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2018 11th International Conference on the Quality of Information and Communications Technology (QUATIC)}
-      \field{title}{A Collaborative Platform for Better Managing Technical Documentation: An Analysis from a Requirements Engineering Perspective}
-      \field{year}{2018}
-      \field{pages}{160\bibrangedash 163}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1109/QUATIC.2018.00032
       \endverb
     \endentry
     \entry{EF-2}{inproceedings}{}
@@ -171,8 +86,8 @@
       }
       \strng{namehash}{20882cb7363fdaa07efef287c3a3e220}
       \strng{fullhash}{08a7a9f1d3aaab9545f32b69ea8139cb}
-      \strng{bibnamehash}{20882cb7363fdaa07efef287c3a3e220}
-      \strng{authorbibnamehash}{20882cb7363fdaa07efef287c3a3e220}
+      \strng{bibnamehash}{08a7a9f1d3aaab9545f32b69ea8139cb}
+      \strng{authorbibnamehash}{08a7a9f1d3aaab9545f32b69ea8139cb}
       \strng{authornamehash}{20882cb7363fdaa07efef287c3a3e220}
       \strng{authorfullhash}{08a7a9f1d3aaab9545f32b69ea8139cb}
       \field{sortinit}{C}
@@ -213,8 +128,8 @@
       }
       \strng{namehash}{f9d46f9239f307fc145961b1f9689131}
       \strng{fullhash}{75c01e160d93d47fe6310d14db0ab061}
-      \strng{bibnamehash}{f9d46f9239f307fc145961b1f9689131}
-      \strng{authorbibnamehash}{f9d46f9239f307fc145961b1f9689131}
+      \strng{bibnamehash}{75c01e160d93d47fe6310d14db0ab061}
+      \strng{authorbibnamehash}{75c01e160d93d47fe6310d14db0ab061}
       \strng{authornamehash}{f9d46f9239f307fc145961b1f9689131}
       \strng{authorfullhash}{75c01e160d93d47fe6310d14db0ab061}
       \field{sortinit}{D}
@@ -229,6 +144,122 @@
       \verb{doi}
       \verb 10.1109/WETICE.2012.14
       \endverb
+    \endentry
+    \entry{EF-15}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=f13fb66c9df08c4788e5e4ede08ce059}{%
+           family={{Eman}},
+           familyi={E\bibinitperiod},
+           given={A.\bibnamedelimi {Mohamed}\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=354b8fe3ae7191d0391b74874c8d2a9d}{%
+           family={{Mervat}},
+           familyi={M\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cairo, Egypt}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{09b3f1b2b8f2ca10b1986cc71181139f}
+      \strng{fullhash}{09b3f1b2b8f2ca10b1986cc71181139f}
+      \strng{bibnamehash}{09b3f1b2b8f2ca10b1986cc71181139f}
+      \strng{authorbibnamehash}{09b3f1b2b8f2ca10b1986cc71181139f}
+      \strng{authornamehash}{09b3f1b2b8f2ca10b1986cc71181139f}
+      \strng{authorfullhash}{09b3f1b2b8f2ca10b1986cc71181139f}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Implementing Enterprise Resource Planning (ERP) systems in business organizations aims to integrate all business units of an organization. Configuring and customizing ERP systems are the main challenges that face the implementation process. ERP systems contain many similar modules and units which can be implemented for most of the ERP systems. Software Product Lines (SPLs) as a trend in software engineering is very promising, as it can offer a lot of facilities and benefits for all types of stakeholders. Building SPLs for ERP systems will affect the implementation process of ERP systems and will increase the flexibility of configuration and customization. Moreover, moving ERPs to the cloud will facilitate the implementation process and will affect the Return On Investment (ROI) due to scalability plans in cloud services. This research introduces an SPLs requirements elicitation approach for cloud ERP systems. This approach combines the principles of SPLs with ERP systems in the cloud environment.}
+      \field{booktitle}{Proceedings of the 2nd Africa and Middle East Conference on Software Engineering}
+      \field{isbn}{9781450342933}
+      \field{series}{AMECSE '16}
+      \field{title}{A Requirements Elicitation Approach for Cloud Based Software Product Line ERPs}
+      \field{year}{2016}
+      \field{pages}{34\bibrangedash 39}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1145/2944165.2944171
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2944165.2944171
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2944165.2944171
+      \endverb
+      \keyw{SaaS,ERP customization,cloud computing,enterprise resource planning,Software product line,systematic reuse,ecosystems,requirements elicitation}
+    \endentry
+    \entry{EF-16}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=8caddcdb6ee4e15b36520be43c8307ab}{%
+           family={Jaekeun},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2581c307e29eee0b413649f1f07907a2}{%
+           family={Jongdae},
+           familyi={J\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=881ff47cd810f8d6dc8d148bf9d5864a}{%
+           family={Jindae},
+           familyi={J\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6f74a8ffe0634255346fc957e58371cb}{%
+           family={Byungjeong},
+           familyi={B\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b55197b96e45d701b0d14c3299f6c57a}{%
+           family={Jaewon},
+           familyi={J\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=4742356785db9ffeeed1194f07a83527}{%
+           family={Chisu},
+           familyi={C\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {TaiChung, Taiwan}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{e93e56b1b1c90f6e56eef0dec68a051f}
+      \strng{fullhash}{a966d684a35d91456f360b786063b37a}
+      \strng{bibnamehash}{a966d684a35d91456f360b786063b37a}
+      \strng{authorbibnamehash}{a966d684a35d91456f360b786063b37a}
+      \strng{authornamehash}{e93e56b1b1c90f6e56eef0dec68a051f}
+      \strng{authorfullhash}{a966d684a35d91456f360b786063b37a}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Software-as-a-Service is becoming popular in the software business, due to its rapid delivery and cost effectiveness in development and maintenance. Software-as-a-Service should be provided in single code base and operated as a single instance. To meet these constraints and requirements from various customers, Software-as-a-Service must be highly configurable. To develop configurable Software-as-a-Service, it is important to elicit and analyze configuration requirements in the early stages of development. Another issue is that on implementing configuration requirements, there are duplicated and untidy code segments. In our study, configuration requirements are identified and classified. This study introduces design patterns to remove duplicated codes for configuration.}
+      \field{booktitle}{Proceedings of the 2011 ACM Symposium on Applied Computing}
+      \field{isbn}{9781450301138}
+      \field{series}{SAC '11}
+      \field{title}{Patterns for Configuration Requirements of Software-as-a-Service}
+      \field{year}{2011}
+      \field{pages}{155\bibrangedash 161}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1145/1982185.1982222
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/1982185.1982222
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/1982185.1982222
+      \endverb
+      \keyw{configuration requirements,configuration,SaaS,design pattern}
     \endentry
     \entry{kitchenhambook}{book}{}
       \name{author}{3}{}{%
@@ -313,21 +344,21 @@
     \endentry
     \entry{EF-4}{inproceedings}{}
       \name{author}{1}{}{%
-        {{hash=b7903092460895cd4265b4fcba9767f1}{%
+        {{hash=430c1a15a2eef4292222859c0ab6178b}{%
            family={Kukreja},
            familyi={K\bibinitperiod},
-           given={Nupul},
+           given={N.},
            giveni={N\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{b7903092460895cd4265b4fcba9767f1}
-      \strng{fullhash}{b7903092460895cd4265b4fcba9767f1}
-      \strng{bibnamehash}{b7903092460895cd4265b4fcba9767f1}
-      \strng{authorbibnamehash}{b7903092460895cd4265b4fcba9767f1}
-      \strng{authornamehash}{b7903092460895cd4265b4fcba9767f1}
-      \strng{authorfullhash}{b7903092460895cd4265b4fcba9767f1}
+      \strng{namehash}{430c1a15a2eef4292222859c0ab6178b}
+      \strng{fullhash}{430c1a15a2eef4292222859c0ab6178b}
+      \strng{bibnamehash}{430c1a15a2eef4292222859c0ab6178b}
+      \strng{authorbibnamehash}{430c1a15a2eef4292222859c0ab6178b}
+      \strng{authornamehash}{430c1a15a2eef4292222859c0ab6178b}
+      \strng{authorfullhash}{430c1a15a2eef4292222859c0ab6178b}
       \field{sortinit}{K}
       \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
       \field{labelnamesource}{author}
@@ -348,20 +379,20 @@
     \endentry
     \entry{EF-18}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=d059c7970be14e211f07a0e7870d9186}{%
+        {{hash=554a87fbc67bd21586193eb577f0bd6d}{%
            family={Lee-Klenz},
            familyi={L\bibinithyphendelim K\bibinitperiod},
-           given={Soonhwa},
+           given={S.},
            giveni={S\bibinitperiod}}}%
-        {{hash=692b54dc0dd107a5b6b8b0b552596e74}{%
+        {{hash=6b07d043e4b124d248b140fb29cf186f}{%
            family={Sampaio},
            familyi={S\bibinitperiod},
-           given={Pedro},
+           given={P.},
            giveni={P\bibinitperiod}}}%
-        {{hash=796432400a568a0d9ef4ebeb21dc55b2}{%
+        {{hash=80298db71eaff745be20b4b8ddbf3b33}{%
            family={Wood-Harper},
            familyi={W\bibinithyphendelim H\bibinitperiod},
-           given={Trevor},
+           given={T.},
            giveni={T\bibinitperiod}}}%
       }
       \list{location}{1}{%
@@ -370,12 +401,12 @@
       \list{publisher}{1}{%
         {Association for Computing Machinery}%
       }
-      \strng{namehash}{dcf3bc71849d4725b2679292027c6063}
-      \strng{fullhash}{dcf3bc71849d4725b2679292027c6063}
-      \strng{bibnamehash}{dcf3bc71849d4725b2679292027c6063}
-      \strng{authorbibnamehash}{dcf3bc71849d4725b2679292027c6063}
-      \strng{authornamehash}{dcf3bc71849d4725b2679292027c6063}
-      \strng{authorfullhash}{dcf3bc71849d4725b2679292027c6063}
+      \strng{namehash}{7066a16ac016bd8a3b9800bc532b23eb}
+      \strng{fullhash}{7066a16ac016bd8a3b9800bc532b23eb}
+      \strng{bibnamehash}{7066a16ac016bd8a3b9800bc532b23eb}
+      \strng{authorbibnamehash}{7066a16ac016bd8a3b9800bc532b23eb}
+      \strng{authornamehash}{7066a16ac016bd8a3b9800bc532b23eb}
+      \strng{authorfullhash}{7066a16ac016bd8a3b9800bc532b23eb}
       \field{sortinit}{L}
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{labelnamesource}{author}
@@ -402,30 +433,33 @@
     \entry{EF-6}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=faec23f4af3d8e378144b1902f309033}{%
-           family={{Litvak}},
+           family={Litvak},
            familyi={L\bibinitperiod},
            given={C.},
            giveni={C\bibinitperiod}}}%
         {{hash=23255922fe1b935e9ee007fba931c1a7}{%
-           family={{Antonelli}},
+           family={Antonelli},
            familyi={A\bibinitperiod},
            given={L.},
            giveni={L\bibinitperiod}}}%
         {{hash=4e5e59fe2f03306385d58ba9e3eebeb5}{%
-           family={{Rossi}},
+           family={Rossi},
            familyi={R\bibinitperiod},
            given={G.},
            giveni={G\bibinitperiod}}}%
         {{hash=bd2f5924191b039209f3ea4e09317af1}{%
-           family={{Gigante}},
+           family={Gigante},
            familyi={G\bibinitperiod},
            given={N.},
            giveni={N\bibinitperiod}}}%
       }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
       \strng{namehash}{405f1a35e12736d11616d1b1ffe258cc}
       \strng{fullhash}{d872fb3888d43f38177e860e8cacade6}
-      \strng{bibnamehash}{405f1a35e12736d11616d1b1ffe258cc}
-      \strng{authorbibnamehash}{405f1a35e12736d11616d1b1ffe258cc}
+      \strng{bibnamehash}{d872fb3888d43f38177e860e8cacade6}
+      \strng{authorbibnamehash}{d872fb3888d43f38177e860e8cacade6}
       \strng{authornamehash}{405f1a35e12736d11616d1b1ffe258cc}
       \strng{authorfullhash}{d872fb3888d43f38177e860e8cacade6}
       \field{sortinit}{L}
@@ -441,38 +475,70 @@
       \verb 10.1109/CSCI46756.2018.00173
       \endverb
     \endentry
+    \entry{EF-3}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=77eb55799cd90866929765295b624056}{%
+           family={{Lopes}},
+           familyi={L\bibinitperiod},
+           given={P.\bibnamedelimi C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=4eeb4740f63dc2c6bf1600b4fcf70a06}{%
+           family={{Rodrigues}},
+           familyi={R\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{405613b9f84cf7f81e5b9061469b6c68}
+      \strng{fullhash}{405613b9f84cf7f81e5b9061469b6c68}
+      \strng{bibnamehash}{405613b9f84cf7f81e5b9061469b6c68}
+      \strng{authorbibnamehash}{405613b9f84cf7f81e5b9061469b6c68}
+      \strng{authornamehash}{405613b9f84cf7f81e5b9061469b6c68}
+      \strng{authorfullhash}{405613b9f84cf7f81e5b9061469b6c68}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2018 11th International Conference on the Quality of Information and Communications Technology (QUATIC)}
+      \field{title}{A Collaborative Platform for Better Managing Technical Documentation: An Analysis from a Requirements Engineering Perspective}
+      \field{year}{2018}
+      \field{pages}{160\bibrangedash 163}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/QUATIC.2018.00032
+      \endverb
+    \endentry
     \entry{EF-19}{article}{}
       \name{author}{4}{}{%
-        {{hash=4372b46d709249659b3db22bcffbb564}{%
+        {{hash=e3ab0516badd86882338c0986cbea89a}{%
            family={Melegati},
            familyi={M\bibinitperiod},
-           given={Jorge},
+           given={J.},
            giveni={J\bibinitperiod}}}%
-        {{hash=a8ac4fa2090622d8f1e56f858dc1e39c}{%
+        {{hash=2fdf0d80f21fb92a8bca4d759cf074e0}{%
            family={Goldman},
            familyi={G\bibinitperiod},
-           given={Alfredo},
+           given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=aa1b6c9f1476bc0e2f4c7fed93737a5d}{%
+        {{hash=9fb32558101b078ae36752b121ff1e99}{%
            family={Kon},
            familyi={K\bibinitperiod},
-           given={Fabio},
+           given={F.},
            giveni={F\bibinitperiod}}}%
-        {{hash=93a575777f636107b8f65a815802b18f}{%
+        {{hash=bbe869383a7d3458b82c516a21e4482c}{%
            family={Wang},
            familyi={W\bibinitperiod},
-           given={Xiaofeng},
+           given={X.},
            giveni={X\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Elsevier {BV}}%
       }
-      \strng{namehash}{a640b5ce9b7c881cc6d042c77e98344a}
-      \strng{fullhash}{d781dabbf1d667583d99bcb5ec742c38}
-      \strng{bibnamehash}{a640b5ce9b7c881cc6d042c77e98344a}
-      \strng{authorbibnamehash}{a640b5ce9b7c881cc6d042c77e98344a}
-      \strng{authornamehash}{a640b5ce9b7c881cc6d042c77e98344a}
-      \strng{authorfullhash}{d781dabbf1d667583d99bcb5ec742c38}
+      \strng{namehash}{2b2ff4157af7efddb12090d5d9da8c9c}
+      \strng{fullhash}{996cd45565d61155614419b1a9ce20c0}
+      \strng{bibnamehash}{996cd45565d61155614419b1a9ce20c0}
+      \strng{authorbibnamehash}{996cd45565d61155614419b1a9ce20c0}
+      \strng{authornamehash}{2b2ff4157af7efddb12090d5d9da8c9c}
+      \strng{authorfullhash}{996cd45565d61155614419b1a9ce20c0}
       \field{sortinit}{M}
       \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
       \field{labelnamesource}{author}
@@ -519,8 +585,8 @@
       }
       \strng{namehash}{0a07c13a340ef4a5ebb4ed312cc61536}
       \strng{fullhash}{1b2aea3ac8c43966979756f5139bb224}
-      \strng{bibnamehash}{0a07c13a340ef4a5ebb4ed312cc61536}
-      \strng{authorbibnamehash}{0a07c13a340ef4a5ebb4ed312cc61536}
+      \strng{bibnamehash}{1b2aea3ac8c43966979756f5139bb224}
+      \strng{authorbibnamehash}{1b2aea3ac8c43966979756f5139bb224}
       \strng{authornamehash}{0a07c13a340ef4a5ebb4ed312cc61536}
       \strng{authorfullhash}{1b2aea3ac8c43966979756f5139bb224}
       \field{sortinit}{N}
@@ -538,36 +604,36 @@
     \endentry
     \entry{EF-9}{inproceedings}{}
       \name{author}{4}{}{%
-        {{hash=201f274a7ac62e4808c668d240413c72}{%
+        {{hash=e0ad33dcd625b5d273075e5e7a2bc20a}{%
            family={Ochoa},
            familyi={O\bibinitperiod},
-           given={Sergio\bibnamedelima F.},
+           given={S.\bibnamedelimi F.},
            giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=dc5592bb1f02c2db971fb1d48cae07a7}{%
+        {{hash=338b2723341dd8fd2806220bd7d50672}{%
            family={Quispe},
            familyi={Q\bibinitperiod},
-           given={Alcides},
+           given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=b3cb01b502c979953a21d99c92ebd9a0}{%
+        {{hash=8b327739187ff5cef57c28fdbf332552}{%
            family={Vergara},
            familyi={V\bibinitperiod},
-           given={Andres},
+           given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=e612e89e4733442d92c8b84e48c55761}{%
-           family={Pino},
-           familyi={P\bibinitperiod},
-           given={Jose\bibnamedelima A.},
-           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=123676bf138e356045fb86e239ffbdf5}{%
+           family={J},
+           familyi={J\bibinitperiod},
+           given={A.\bibnamedelimi Pino},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{c7699e1a83cb285c02d20b21a920b887}
-      \strng{fullhash}{a7b39308240c37b223480f25d841641a}
-      \strng{bibnamehash}{c7699e1a83cb285c02d20b21a920b887}
-      \strng{authorbibnamehash}{c7699e1a83cb285c02d20b21a920b887}
-      \strng{authornamehash}{c7699e1a83cb285c02d20b21a920b887}
-      \strng{authorfullhash}{a7b39308240c37b223480f25d841641a}
+      \strng{namehash}{d05b84099366ffdfffd01a736a03483b}
+      \strng{fullhash}{07c68ce810363f633b36c8e995ec7168}
+      \strng{bibnamehash}{07c68ce810363f633b36c8e995ec7168}
+      \strng{authorbibnamehash}{07c68ce810363f633b36c8e995ec7168}
+      \strng{authornamehash}{d05b84099366ffdfffd01a736a03483b}
+      \strng{authorfullhash}{07c68ce810363f633b36c8e995ec7168}
       \field{sortinit}{O}
       \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
       \field{labelnamesource}{author}
@@ -653,74 +719,6 @@
       \verb 10.1109/CLOUD.2013.42
       \endverb
     \endentry
-    \entry{EF-16}{inproceedings}{}
-      \name{author}{6}{}{%
-        {{hash=54ea16e638cf1a8efca15abcdc1de53c}{%
-           family={Shim},
-           familyi={S\bibinitperiod},
-           given={Jaekeun},
-           giveni={J\bibinitperiod}}}%
-        {{hash=fcd2c7c6b7ef4febf513a2b179fa58fc}{%
-           family={Han},
-           familyi={H\bibinitperiod},
-           given={Jongdae},
-           giveni={J\bibinitperiod}}}%
-        {{hash=3ba94b67179d6bd1d8ac5c38babf878f}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Jindae},
-           giveni={J\bibinitperiod}}}%
-        {{hash=16c8db0a5e36d6ea31c9733adf335cc9}{%
-           family={Lee},
-           familyi={L\bibinitperiod},
-           given={Byungjeong},
-           giveni={B\bibinitperiod}}}%
-        {{hash=5ad1cf7418509b35d0bbb945aa3e69fb}{%
-           family={Oh},
-           familyi={O\bibinitperiod},
-           given={Jaewon},
-           giveni={J\bibinitperiod}}}%
-        {{hash=cb3876d5be4d4fa3be1bf66a13e3facf}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Chisu},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {TaiChung, Taiwan}%
-      }
-      \list{publisher}{1}{%
-        {Association for Computing Machinery}%
-      }
-      \strng{namehash}{55cd3a0400a536adceadf721eee02a41}
-      \strng{fullhash}{d2d4cfcb8b8bde9d580f2b0d68c6ce61}
-      \strng{bibnamehash}{55cd3a0400a536adceadf721eee02a41}
-      \strng{authorbibnamehash}{55cd3a0400a536adceadf721eee02a41}
-      \strng{authornamehash}{55cd3a0400a536adceadf721eee02a41}
-      \strng{authorfullhash}{d2d4cfcb8b8bde9d580f2b0d68c6ce61}
-      \field{sortinit}{S}
-      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Software-as-a-Service is becoming popular in the software business, due to its rapid delivery and cost effectiveness in development and maintenance. Software-as-a-Service should be provided in single code base and operated as a single instance. To meet these constraints and requirements from various customers, Software-as-a-Service must be highly configurable. To develop configurable Software-as-a-Service, it is important to elicit and analyze configuration requirements in the early stages of development. Another issue is that on implementing configuration requirements, there are duplicated and untidy code segments. In our study, configuration requirements are identified and classified. This study introduces design patterns to remove duplicated codes for configuration.}
-      \field{booktitle}{Proceedings of the 2011 ACM Symposium on Applied Computing}
-      \field{isbn}{9781450301138}
-      \field{series}{SAC '11}
-      \field{title}{Patterns for Configuration Requirements of Software-as-a-Service}
-      \field{year}{2011}
-      \field{pages}{155\bibrangedash 161}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1145/1982185.1982222
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1145/1982185.1982222
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1145/1982185.1982222
-      \endverb
-      \keyw{configuration requirements,configuration,SaaS,design pattern}
-    \endentry
     \entry{EF-10}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=d77a51ef0fdcd6646b1bbfe7594a9459}{%
@@ -787,47 +785,39 @@
     \endentry
     \entry{EF-11}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=386df9f71501dda35f14f269ddb7dfbb}{%
-           family={Tariq},
+        {{hash=c4f7ebc23a0ef3e65cfd14c002b4b474}{%
+           family={{Tariq}},
            familyi={T\bibinitperiod},
-           given={Anum},
+           given={A.},
            giveni={A\bibinitperiod}}}%
-        {{hash=b378cf91f67bdc09d419b5aaca353c47}{%
-           family={Khan},
+        {{hash=65647c50f2a14af7d163862efb91a4f4}{%
+           family={{Khan}},
            familyi={K\bibinitperiod},
-           given={Shoab\bibnamedelima Ahmed},
+           given={S.\bibnamedelimi A.},
            giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=5377c646fdd365b61b1908a649f8b830}{%
-           family={Iftikhar},
+        {{hash=365fccd854eb654383706659300fa9ea}{%
+           family={{Iftikhar}},
            familyi={I\bibinitperiod},
-           given={Sundas},
+           given={S.},
            giveni={S\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{77afd3ceffafedb655b90a37ea4a1d90}
-      \strng{fullhash}{77afd3ceffafedb655b90a37ea4a1d90}
-      \strng{bibnamehash}{77afd3ceffafedb655b90a37ea4a1d90}
-      \strng{authorbibnamehash}{77afd3ceffafedb655b90a37ea4a1d90}
-      \strng{authornamehash}{77afd3ceffafedb655b90a37ea4a1d90}
-      \strng{authorfullhash}{77afd3ceffafedb655b90a37ea4a1d90}
+      \strng{namehash}{1bfa799779e5bf59d833a1fde4e03823}
+      \strng{fullhash}{1bfa799779e5bf59d833a1fde4e03823}
+      \strng{bibnamehash}{1bfa799779e5bf59d833a1fde4e03823}
+      \strng{authorbibnamehash}{1bfa799779e5bf59d833a1fde4e03823}
+      \strng{authornamehash}{1bfa799779e5bf59d833a1fde4e03823}
+      \strng{authorfullhash}{1bfa799779e5bf59d833a1fde4e03823}
       \field{sortinit}{T}
       \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{2014 International Conference on Emerging Technologies ({ICET})}
-      \field{month}{12}
-      \field{title}{Requirements Engineering process for Software-as-a-Service ({SaaS}) cloud environment}
+      \field{booktitle}{2014 International Conference on Emerging Technologies (ICET)}
+      \field{title}{Requirements Engineering process for Software-as-a-Service (SaaS) cloud environment}
       \field{year}{2014}
+      \field{pages}{13\bibrangedash 18}
+      \range{pages}{6}
       \verb{doi}
-      \verb 10.1109/icet.2014.7021009
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1109/icet.2014.7021009
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1109/icet.2014.7021009
+      \verb 10.1109/ICET.2014.7021009
       \endverb
     \endentry
     \entry{EF-5}{inproceedings}{}
@@ -869,15 +859,15 @@
     \endentry
     \entry{existente2}{inproceedings}{}
       \name{author}{6}{}{%
-        {{hash=59256de7e4d934f0c3f803374ae9345e}{%
+        {{hash=484e0130b0bee44cc20e513c1fa05aa5}{%
            family={Wanderley},
            familyi={W\bibinitperiod},
-           given={Fernando},
+           given={F.},
            giveni={F\bibinitperiod}}}%
-        {{hash=3ba1268140a4b3e87a856d979239f5e9}{%
+        {{hash=574fe5e5b2a1a0f35e2f1d4a3fc27711}{%
            family={Souza},
            familyi={S\bibinitperiod},
-           given={Eric},
+           given={E.},
            giveni={E\bibinitperiod}}}%
         {{hash=a8e750288ad440bd97226483b86627c1}{%
            family={Goulão},
@@ -900,65 +890,17 @@
            given={A.},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{0309fe7c25c8b4a8c3127928071149c8}
-      \strng{fullhash}{359dc0913f6c8e6628979f4386f862c1}
-      \strng{bibnamehash}{0309fe7c25c8b4a8c3127928071149c8}
-      \strng{authorbibnamehash}{0309fe7c25c8b4a8c3127928071149c8}
-      \strng{authornamehash}{0309fe7c25c8b4a8c3127928071149c8}
-      \strng{authorfullhash}{359dc0913f6c8e6628979f4386f862c1}
-      \field{extraname}{1}
+      \strng{namehash}{89c953cc86fe83863d18ce514af01363}
+      \strng{fullhash}{01daddf82cf4691aa1d7066ae105847e}
+      \strng{bibnamehash}{01daddf82cf4691aa1d7066ae105847e}
+      \strng{authorbibnamehash}{01daddf82cf4691aa1d7066ae105847e}
+      \strng{authornamehash}{89c953cc86fe83863d18ce514af01363}
+      \strng{authorfullhash}{01daddf82cf4691aa1d7066ae105847e}
       \field{sortinit}{W}
       \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{ICCSA}
-      \field{title}{Requirements Engineering for Cloud Systems: A Mapping Study Design}
-      \field{year}{2017}
-    \endentry
-    \entry{existente3}{inproceedings}{}
-      \name{author}{6}{}{%
-        {{hash=59256de7e4d934f0c3f803374ae9345e}{%
-           family={Wanderley},
-           familyi={W\bibinitperiod},
-           given={Fernando},
-           giveni={F\bibinitperiod}}}%
-        {{hash=3ba1268140a4b3e87a856d979239f5e9}{%
-           family={Souza},
-           familyi={S\bibinitperiod},
-           given={Eric},
-           giveni={E\bibinitperiod}}}%
-        {{hash=1b1033001089b6eb342237c4ff6cde9b}{%
-           family={Goulão},
-           familyi={G\bibinitperiod},
-           given={Miguel},
-           giveni={M\bibinitperiod}}}%
-        {{hash=e0100c28c3639f8c6cb939ec0a99250c}{%
-           family={Araújo},
-           familyi={A\bibinitperiod},
-           given={João},
-           giveni={J\bibinitperiod}}}%
-        {{hash=5786969cfb651833b17b25bcd2f03d02}{%
-           family={Cysneiros},
-           familyi={C\bibinitperiod},
-           given={Gilberto},
-           giveni={G\bibinitperiod}}}%
-        {{hash=bfd09809f316b3b9b693fc6657344ce5}{%
-           family={Misra},
-           familyi={M\bibinitperiod},
-           given={Ananya},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{0309fe7c25c8b4a8c3127928071149c8}
-      \strng{fullhash}{08ecaf03df054eb79763e7c69b906b87}
-      \strng{bibnamehash}{0309fe7c25c8b4a8c3127928071149c8}
-      \strng{authorbibnamehash}{0309fe7c25c8b4a8c3127928071149c8}
-      \strng{authornamehash}{0309fe7c25c8b4a8c3127928071149c8}
-      \strng{authorfullhash}{08ecaf03df054eb79763e7c69b906b87}
-      \field{extraname}{2}
-      \field{sortinit}{W}
-      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
+      \field{booktitle}{ICCSA International Conference on Computational Science and Its Applications}
       \field{isbn}{978-3-319-62406-8}
       \field{month}{07}
       \field{title}{Requirements Engineering for Cloud Systems: A Mapping Study Design}
@@ -971,31 +913,31 @@
     \endentry
     \entry{EF-7}{inproceedings}{}
       \name{author}{3}{}{%
-        {{hash=52be2b222d6509b97a021129d698eedd}{%
+        {{hash=34ae4b338781647f180923098d8a8c4e}{%
            family={Wangsa},
            familyi={W\bibinitperiod},
-           given={Ince\bibnamedelima T},
+           given={I.\bibnamedelimi T.},
            giveni={I\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-        {{hash=efe3a586062939fdb51188719b05ea11}{%
+        {{hash=60e0a5c1eb742565fdc5084500d9c6ec}{%
            family={Uden},
            familyi={U\bibinitperiod},
-           given={Lorna},
+           given={L.},
            giveni={L\bibinitperiod}}}%
-        {{hash=89385288a540c621d146ffac16ae3ba6}{%
+        {{hash=280a9bc4919536fa92be2ec5010d20f4}{%
            family={Mills},
            familyi={M\bibinitperiod},
-           given={Stella\bibnamedelima F},
+           given={S.\bibnamedelimi F.},
            giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {IEEE}%
       }
-      \strng{namehash}{a48cfe519874bfb2f5276deda75ac604}
-      \strng{fullhash}{a48cfe519874bfb2f5276deda75ac604}
-      \strng{bibnamehash}{a48cfe519874bfb2f5276deda75ac604}
-      \strng{authorbibnamehash}{a48cfe519874bfb2f5276deda75ac604}
-      \strng{authornamehash}{a48cfe519874bfb2f5276deda75ac604}
-      \strng{authorfullhash}{a48cfe519874bfb2f5276deda75ac604}
+      \strng{namehash}{bbe429d62c1968c212aae0d1f20124d8}
+      \strng{fullhash}{bbe429d62c1968c212aae0d1f20124d8}
+      \strng{bibnamehash}{bbe429d62c1968c212aae0d1f20124d8}
+      \strng{authorbibnamehash}{bbe429d62c1968c212aae0d1f20124d8}
+      \strng{authornamehash}{bbe429d62c1968c212aae0d1f20124d8}
+      \strng{authorfullhash}{bbe429d62c1968c212aae0d1f20124d8}
       \field{sortinit}{W}
       \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
       \field{labelnamesource}{author}
@@ -1014,28 +956,67 @@
       \verb https://doi.org/10.1109/cscwd.2011.5960203
       \endverb
     \endentry
+    \entry{existente3}{inbook}{}
+      \name{author}{3}{}{%
+        {{hash=91f325d2a60120fd9296f3c8021fa3cb}{%
+           family={Zalazar},
+           familyi={Z\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e645fe350ad3bd3877efdb101164b2f8}{%
+           family={Ballejos},
+           familyi={B\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8cf75514eeac7dc315843f93d60642da}{%
+           family={Rodriguez},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1afd94be612a5ecedccce5ff2e9abd9c}
+      \strng{fullhash}{1afd94be612a5ecedccce5ff2e9abd9c}
+      \strng{bibnamehash}{1afd94be612a5ecedccce5ff2e9abd9c}
+      \strng{authorbibnamehash}{1afd94be612a5ecedccce5ff2e9abd9c}
+      \strng{authornamehash}{1afd94be612a5ecedccce5ff2e9abd9c}
+      \strng{authorfullhash}{1afd94be612a5ecedccce5ff2e9abd9c}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-319-51309-6}
+      \field{journaltitle}{Requirements Engineering for Service and Cloud Computing}
+      \field{month}{04}
+      \field{title}{Analyzing Requirements Engineering for Cloud Computing}
+      \field{year}{2017}
+      \field{pages}{45\bibrangedash 64}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1007/978-3-319-51310-2_3
+      \endverb
+    \endentry
     \entry{EF-17}{inproceedings}{}
       \name{author}{2}{}{%
-        {{hash=3a1c006446475b18500fbb631985ba9d}{%
+        {{hash=fa9c35143447154242e40fcc7319b7b6}{%
            family={Zardari},
            familyi={Z\bibinitperiod},
-           given={Shehnila},
+           given={S.},
            giveni={S\bibinitperiod}}}%
-        {{hash=ba6a7927ce2dab9a4cc296f36a7040e6}{%
+        {{hash=07522d5838140c53894c816c3103c65a}{%
            family={Bahsoon},
            familyi={B\bibinitperiod},
-           given={Rami},
+           given={R.},
            giveni={R\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {{ACM} Press}%
       }
-      \strng{namehash}{bfad033f62b864c30f099a86c6caa75a}
-      \strng{fullhash}{bfad033f62b864c30f099a86c6caa75a}
-      \strng{bibnamehash}{bfad033f62b864c30f099a86c6caa75a}
-      \strng{authorbibnamehash}{bfad033f62b864c30f099a86c6caa75a}
-      \strng{authornamehash}{bfad033f62b864c30f099a86c6caa75a}
-      \strng{authorfullhash}{bfad033f62b864c30f099a86c6caa75a}
+      \strng{namehash}{8c8f3b6b0e0dbe9ec052673de2de7a01}
+      \strng{fullhash}{8c8f3b6b0e0dbe9ec052673de2de7a01}
+      \strng{bibnamehash}{8c8f3b6b0e0dbe9ec052673de2de7a01}
+      \strng{authorbibnamehash}{8c8f3b6b0e0dbe9ec052673de2de7a01}
+      \strng{authornamehash}{8c8f3b6b0e0dbe9ec052673de2de7a01}
+      \strng{authorfullhash}{8c8f3b6b0e0dbe9ec052673de2de7a01}
       \field{sortinit}{Z}
       \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
       \field{labelnamesource}{author}
@@ -1099,7 +1080,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{wanderley2017requirements}
 \endrefsection
 \endinput
 

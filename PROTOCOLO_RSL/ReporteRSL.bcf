@@ -91,7 +91,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>6</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -99,7 +99,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>6</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -317,7 +317,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>6</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -325,7 +325,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>6</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -2352,7 +2352,7 @@
   <bcf:section number="0">
     <bcf:citekey order="1">kitchenham2007guidelines</bcf:citekey>
     <bcf:citekey order="2">sintesisnarrativa</bcf:citekey>
-    <bcf:citekey order="3">wanderley2017requirements</bcf:citekey>
+    <bcf:citekey order="3">existente2</bcf:citekey>
     <bcf:citekey order="4">kitchenham2007guidelines</bcf:citekey>
     <bcf:citekey order="5">kitchenhambook</bcf:citekey>
     <bcf:citekey order="6">kitchenham2007guidelines</bcf:citekey>

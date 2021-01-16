@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.10)  16 JAN 2021 02:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Arch Linux) (preloaded format=pdflatex 2021.1.10)  16 JAN 2021 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -570,15 +570,7 @@ Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'ReporteRSL.bbl' found.
- (./ReporteRSL.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                wanderley2017requirements
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (./ReporteRSL.bbl)
 Package biblatex Info: Reference section=0 on input line 69.
 Package biblatex Info: Reference segment=0 on input line 69.
 
@@ -626,14 +618,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 781--790
 [14]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 872.
-
-Overfull \hbox (3.37708pt too wide) in paragraph at lines 873--873
-[]\OT1/ptm/m/n/10 R. Cha-nin y col. ``Co-lla-bo-ra-ti-ve Prac-ti-ces for Soft-w
-a-re Re-qui-re-ments Gathe-ring in Soft-wa-re Star-tups''. En: \OT1/ptm/m/it/10
- 2019 IEEE/ACM
- []
-
-[15]
+ [15]
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -656,18 +641,18 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'ReporteRSL.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 11764 strings out of 479383
- 211030 string characters out of 5875830
- 952461 words of memory out of 5000000
+ 11763 strings out of 479383
+ 211027 string characters out of 5875830
+ 952473 words of memory out of 5000000
  28756 multiletter control sequences out of 15000+600000
- 442986 words of font info for 89 fonts, out of 8000000 for 9000
+ 441879 words of font info for 88 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  66i,20n,73p,1337b,1786s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmb
 i8a.pfb></usr/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on ReporteRSL.pdf (16 pages, 173395 bytes).
+Output written on ReporteRSL.pdf (16 pages, 173062 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
